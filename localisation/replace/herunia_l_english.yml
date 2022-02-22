@@ -66,14 +66,16 @@
  GATCHA_training_time:0 "ガチャ: 訓練時間短縮"
  GATCHA_pp_gain:0 "ガチャ: 政治力獲得量"
  GATCHA_pp_factor:0 "ガチャ: 政治力獲得割合"
-
+ GATCHA_train:0 "ガチャ: 列車コスト緩和"
+ GATCHA_infantry_equipment:0 "ガチャ: 歩兵装備コスト緩和"
 
 
 # Decision
  herunia_decisions:0 "盟主権限"
- invite_all_player:0 "プレイヤーを陣営に招待"
+ make_japan_faction:0 "ぼっち陣営の設立"
+ invite_all_player:0 "【本番用】プレイヤーを陣営に招待"
  invite_all_player_mazime:0 "プレイヤーを大東亜共栄圏に招待"
- make_enemy_faction:0 "敵の陣営を作成"
+ make_enemy_faction:0 "【本番用】敵の陣営を作成"
  make_enemy_faction_mazime:0 "反アジア連合の作成"
  start_war:0 "開戦"
  ketuin_decisions:0 "欠員時の処置"
@@ -92,6 +94,7 @@
  player_decisions:0 "プレイヤー用救済措置"
  leave_faction:0 "陣営を脱退する(強制)"
  do_sex:0 "江戸本の実践"
+ join_tech_sharing:0 "日本の技術共有に参加"
 
 # その他
  ai_union:0 "白人至上主義"

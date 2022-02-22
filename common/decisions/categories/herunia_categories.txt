@@ -1,0 +1,32 @@
+herunia_decisions = {
+    icon = generic_propaganda
+    allowed = {
+        original_tag = JAP
+    }
+}
+
+idiot_decisions = {
+    icon = generic_propaganda
+    allowed = {
+        OR = {
+            original_tag = TIB
+            original_tag = MON
+            original_tag = MLD
+            original_tag = JAP
+        }
+    }
+}
+
+ketuin_decisions = {
+    icon = generic_propaganda
+    allowed = {
+        original_tag = JAP
+    }
+}
+
+player_decisions = {
+    icon = generic_propaganda
+    allowed = {
+        is_ai = no
+    }
+}

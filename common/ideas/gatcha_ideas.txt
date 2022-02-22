@@ -1,0 +1,202 @@
+ideas = {
+    country = {
+        GATCHA_war_support = {
+            picture = trotskyite_plot
+    
+            modifier = {
+                war_support_factor = 0.10
+            }
+        }
+        GATCHA_super_heavy = {
+            picture = trotskyite_plot
+            
+            equipment_bonus = {
+                super_heavy_tank_chassis = {
+                    build_cost_ic = -0.2
+                }
+            }
+        }
+        GATCHA_consumer_goods = {
+            picture = trotskyite_plot
+            
+            modifier = {
+                consumer_goods_factor = -0.025
+            }
+        }
+        GATCHA_build_speed = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                production_speed_buildings_factor = 0.05
+            }
+        }
+        GATCHA_military_output = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                industrial_capacity_factory = 0.05
+            }
+        }
+        GATCHA_naval_output = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                industrial_capacity_dockyard = 0.05
+            }
+        }
+        GATCHA_line_change = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                line_change_production_efficiency_factor = 0.10
+            }
+        }
+        GATCHA_efficiency_gain = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                production_factory_efficiency_gain_factor = 0.05
+            }
+        }
+        GATCHA_efficiency_max = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                production_factory_max_efficiency_factor = 0.05
+            }
+        }
+        GATCHA_efficiency_start = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                production_factory_start_efficiency_factor = 0.05
+            }
+        }
+        GATCHA_resource_penalty = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                production_lack_of_resource_penalty_factor = -0.05
+            }
+        }
+        GATCHA_build_space = {
+            picture = trotskyite_plot
+            
+            modifier = {
+                global_building_slots = 1
+            }
+        }
+        GATCHA_conscription = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                conscription = 0.01
+            }
+        }
+        GATCHA_manpower = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                weekly_manpower = 100
+            }
+        }
+        GATCHA_army_leader_cost = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                army_leader_cost_factor = -0.05
+            }
+        }
+        GATCHA_army_leader_level = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                army_leader_start_level = 1
+            }
+        }
+        GATCHA_military_leader_cost = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                military_leader_cost_factor = -0.05
+            }
+        }
+        GATCHA_navy_leader_cost = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                navy_leader_cost_factor = -0.05
+            }
+        }
+        GATCHA_navy_leader_level = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                navy_leader_start_level = 1
+            }
+        }
+        GATCHA_land_doctrine_cost = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                land_doctrine_cost_factor = -0.05
+            }
+        }
+        GATCHA_navy_doctrine_cost = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                naval_doctrine_cost_factor = -0.05
+            }
+        }
+        GATCHA_air_doctrine_cost = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                air_doctrine_cost_factor = -0.05
+            }
+        }
+        GATCHA_special_force_cap = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                special_forces_cap = 0.05
+            }
+        }
+        GATCHA_supply_consumption = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                supply_consumption_factor = -0.05
+            }
+        }
+        GATCHA_training_time = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                training_time_factor = -0.05
+            }
+        }
+        GATCHA_research_speed = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                research_speed_factor = 0.05
+            }
+        }
+        GATCHA_pp_gain = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                political_power_gain = 0.10
+            }
+        }
+        GATCHA_pp_factor = {
+            picture = trotskyite_plot
+        
+            modifier = {
+                political_power_factor = 0.05
+            }
+        }
+    }
+}

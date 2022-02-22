@@ -1,0 +1,254 @@
+ketuin_decisions = {
+    annex_NEP_by_TIB = {
+        fire_only_once = yes
+        visible = {
+            NEP = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            NEP = {
+                every_controlled_state = {
+                    add_core_of = TIB
+                }
+            }
+            TIB = {
+                annex_country = {
+                    target = NEP
+                    transfer_troops = yes
+                }
+            }
+        }
+    }
+    annex_BHU_by_TIB = {
+        fire_only_once = yes
+        visible = {
+            BHU = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            BHU = {
+                every_controlled_state = {
+                    add_core_of = TIB
+                }
+            }
+            TIB = {
+                annex_country = {
+                    target = BHU
+                    transfer_troops = yes
+                }
+            }
+        }
+    }
+    annex_SRL_by_MLD = {
+        fire_only_once = yes
+        visible = {
+            SRL = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            SRL = {
+                every_controlled_state = {
+                    add_core_of = MLD
+                }
+            }
+            MLD = {
+                annex_country = {
+                    target = SRL
+                    transfer_troops = yes
+                }
+            }
+        }
+    }
+    annex_AFG_by_PAK = {
+        fire_only_once = yes
+        visible = {
+            AFG = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            AFG = {
+                every_controlled_state = {
+                    add_core_of = PAK
+                }
+            }
+            PAK = {
+                annex_country = {
+                    target = AFG
+                    transfer_troops = yes
+                }
+            }
+        }
+    }
+    annex_KOR_by_JAP = {
+        fire_only_once = yes
+        visible = {
+            KOR = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            KOR = {
+                every_controlled_state = {
+                    add_core_of = JAP
+                }
+            }
+            JAP = {
+                annex_country = {
+                    target = KOR
+                    transfer_troops = yes
+                }
+            }
+        }
+    }
+    annex_SIK_by_MON = {
+        fire_only_once = yes
+        visible = {
+            SIK = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            SIK = {
+                every_controlled_state = {
+                    add_core_of = MON
+                }
+            }
+            MON = {
+                annex_country = {
+                    target = SIK
+                    transfer_troops = yes
+                }
+            }
+        }
+    }
+    annex_SHX_by_PRC = {
+        fire_only_once = yes
+        visible = {
+            SHX = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            SHX = {
+                every_controlled_state = {
+                    add_core_of = PRC
+                }
+            }
+            PRC = {
+                annex_country = {
+                    target = SHX
+                    transfer_troops = yes
+                }
+            }
+        }
+    }
+    annex_MEN_by_MAN = {
+        fire_only_once = yes
+        visible = {
+            MEN = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            MEN = {
+                every_controlled_state = {
+                    add_core_of = MAN
+                }
+            }
+            MAN = {
+                annex_country = {
+                    target = MEN
+                    transfer_troops = yes
+                }
+            }
+        }
+    }
+    annex_LAO_by_VIN = {
+        fire_only_once = yes
+        visible = {
+            LAO = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            LAO = {
+                every_controlled_state = {
+                    add_core_of = VIN
+                }
+            }
+            VIN = {
+                annex_country = {
+                    target = LAO
+                    transfer_troops = yes
+                }
+            }
+        }
+    }
+    annex_CAM_by_VIN = {
+        fire_only_once = yes
+        visible = {
+            CAM = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            CAM = {
+                every_controlled_state = {
+                    add_core_of = VIN
+                }
+            }
+            VIN = {
+                annex_country = {
+                    target = CAM
+                    transfer_troops = yes
+                }
+            }
+        }
+    }
+    annex_BRM_by_SIA = {
+        fire_only_once = yes
+        visible = {
+            BRM = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            BRM = {
+                every_controlled_state = {
+                    add_core_of = SIA
+                }
+            }
+            SIA = {
+                annex_country = {
+                    target = BRM
+                    transfer_troops = yes
+                }
+            }
+        }
+    }
+    annex_YUN_by_CHI = {
+        fire_only_once = yes
+        visible = {
+            YUN = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            YUN = {
+                every_controlled_state = {
+                    add_core_of = CHI
+                }
+            }
+            CHI = {
+                annex_country = {
+                    target = YUN
+                    transfer_troops = yes
+                }
+            }
+        }
+    }
+}

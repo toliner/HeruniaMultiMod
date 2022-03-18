@@ -14,7 +14,28 @@ NDefines.NDiplomacy.ASSUME_FACTION_LEADERSHIP_MIN_FACTORY_RATIO = 1;
 NDefines.NDiplomacy.ASSUME_FACTION_LEADERSHIP_COOLDOWN_DAYS = 90;
 
 -- 燃料改善: 全部倍
--- NDefines.NCountry.STARTING_FUEL_RATIO = 0.5
--- NDefines.NCountry.BASE_FUEL_GAIN = 4.0
--- NDefines.NCountry.BASE_FUEL_GAIN_PER_OIL = 4.0
--- NDefines.NCountry.BASE_FUEL_CAPACITY = 100000
+NDefines.NCountry.STARTING_FUEL_RATIO = 0.5
+NDefines.NCountry.BASE_FUEL_GAIN = 4.0
+NDefines.NCountry.BASE_FUEL_GAIN_PER_OIL = 4.0
+NDefines.NCountry.BASE_FUEL_CAPACITY = 100000
+
+-- 経験値周り調整
+-- 経験値と指揮力の最大値を上げる
+NDefines.NCountry.BASE_MAX_COMMAND_POWER = 400;
+NDefines.NMilitary.MAX_ARMY_EXPERIENCE = 99999;
+NDefines.NMilitary.MAX_NAVY_EXPERIENCE = 99999;
+NDefines.NMilitary.MAX_AIR_EXPERIENCE = 99999;
+-- 師団編成コスト下げる
+NDefines.NMilitary.BASE_DIVISION_BRIGADE_GROUP_COST = 1;
+NDefines.NMilitary.BASE_DIVISION_BRIGADE_CHANGE_COST = 1;
+NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 5;
+-- 設計コスト下げる
+NDefines.NProduction.EQUIPMENT_MODULE_ADD_XP_COST = 1.0;           --5.0
+NDefines.NProduction.EQUIPMENT_MODULE_REPLACE_XP_COST = 1.0;       --6.0
+NDefines.NProduction.EQUIPMENT_MODULE_CONVERT_XP_COST = 1.0;       --3.0
+NDefines.NProduction.EQUIPMENT_MODULE_REMOVE_XP_COST = 1.0;        --1.0
+-- 日ごとの経験値獲得上限を上げる
+NDefines.NMilitary.FIELD_EXPERIENCE_MAX_PER_DAY = 3;			--3 -(NSB)> 1.2
+NDefines.NAir.FIELD_EXPERIENCE_MAX_PER_DAY = 2;			--2
+
+-- NGame.GAME_SPEED_SECONDS = { 2.0, 0.5, 0.2, 0.1, 0.05 }

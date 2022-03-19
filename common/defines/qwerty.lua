@@ -38,4 +38,7 @@ NDefines.NProduction.EQUIPMENT_MODULE_REMOVE_XP_COST = 1.0;        --1.0
 NDefines.NMilitary.FIELD_EXPERIENCE_MAX_PER_DAY = 3;			--3 -(NSB)> 1.2
 NDefines.NAir.FIELD_EXPERIENCE_MAX_PER_DAY = 2;			--2
 
+-- 建築スロット上限50
+NDefines.NBuildings.MAX_SHARED_SLOTS = 50
+
 -- NGame.GAME_SPEED_SECONDS = { 2.0, 0.5, 0.2, 0.1, 0.05 }

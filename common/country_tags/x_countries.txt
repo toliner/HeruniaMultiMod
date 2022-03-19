@@ -1,0 +1,3 @@
+HSN = "countries/Hessen.txt"
+RHL = "countries/Rheinland.txt"
+THU = "countries/Thuringen.txt"

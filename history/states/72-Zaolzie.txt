@@ -6,12 +6,12 @@ state={
 	state_category = rural
 	
 	history={
-		owner = POL
+		owner = KGL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
-		add_core_of = POL
+		add_core_of = KGL
 
 	}
 

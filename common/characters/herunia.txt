@@ -1,0 +1,12 @@
+characters = {
+    SAX_Friedrich_iii = {
+        name = SAX_friedrich_iii
+        
+        country_leader = {
+            ideology = despotism
+            traits = {
+                der_weise
+            }
+        }
+    }
+}

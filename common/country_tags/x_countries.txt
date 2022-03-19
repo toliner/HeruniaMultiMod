@@ -1,3 +1,4 @@
 HSN = "countries/Hessen.txt"
 RHL = "countries/Rheinland.txt"
 THU = "countries/Thuringen.txt"
+KGL = "countries/Königreich Galizien und Lodomerien.txt"

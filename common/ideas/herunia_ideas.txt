@@ -1,0 +1,111 @@
+ideas = {
+    country = {
+        HERUNIA_player_idea = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            
+            picture = todo
+            
+            modifier = {
+                global_building_slots = 1
+                global_building_slots_factor = 0.3
+                required_garrison_factor = -0.2
+                occupation_cost  = -0.10
+                compliance_growth = 0.05
+            }
+        }
+        
+        HLE_focus_to_army_idea = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+    
+            picture = todo
+    
+            research_bonus = {
+                infantry_weapons = 0.05
+            }
+        }
+    
+        HLE_focus_to_air_idea = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+        
+            picture = todo
+        
+            research_bonus = {
+                air_equipment = 0.05
+            }
+        }
+        
+        HLE_superior_spirit_idea = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = jap_supremacy_of_will
+    
+            modifier = {
+                army_defence_factor = 0.05
+                army_attack_factor = 0.05
+                army_morale_factor = 0.05
+            }
+        }
+    
+        HLE_superior_tech_idea = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = jap_supremacy_of_technology
+        
+            modifier = {
+                research_speed_factor = 0.05
+            }
+        }
+    
+        HLE_superior_mass_idea = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = eng_imperial_conscription
+        
+            modifier = {
+                conscription = 0.025
+            }
+        }
+    }
+}

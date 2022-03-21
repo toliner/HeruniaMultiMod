@@ -1,0 +1,82 @@
+add_namespace = herunia
+
+country_event = {
+    id = herunia.1
+    title = herunia.1.t
+    desc = herunia.1.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.1.a
+        
+        add_research_slot = 1
+        inherit_technology = GER
+        set_rule = {
+            can_join_factions = yes
+        }
+        GER = {
+            add_to_faction = PREV
+        }
+        add_ideas = HERUNIA_player_idea
+        country_event = herunia.2
+    }
+}
+
+country_event = {
+    id = herunia.2
+    title = herunia.2.t
+    desc = herunia.2.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.2.a
+        country_event = herunia.3
+    }
+    option = {
+        name = herunia.2.b
+        country_event = herunia.4
+    }
+    option = {
+        name = herunia.2.c
+        country_event = herunia.5
+    }
+    option = {
+        name = herunia.2.e
+    }
+}
+
+country_event = {
+    id = herunia.3
+    title = herunia.3.t
+    desc = herunia.3.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.3.a
+        country_event = herunia.2
+    }
+}
+
+country_event = {
+    id = herunia.4
+    title = herunia.4.t
+    desc = herunia.4.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.4.a
+        country_event = herunia.2
+    }
+}
+
+country_event = {
+    id = herunia.5
+    title = herunia.5.t
+    desc = herunia.5.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.5.a
+        country_event = herunia.2
+    }
+}

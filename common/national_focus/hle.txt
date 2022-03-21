@@ -1,0 +1,236 @@
+focus_tree = {
+    id = hle_focus
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 10
+            is_hle_country = yes
+        }
+    }
+    
+    focus = {
+        id = HLE_prepare_army
+        icon = GFX_focus_chi_army_reform
+        
+        x = 6
+        y = 0
+        cost = 5
+        available = {
+        
+        }
+        completion_reward = {
+            army_experience = 30
+            navy_experience = 30
+            air_experience = 30
+            custom_effect_tooltip = HLE_available_military_officer
+            create_corps_commander = {
+                skill = 2
+                attack_skill = 2
+                defense_skill = 2
+                planning_skill = 2
+                logistics_skill = 2
+            }
+        }
+    }
+    
+    focus = {
+        id = HLE_focus_to_army
+        icon = GFX_goal_generic_small_arms
+        x = -2
+        y = 1
+        cost = 5
+        prerequisite = {
+            focus = HLE_prepare_army
+        }
+        mutually_exclusive = {
+            focus = HLE_focus_to_air
+        }
+        relative_position_id = HLE_prepare_army
+        available = {
+        
+        }
+        completion_reward = {
+            army_experience = 50
+            add_ideas = HLE_focus_to_army_idea
+        }
+    }
+    
+    focus = {
+        id = HLE_focus_to_air
+        icon = GFX_goal_generic_build_airforce
+        x = 2
+        y = 1
+        cost = 5
+        prerequisite = {
+            focus = HLE_prepare_army
+        }
+        mutually_exclusive = {
+            focus = HLE_focus_to_army
+        }
+        relative_position_id = HLE_prepare_army
+        available = {
+        
+        }
+        completion_reward = {
+            air_experience = 50
+            add_ideas = HLE_focus_to_air_idea
+        }
+    }
+    
+    focus = {
+        id = HLE_superior_spirit
+        icon = GFX_goal_demand_sudetenland
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = HLE_focus_to_army
+            focus = HLE_focus_to_air
+        }
+        mutually_exclusive = {
+            focus = HLE_superior_mass
+            focus = HLE_superior_tech
+        }
+        relative_position_id = HLE_focus_to_army
+        available = {
+        
+        }
+        completion_reward = {
+            add_ideas = HLE_superior_spirit_idea
+            custom_effect_tooltip = HLE_effect_superior_spirit
+        }
+    }
+    
+    focus = {
+        id = HLE_superior_mass
+        icon = GFX_focus_generic_manpower
+        x = 2
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = HLE_focus_to_army
+            focus = HLE_focus_to_air
+        }
+        mutually_exclusive = {
+            focus = HLE_superior_spirit
+            focus = HLE_superior_tech
+        }
+        relative_position_id = HLE_focus_to_army
+        available = {
+        
+        }
+        completion_reward = {
+            add_ideas = HLE_superior_mass_idea
+            custom_effect_tooltip = HLE_effect_superior_mass
+        }
+    }
+    
+    focus = {
+        id = HLE_superior_tech
+        icon = GFX_goal_generic_production
+        x = 4
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = HLE_focus_to_army
+            focus = HLE_focus_to_air
+        }
+        mutually_exclusive = {
+            focus = HLE_superior_spirit
+            focus = HLE_superior_mass
+        }
+        relative_position_id = HLE_focus_to_army
+        available = {
+        
+        }
+        completion_reward = {
+            add_ideas = HLE_superior_tech_idea
+            custom_effect_tooltip = HLE_effect_superior_tech
+        }
+    }
+    
+    focus = {
+        id = HLE_focus_to_doctrine_1
+        icon = ToDo
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = HLE_superior_mass
+            focus = HLE_superior_spirit
+            focus = HLE_superior_tech
+        }
+        relative_position_id = HLE_superior_mass
+        available = {
+        
+        }
+        completion_reward = {
+            if = {
+                limit = {
+                    has_idea = HLE_focus_to_army_idea
+                }
+                
+                add_doctrine_cost_reduction = {
+                    cost_reduction = 0.50
+                    uses = 1
+                    category = land_doctrine
+                }
+                create_corps_commander = {
+                    skill = 2
+                    attack_skill = 2
+                    defense_skill = 2
+                    planning_skill = 2
+                    logistics_skill = 2
+                }
+                
+                if = {
+                    limit = {
+                        has_idea = HLE_superior_spirit_idea
+                    }
+                    every_unit_leader = {
+                        add_attack = 1
+                        add_unit_leader_trait = adaptable
+                    }
+                }
+                else_if = {
+                    limit = {
+                        has_idea = HLE_superior_mass_idea
+                    }
+                    every_unit_leader = {
+                        add_logistics = 1
+                        add_max_trait = 1
+                        add_unit_leader_trait = skilled_staffer
+                    }
+                    
+                }
+                else_if = {
+                    limit = {
+                        has_idea = HLE_superior_tech_idea
+                    }
+                    every_unit_leader = {
+                        add_planning = 1
+                        add_random_trait = {
+                            trait_engineer
+                            panzer_leader
+                        }
+                    }
+                }
+                else = {
+                    custom_effect_tooltip = HLE_focus_to_doctrine_1_tooltip_spirit
+                    custom_effect_tooltip = HLE_focus_to_doctrine_1_tooltip_mass
+                    custom_effect_tooltip = HLE_focus_to_doctrine_1_tooltip_tech
+                }
+            }
+            else_if = {
+                limit = {
+                    has_idea = HLE_focus_to_air_idea
+                }
+            }
+            else = {
+                custom_effect_tooltip = HLE_tooltip_effect_defined_by_prev_focus
+            }
+        }
+    }
+}

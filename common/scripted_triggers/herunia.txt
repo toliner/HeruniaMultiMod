@@ -1,0 +1,15 @@
+is_hle_country = {
+    OR = {
+        tag = GER
+        tag = BAY
+        tag = CZE
+        tag = HAN
+        tag = HSN
+        tag = KGL
+        tag = RHL
+        tag = SAX
+        tag = SHL
+        tag = SLO
+        tag = WUR
+    }
+}

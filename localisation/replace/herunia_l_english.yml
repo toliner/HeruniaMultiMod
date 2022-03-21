@@ -60,6 +60,21 @@
  RHL:0 "ラインラント"
  RHL_DEF:0 "ラインラント"
  RHL_ADJ:0 "ラインラント"
+ ELR_fascism:0 "大エルザス・ロートリンゲン"
+ ELR_fascism_DEF:0 "大エルザス・ロートリンゲン"
+ ELR_democratic:0 "エルザス・ロートリンゲン自由国"
+ ELR_democratic_DEF:0 "エルザス・ロートリンゲン自由国"
+ ELR_neutrality:1 "エルザス・ロートリンゲン王国"
+ ELR_neutrality_DEF:1 "エルザス・ロートリンゲン王国"
+ ELR_communism:0 "エルザス・ロートリンゲン人民共和国"
+ ELR_communism_DEF:0 "エルザス・ロートリンゲン人民共和国"
+ ELR_fascism_ADJ:0 "エルザス"
+ ELR_democratic_ADJ:0 "エルザス"
+ ELR_neutrality_ADJ:0 "エルザス"
+ ELR_communism_ADJ:0 "エルザス"
+ ELR:0 "エルザス・ロートリンゲン"
+ ELR_DEF:0 "エルザス・ロートリンゲン"
+ ELR_ADJ:0 "エルザス"
 # 特性
  der_weise:0 "賢明公"
 # 人
@@ -93,7 +108,7 @@
  HLE_superior_mass_desc:0 "圧倒的な物量からなる徹底的な戦力投射こそが全てを解決する。"
  HLE_superior_tech:0 "技術的優越"
  HLE_superior_tech_desc:0 "いつの時代も新技術による新兵器は戦場を大きく変えてきた。特にこれからの時代は技術力と兵器性能が戦争の趨勢を左右するに違いない。"
-
+ HLE_focus_to_doctrine_1:0 ""
 # Event
  herunia.1.t:0 "ヘルニアさん主催・ドイツ連邦マルチへようこそ！"
  herunia.1.d:0 "このModはヘルニアさん主催のマルチのために作成されました。\n 完全に専用仕様での調整を行っているので、事前テストプレイと本番以外での使用は非推奨です。\n みんな仲良くマルチを楽しみましょう！\n 今回は詳細な仕様をイベントで知れるようになっています。"

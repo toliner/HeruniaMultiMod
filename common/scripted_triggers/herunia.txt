@@ -11,5 +11,7 @@ is_hle_country = {
         tag = SHL
         tag = SLO
         tag = WUR
+        tag = ELR
+        tag = CRO
     }
 }

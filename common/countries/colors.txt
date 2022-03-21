@@ -835,3 +835,8 @@ KGL = {
 	color = rgb { 214 102 139 }
 	color_ui = rgb { 255 120 138 }
 }
+
+ELR = {
+	color = rgb { 148 36 5 }
+	color_ui = rgb { 148 36 5 }
+}

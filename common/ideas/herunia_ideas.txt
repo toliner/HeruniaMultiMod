@@ -9,7 +9,7 @@ ideas = {
             }
             removal_cost = -1
             
-            picture = todo
+            picture = warrior_traditions_idea
             
             modifier = {
                 global_building_slots = 1
@@ -29,13 +29,12 @@ ideas = {
             }
             removal_cost = -1
     
-            picture = todo
+            picture = generic_infantry_bonus
     
             research_bonus = {
                 infantry_weapons = 0.05
             }
         }
-    
         HLE_focus_to_air_idea = {
             allowed = {
                 always = no
@@ -45,7 +44,7 @@ ideas = {
             }
             removal_cost = -1
         
-            picture = todo
+            picture = generic_air_bonus
         
             research_bonus = {
                 air_equipment = 0.05
@@ -71,7 +70,6 @@ ideas = {
                 army_morale_factor = 0.05
             }
         }
-    
         HLE_superior_tech_idea = {
             allowed = {
                 always = no
@@ -89,7 +87,6 @@ ideas = {
                 research_speed_factor = 0.05
             }
         }
-    
         HLE_superior_mass_idea = {
             allowed = {
                 always = no
@@ -105,6 +102,355 @@ ideas = {
         
             modifier = {
                 conscription = 0.025
+            }
+        }
+        
+        HLE_focus_to_doctrine_1_air_spirit = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = air_support_focus
+    
+            modifier = {
+                air_ace_generation_chance_factor = 0.20
+            }
+        }
+        HLE_focus_to_doctrine_1_air_mass = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = air_support_focus
+        
+            modifier = {
+                air_fuel_consumption_factor = -0.10
+            }
+        }
+        HLE_focus_to_doctrine_1_air_tech = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = air_support_focus
+        
+            modifier = {
+                air_range_factor = 0.10
+            }
+        }
+    
+        HLE_focus_to_doctrine_2_land_spirit = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = jap_supremacy_of_will
+        
+            modifier = {
+                army_core_defence_factor = 0.1
+                cas_damage_reduction = 0.1
+            }
+        }
+        HLE_focus_to_doctrine_2_land_mass = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = eng_imperial_conscription
+        
+            modifier = {
+                weekly_manpower = 1000
+                army_morale_factor = 0.1
+            }
+        }
+        HLE_focus_to_doctrine_2_land_tech = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = jap_supremacy_of_technology
+        
+            modifier = {
+                land_doctrine_cost_factor = -0.10
+                dig_in_speed_factor = 0.10
+            }
+        }
+    
+        HLE_focus_to_doctrine_2_air_spirit = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = air_support_focus
+        
+            modifier = {
+                air_weather_penalty = -0.30
+            }
+        }
+        HLE_focus_to_doctrine_2_air_mass = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = air_support_focus
+        
+            modifier = {
+                air_accidents_factor = -0.25
+                air_cas_present_factor = 0.05
+            }
+        }
+        HLE_focus_to_doctrine_2_air_tech = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = air_support_focus
+        
+            modifier = {
+                air_doctrine_cost_factor = -0.10
+                air_night_penalty = -0.10
+            }
+        }
+    
+        HLE_focus_to_infantry_equipment_or_fighter_1_land_spirit = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = idea_generic_infantry_equipment_manufacturer_2
+    
+            equipment_bonus = {
+                infantry_equipment = {
+                    instant = yes
+                    defense = 0.05
+                }
+            }
+        }
+        HLE_focus_to_infantry_equipment_or_fighter_2_land_spirit = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_generic_infantry_equipment_manufacturer_2
+        
+            equipment_bonus = {
+                infantry_equipment = {
+                    instant = yes
+                    defense = 0.15
+                    soft_attack = 0.05
+                    reliability = 0.05
+                    build_cost_ic = 0.10
+                }
+            }
+        }
+        HLE_focus_to_infantry_equipment_or_fighter_1_land_mass = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_generic_infantry_equipment_manufacturer_2
+        
+            equipment_bonus = {
+                infantry_equipment = {
+                    instant = yes
+                    build_cost_ic  = -0.05
+                }
+            }
+        }
+        HLE_focus_to_infantry_equipment_or_fighter_2_land_mass = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_generic_infantry_equipment_manufacturer_2
+        
+            equipment_bonus = {
+                infantry_equipment = {
+                    instant = yes
+                    build_cost_ic  = -0.15
+                }
+            }
+        }
+        
+        HLE_focus_to_infantry_equipment_or_fighter_1_air_spirit = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = idea_generic_air_bonus
+    
+            equipment_bonus = {
+                category_fighter = {
+                    instant = yes
+                    air_agility  = 0.05
+                }
+                category_heavy_fighter = {
+                    instant = yes
+                    air_agility = 0.05
+                }
+            }
+            # todo: ジェット対応
+        }
+        HLE_focus_to_infantry_equipment_or_fighter_2_air_spirit = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_generic_air_bonus
+        
+            equipment_bonus = {
+                category_fighter = {
+                    instant = yes
+                    air_agility  = 0.10
+                }
+                category_heavy_fighter = {
+                    instant = yes
+                    air_agility = 0.10
+                }
+            }
+            modifier = {
+                air_mission_efficiency = 0.1
+            }
+            # todo: ジェット対応
+        }
+        HLE_focus_to_infantry_equipment_or_fighter_1_air_mass = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_generic_air_bonus
+        
+            equipment_bonus = {
+                category_fighter = {
+                    instant = yes
+                    build_cost_ic  = -0.05
+                }
+                category_heavy_fighter = {
+                    instant = yes
+                    build_cost_ic  = -0.05
+                }
+            }
+        }
+        HLE_focus_to_infantry_equipment_or_fighter_2_air_mass = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_generic_air_bonus
+        
+            equipment_bonus = {
+                category_fighter = {
+                    instant = yes
+                    build_cost_ic  = -0.10
+                    fuel_consumption = -0.10
+                }
+                category_heavy_fighter = {
+                    instant = yes
+                    build_cost_ic  = -0.10
+                    fuel_consumption = -0.10
+                }
             }
         }
     }

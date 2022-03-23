@@ -1,0 +1,247 @@
+defined_text = {
+    name = GetHLE_FocusToDoctrine1
+    
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+            has_completed_focus = HLE_superior_spirit
+        }
+        localization_key = HLE_focus_to_doctrine_1_land_spirit_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+            has_completed_focus = HLE_superior_mass
+        }
+        localization_key = HLE_focus_to_doctrine_1_land_mass_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+            has_completed_focus = HLE_superior_tech
+        }
+        localization_key = HLE_focus_to_doctrine_1_land_tech_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_air
+            has_completed_focus = HLE_superior_spirit
+        }
+        localization_key = HLE_focus_to_doctrine_1_air_spirit_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_air
+            has_completed_focus = HLE_superior_mass
+        }
+        localization_key = HLE_focus_to_doctrine_1_air_mass_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_air
+            has_completed_focus = HLE_superior_tech
+        }
+        localization_key = HLE_focus_to_doctrine_1_air_tech_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+        }
+        localization_key = HLE_focus_to_doctrine_1_land_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+        }
+        localization_key = HLE_focus_to_doctrine_1_air_loc
+    }
+    text = {
+        localization_key = HLE_focus_to_doctrine_1_loc
+    }
+}
+
+defined_text = {
+    name = GetHLE_FocusToDoctrine2
+    
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+            has_completed_focus = HLE_superior_spirit
+        }
+        localization_key = HLE_focus_to_doctrine_2_land_spirit_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+            has_completed_focus = HLE_superior_mass
+        }
+        localization_key = HLE_focus_to_doctrine_2_land_mass_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+            has_completed_focus = HLE_superior_tech
+        }
+        localization_key = HLE_focus_to_doctrine_2_land_tech_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_air
+            has_completed_focus = HLE_superior_spirit
+        }
+        localization_key = HLE_focus_to_doctrine_2_air_spirit_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_air
+            has_completed_focus = HLE_superior_mass
+        }
+        localization_key = HLE_focus_to_doctrine_2_air_mass_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_air
+            has_completed_focus = HLE_superior_tech
+        }
+        localization_key = HLE_focus_to_doctrine_2_air_tech_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+        }
+        localization_key = HLE_focus_to_doctrine_2_land_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+        }
+        localization_key = HLE_focus_to_doctrine_2_air_loc
+    }
+    text = {
+        localization_key = HLE_focus_to_doctrine_2_loc
+    }
+}
+
+defined_text = {
+    name = GetHLE_InfantryOrFighter_1
+    
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+            has_completed_focus = HLE_superior_spirit
+        }
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_1_land_spirit_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+            has_completed_focus = HLE_superior_mass
+        }
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_1_land_mass_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+            has_completed_focus = HLE_superior_tech
+        }
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_1_land_tech_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_air
+            has_completed_focus = HLE_superior_spirit
+        }
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_1_air_spirit_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_air
+            has_completed_focus = HLE_superior_mass
+        }
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_1_air_mass_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_air
+            has_completed_focus = HLE_superior_tech
+        }
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_1_air_tech_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+        }
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_1_land_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+        }
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_1_air_loc
+    }
+    text = {
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_1_loc
+    }
+}
+
+defined_text = {
+    name = GetHLE_InfantryOrFighter_2
+    
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+            has_completed_focus = HLE_superior_spirit
+        }
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_2_land_spirit_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+            has_completed_focus = HLE_superior_mass
+        }
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_2_land_mass_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+            has_completed_focus = HLE_superior_tech
+        }
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_2_land_tech_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_air
+            has_completed_focus = HLE_superior_spirit
+        }
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_2_air_spirit_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_air
+            has_completed_focus = HLE_superior_mass
+        }
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_2_air_mass_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_air
+            has_completed_focus = HLE_superior_tech
+        }
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_2_air_tech_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+        }
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_2_land_loc
+    }
+    text = {
+        trigger = {
+            has_completed_focus = HLE_focus_to_army
+        }
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_2_air_loc
+    }
+    text = {
+        localization_key = HLE_focus_to_infantry_equipment_or_fighter_2_loc
+    }
+}

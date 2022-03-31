@@ -1,5 +1,5 @@
 capital = 70
-set_oob = HLE_oob
+set_oob = HRE_oob
 
 
 set_technology = {

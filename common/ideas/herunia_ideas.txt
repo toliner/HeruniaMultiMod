@@ -20,7 +20,7 @@ ideas = {
             }
         }
         
-        HLE_focus_to_army_idea = {
+        HRE_focus_to_army_idea = {
             allowed = {
                 always = no
             }
@@ -35,7 +35,7 @@ ideas = {
                 infantry_weapons = 0.05
             }
         }
-        HLE_focus_to_air_idea = {
+        HRE_focus_to_air_idea = {
             allowed = {
                 always = no
             }
@@ -51,7 +51,7 @@ ideas = {
             }
         }
         
-        HLE_superior_spirit_idea = {
+        HRE_superior_spirit_idea = {
             allowed = {
                 always = no
             }
@@ -70,7 +70,7 @@ ideas = {
                 army_morale_factor = 0.05
             }
         }
-        HLE_superior_tech_idea = {
+        HRE_superior_tech_idea = {
             allowed = {
                 always = no
             }
@@ -87,7 +87,7 @@ ideas = {
                 research_speed_factor = 0.05
             }
         }
-        HLE_superior_mass_idea = {
+        HRE_superior_mass_idea = {
             allowed = {
                 always = no
             }
@@ -105,7 +105,7 @@ ideas = {
             }
         }
         
-        HLE_focus_to_doctrine_1_air_spirit = {
+        HRE_focus_to_doctrine_1_air_spirit = {
             allowed = {
                 always = no
             }
@@ -122,7 +122,7 @@ ideas = {
                 air_ace_generation_chance_factor = 0.20
             }
         }
-        HLE_focus_to_doctrine_1_air_mass = {
+        HRE_focus_to_doctrine_1_air_mass = {
             allowed = {
                 always = no
             }
@@ -139,7 +139,7 @@ ideas = {
                 air_fuel_consumption_factor = -0.10
             }
         }
-        HLE_focus_to_doctrine_1_air_tech = {
+        HRE_focus_to_doctrine_1_air_tech = {
             allowed = {
                 always = no
             }
@@ -157,7 +157,7 @@ ideas = {
             }
         }
     
-        HLE_focus_to_doctrine_2_land_spirit = {
+        HRE_focus_to_doctrine_2_land_spirit = {
             allowed = {
                 always = no
             }
@@ -175,7 +175,7 @@ ideas = {
                 cas_damage_reduction = 0.1
             }
         }
-        HLE_focus_to_doctrine_2_land_mass = {
+        HRE_focus_to_doctrine_2_land_mass = {
             allowed = {
                 always = no
             }
@@ -193,7 +193,7 @@ ideas = {
                 army_morale_factor = 0.1
             }
         }
-        HLE_focus_to_doctrine_2_land_tech = {
+        HRE_focus_to_doctrine_2_land_tech = {
             allowed = {
                 always = no
             }
@@ -212,7 +212,7 @@ ideas = {
             }
         }
     
-        HLE_focus_to_doctrine_2_air_spirit = {
+        HRE_focus_to_doctrine_2_air_spirit = {
             allowed = {
                 always = no
             }
@@ -229,7 +229,7 @@ ideas = {
                 air_weather_penalty = -0.30
             }
         }
-        HLE_focus_to_doctrine_2_air_mass = {
+        HRE_focus_to_doctrine_2_air_mass = {
             allowed = {
                 always = no
             }
@@ -247,7 +247,7 @@ ideas = {
                 air_cas_present_factor = 0.05
             }
         }
-        HLE_focus_to_doctrine_2_air_tech = {
+        HRE_focus_to_doctrine_2_air_tech = {
             allowed = {
                 always = no
             }
@@ -266,7 +266,7 @@ ideas = {
             }
         }
     
-        HLE_focus_to_infantry_equipment_or_fighter_1_land_spirit = {
+        HRE_focus_to_infantry_equipment_or_fighter_1_land_spirit = {
             allowed = {
                 always = no
             }
@@ -286,7 +286,7 @@ ideas = {
                 }
             }
         }
-        HLE_focus_to_infantry_equipment_or_fighter_2_land_spirit = {
+        HRE_focus_to_infantry_equipment_or_fighter_2_land_spirit = {
             allowed = {
                 always = no
             }
@@ -302,14 +302,12 @@ ideas = {
             equipment_bonus = {
                 infantry_equipment = {
                     instant = yes
-                    defense = 0.15
-                    soft_attack = 0.05
+                    defense = 0.10
                     reliability = 0.05
-                    build_cost_ic = 0.10
                 }
             }
         }
-        HLE_focus_to_infantry_equipment_or_fighter_1_land_mass = {
+        HRE_focus_to_infantry_equipment_or_fighter_1_land_mass = {
             allowed = {
                 always = no
             }
@@ -329,7 +327,7 @@ ideas = {
                 }
             }
         }
-        HLE_focus_to_infantry_equipment_or_fighter_2_land_mass = {
+        HRE_focus_to_infantry_equipment_or_fighter_2_land_mass = {
             allowed = {
                 always = no
             }
@@ -350,7 +348,7 @@ ideas = {
             }
         }
         
-        HLE_focus_to_infantry_equipment_or_fighter_1_air_spirit = {
+        HRE_focus_to_infantry_equipment_or_fighter_1_air_spirit = {
             allowed = {
                 always = no
             }
@@ -364,18 +362,25 @@ ideas = {
             picture = idea_generic_air_bonus
     
             equipment_bonus = {
-                category_fighter = {
+                fighter_equipment = {
                     instant = yes
                     air_agility  = 0.05
                 }
-                category_heavy_fighter = {
+                cv_fighter_equipment = {
+                    instant = yes
+                    air_agility  = 0.05
+                }
+                heavy_fighter_equipment = {
+                    instant = yes
+                    air_agility = 0.05
+                }
+                jet_fighter_equipment = {
                     instant = yes
                     air_agility = 0.05
                 }
             }
-            # todo: ジェット対応
         }
-        HLE_focus_to_infantry_equipment_or_fighter_2_air_spirit = {
+        HRE_focus_to_infantry_equipment_or_fighter_2_air_spirit = {
             allowed = {
                 always = no
             }
@@ -403,7 +408,7 @@ ideas = {
             }
             # todo: ジェット対応
         }
-        HLE_focus_to_infantry_equipment_or_fighter_1_air_mass = {
+        HRE_focus_to_infantry_equipment_or_fighter_1_air_mass = {
             allowed = {
                 always = no
             }
@@ -427,7 +432,7 @@ ideas = {
                 }
             }
         }
-        HLE_focus_to_infantry_equipment_or_fighter_2_air_mass = {
+        HRE_focus_to_infantry_equipment_or_fighter_2_air_mass = {
             allowed = {
                 always = no
             }
@@ -454,7 +459,7 @@ ideas = {
             }
         }
         
-        HLE_focus_to_artillery_or_cast_1_land_spirit = {
+        HRE_focus_to_artillery_or_cas_1_land_spirit = {
             allowed = {
                 always = no
             }
@@ -469,18 +474,21 @@ ideas = {
     
             equipment_bonus = {
                 artillery = {
+                    instant = yes
                     soft_attack = 0.05
                 }
                 anti_tank = {
+                    instant = yes
                     hard_attack = 0.05
                     ap_attack = 0.05
                 }
                 anti_air = {
+                    instant = yes
                     air_attack = 0.05
                 }
             }
         }
-        HLE_focus_to_artillery_or_cast_2_land_spirit = {
+        HRE_focus_to_artillery_or_cas_2_land_spirit = {
             allowed = {
                 always = no
             }
@@ -495,19 +503,22 @@ ideas = {
         
             equipment_bonus = {
                 artillery = {
+                    instant = yes
                     soft_attack = 0.10
                 }
                 anti_tank = {
+                    instant = yes
                     hard_attack = 0.10
                     ap_attack = 0.10
                 }
                 anti_air = {
+                    instant = yes
                     air_attack = 0.10
                 }
             }
         }
     
-        HLE_focus_to_artillery_or_cast_1_land_mass = {
+        HRE_focus_to_artillery_or_cas_1_land_mass = {
             allowed = {
                 always = no
             }
@@ -522,17 +533,20 @@ ideas = {
         
             equipment_bonus = {
                 artillery = {
+                    instant = yes
                     build_cost_ic = -0.05
                 }
                 anti_tank = {
+                    instant = yes
                     build_cost_ic = -0.05
                 }
                 anti_air = {
+                    instant = yes
                     build_cost_ic = -0.05
                 }
             }
         }
-        HLE_focus_to_artillery_or_cast_1_land_mass = {
+        HRE_focus_to_artillery_or_cas_2_land_mass = {
             allowed = {
                 always = no
             }
@@ -547,18 +561,21 @@ ideas = {
         
             equipment_bonus = {
                 artillery = {
+                    instant = yes
                     build_cost_ic = -0.10
                 }
                 anti_tank = {
+                    instant = yes
                     build_cost_ic = -0.10
                 }
                 anti_air = {
+                    instant = yes
                     build_cost_ic = -0.10
                 }
             }
         }
     
-        HLE_focus_to_artillery_or_cast_1_air_spirit = {
+        HRE_focus_to_artillery_or_cas_1_air_spirit = {
             allowed = {
                 always = no
             }
@@ -573,15 +590,17 @@ ideas = {
         
             equipment_bonus = {
                 cas = {
+                    instant = yes
                     air_ground_attack = 0.05
                 }
                 naval_bomber = {
+                    instant = yes
                     naval_strike_attack = 0.05
                     naval_strike_targetting = 0.05
                 }
             }
         }
-        HLE_focus_to_artillery_or_cast_2_air_spirit = {
+        HRE_focus_to_artillery_or_cas_2_air_spirit = {
             allowed = {
                 always = no
             }
@@ -596,16 +615,18 @@ ideas = {
         
             equipment_bonus = {
                 cas = {
+                    instant = yes
                     air_ground_attack = 0.10
                 }
                 naval_bomber = {
+                    instant = yes
                     naval_strike_attack = 0.10
                     naval_strike_targetting = 0.10
                 }
             }
         }
     
-        HLE_focus_to_artillery_or_cast_1_air_mass = {
+        HRE_focus_to_artillery_or_cas_1_air_mass = {
             allowed = {
                 always = no
             }
@@ -620,14 +641,16 @@ ideas = {
         
             equipment_bonus = {
                 cas = {
+                    instant = yes
                     build_cost_ic = -0.05
                 }
                 naval_bomber = {
+                    instant = yes
                     build_cost_ic = -0.05
                 }
             }
         }
-        HLE_focus_to_artillery_or_cast_2_air_mass = {
+        HRE_focus_to_artillery_or_cas_2_air_mass = {
             allowed = {
                 always = no
             }
@@ -642,10 +665,404 @@ ideas = {
         
             equipment_bonus = {
                 cas = {
+                    instant = yes
                     build_cost_ic = -0.10
                 }
                 naval_bomber = {
+                    instant = yes
                     build_cost_ic = -0.10
+                }
+            }
+        }
+    
+        HRE_focus_to_support_or_bomber_1_land_spirit = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_chi_chinese_support
+        
+            modifier = {
+                max_dig_in = 4
+                recon_factor = 0.1
+            }
+        }
+        HRE_focus_to_support_or_bomber_2_land_spirit = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_chi_chinese_support
+        
+            modifier = {
+                max_dig_in = 8
+                recon_factor = 0.2
+            }
+        }
+    
+        HRE_focus_to_support_or_bomber_1_land_mass = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_chi_chinese_support
+        
+            equipment_bonus = {
+                support_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.05
+                }
+            }
+        }
+        HRE_focus_to_support_or_bomber_2_land_mass = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_chi_chinese_support
+        
+            equipment_bonus = {
+                support_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.10
+                }
+            }
+        }
+    
+        HRE_focus_to_support_or_bomber_1_air_spirit = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = strategic_bombing_focus
+    
+            equipment_bonus = {
+                tactical_bomber = {
+                    instant = yes
+                    air_bombing = 0.05
+                }
+                strategic_bomber = {
+                    instant = yes
+                    air_bombing = 0.05
+                }
+                jet_strat_bomber_equipment = {
+                    instant = yes
+                    air_bombing = 0.05
+                }
+            }
+        }
+        HRE_focus_to_support_or_bomber_2_air_spirit = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = strategic_bombing_focus
+        
+            equipment_bonus = {
+                tactical_bomber = {
+                    instant = yes
+                    air_bombing = 0.10
+                }
+                strategic_bomber = {
+                    instant = yes
+                    air_bombing = 0.10
+                }
+                jet_strat_bomber_equipment = {
+                    instant = yes
+                    air_bombing = 0.10
+                }
+            }
+        }
+    
+        HRE_focus_to_support_or_bomber_1_air_mass = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = strategic_bombing_focus
+        
+            equipment_bonus = {
+                tactical_bomber = {
+                    instant = yes
+                    build_cost_ic = -0.05
+                }
+                strat_bomber_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.05
+                }
+            }
+        }
+        HRE_focus_to_support_or_bomber_2_air_mass = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = strategic_bombing_focus
+        
+            equipment_bonus = {
+                tactical_bomber = {
+                    instant = yes
+                    build_cost_ic = -0.10
+                }
+                strategic_bomber = {
+                    instant = yes
+                    build_cost_ic = -0.10
+                }
+            }
+        }
+    
+        HRE_focus_to_tank_or_jet_1_land_spirit = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_generic_acquire_tanks
+        
+            equipment_bonus = {
+                armor = {
+                    instant = yes
+                    reliability = 0.05
+                    maximum_speed = 0.025
+                }
+                light_tank_artillery_chassis = {
+                    instant = yes
+                    soft_attack = 0.075
+                }
+                light_tank_aa_chassis = {
+                    instant = yes
+                    air_attack = 0.075
+                }
+                light_tank_destroyer_chassis = {
+                    instant = yes
+                    hard_attack = 0.075
+                    ap_attack = 0.075
+                }
+            }
+        }
+        HRE_focus_to_tank_or_jet_2_land_spirit = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_generic_acquire_tanks
+        
+            equipment_bonus = {
+                armor = {
+                    instant = yes
+                    reliability = 0.10
+                    maximum_speed = 0.05
+                }
+                light_tank_artillery_chassis = {
+                    instant = yes
+                    soft_attack = 0.15
+                }
+                light_tank_aa_chassis = {
+                    instant = yes
+                    air_attack = 0.15
+                }
+                light_tank_destroyer_chassis = {
+                    instant = yes
+                    hard_attack = 0.15
+                    ap_attack = 0.15
+                }
+            }
+        }
+    
+        HRE_focus_to_tank_or_jet_1_land_mass = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_generic_acquire_tanks
+        
+            equipment_bonus = {
+                armor = {
+                    instant = yes
+                    build_cost_ic = -0.05
+                }
+            }
+        }
+        HRE_focus_to_tank_or_jet_2_land_mass = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_generic_acquire_tanks
+        
+            equipment_bonus = {
+                armor = {
+                    instant = yes
+                    build_cost_ic = -0.10
+                }
+            }
+        }
+    
+        HRE_focus_to_tank_or_jet_1_air_spirit = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_generic_air_payment
+        
+            equipment_bonus = {
+                jet_fighter_equipment = {
+                    instant = yes
+                    air_agility = 0.05
+                }
+                jet_strat_bomber_equipment = {
+                    instant = yes
+                    air_bombing = 0.05
+                }
+            }
+        }
+        HRE_focus_to_tank_or_jet_2_air_spirit = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_generic_air_payment
+        
+            equipment_bonus = {
+                jet_fighter_equipment = {
+                    instant = yes
+                    air_agility = 0.10
+                }
+                jet_strat_bomber_equipment = {
+                    instant = yes
+                    air_bombing = 0.10
+                }
+            }
+        }
+    
+        HRE_focus_to_tank_or_jet_1_air_mass = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_generic_air_payment
+        
+            equipment_bonus = {
+                jet_fighter_equipment = {
+                    instant = yes
+                    build_cost_ic = 0.05
+                }
+                jet_strat_bomber_equipment = {
+                    instant = yes
+                    build_cost_ic = 0.05
+                }
+            }
+        }
+        HRE_focus_to_tank_or_jet_2_air_mass = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_generic_air_payment
+        
+            equipment_bonus = {
+                jet_fighter_equipment = {
+                    instant = yes
+                    build_cost_ic = 0.10
+                }
+                jet_strat_bomber_equipment = {
+                    instant = yes
+                    build_cost_ic = 0.10
                 }
             }
         }

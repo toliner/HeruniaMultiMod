@@ -42,3 +42,9 @@ NDefines.NAir.FIELD_EXPERIENCE_MAX_PER_DAY = 2;			--2
 NDefines.NBuildings.MAX_SHARED_SLOTS = 50
 
 -- NGame.GAME_SPEED_SECONDS = { 2.0, 0.5, 0.2, 0.1, 0.05 }
+
+-- 補給改善
+-- 高インフラ地帯ではより広くに供給を届ける
+NDefines.NSupply.SUPPLY_FLOW_DROP_REDUCTION_AT_MAX_INFRA = 0.50 -- 0.30
+-- 鉄道レベルによる補給値の上昇幅を強化する
+NDefines.NSupply.NODE_FLOW_BONUS_PER_RAIL_LEVEL = 0.8 -- 0.34

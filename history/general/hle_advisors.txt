@@ -1,13 +1,13 @@
 every_possible_country = {
     limit = {
-        is_hle_country = yes
+        is_hre_country = yes
         NOT = {
             tag = GER
         }
     }
     # 陸軍長官
     generate_character = {
-        token_base = hle_army_chief_def
+        token_base = hre_army_chief_def
         advisor = {
             slot = army_chief
             cost = 100
@@ -15,7 +15,7 @@ every_possible_country = {
                 army_chief_defensive_2
             }
             visible = {
-                has_completed_focus = HLE_prepare_army
+                has_completed_focus = HRE_prepare_army
             }
         }
         portraits = {
@@ -23,7 +23,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_army_chief_off
+        token_base = hre_army_chief_off
         advisor = {
             slot = army_chief
             cost = 100
@@ -31,7 +31,7 @@ every_possible_country = {
                 army_chief_offensive_2
             }
             visible = {
-                has_completed_focus = HLE_prepare_army
+                has_completed_focus = HRE_prepare_army
             }
         }
         portraits = {
@@ -39,7 +39,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_army_chief_drill
+        token_base = hre_army_chief_drill
         advisor = {
             slot = army_chief
             cost = 100
@@ -47,7 +47,7 @@ every_possible_country = {
                 army_chief_drill_2
             }
             visible = {
-                has_completed_focus = HLE_prepare_army
+                has_completed_focus = HRE_prepare_army
             }
         }
         portraits = {
@@ -55,7 +55,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_army_chief_reform
+        token_base = hre_army_chief_reform
         advisor = {
             slot = army_chief
             cost = 100
@@ -63,7 +63,7 @@ every_possible_country = {
                 army_chief_reform_2
             }
             visible = {
-                has_completed_focus = HLE_prepare_army
+                has_completed_focus = HRE_prepare_army
             }
         }
         portraits = {
@@ -71,7 +71,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_army_chief_maneuver
+        token_base = hre_army_chief_maneuver
         advisor = {
             slot = army_chief
             cost = 100
@@ -79,7 +79,7 @@ every_possible_country = {
                 army_chief_maneuver_2
             }
             visible = {
-                has_completed_focus = HLE_prepare_army
+                has_completed_focus = HRE_prepare_army
             }
         }
         portraits = {
@@ -87,7 +87,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_army_chief_entrenchment
+        token_base = hre_army_chief_entrenchment
         advisor = {
             slot = army_chief
             cost = 100
@@ -95,7 +95,7 @@ every_possible_country = {
                 army_chief_entrenchment_2
             }
             visible = {
-                has_completed_focus = HLE_prepare_army
+                has_completed_focus = HRE_prepare_army
             }
         }
         portraits = {
@@ -105,7 +105,7 @@ every_possible_country = {
     
     # 海軍長官
     generate_character = {
-        token_base = hle_navy_chief_edecisive_bat
+        token_base = hre_navy_chief_edecisive_bat
         advisor = {
             slot = navy_chief
             cost = 100
@@ -113,7 +113,7 @@ every_possible_country = {
                 navy_chief_decisive_battle_2
             }
             visible = {
-                has_completed_focus = HLE_prepare_army
+                has_completed_focus = HRE_prepare_army
             }
         }
         portraits = {
@@ -121,7 +121,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_navy_chief_aviation
+        token_base = hre_navy_chief_aviation
         advisor = {
             slot = navy_chief
             cost = 100
@@ -129,7 +129,7 @@ every_possible_country = {
                 navy_chief_naval_aviation_2
             }
             visible = {
-                has_completed_focus = HLE_prepare_army
+                has_completed_focus = HRE_prepare_army
             }
         }
         portraits = {
@@ -137,7 +137,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_navy_chief_raiding
+        token_base = hre_navy_chief_raiding
         advisor = {
             slot = navy_chief
             cost = 100
@@ -145,7 +145,7 @@ every_possible_country = {
                 navy_chief_commerce_raiding_2
             }
             visible = {
-                has_completed_focus = HLE_prepare_army
+                has_completed_focus = HRE_prepare_army
             }
         }
         portraits = {
@@ -153,7 +153,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_navy_chief_reform
+        token_base = hre_navy_chief_reform
         advisor = {
             slot = navy_chief
             cost = 100
@@ -161,7 +161,7 @@ every_possible_country = {
                 navy_chief_reform_2
             }
             visible = {
-                has_completed_focus = HLE_prepare_army
+                has_completed_focus = HRE_prepare_army
             }
         }
         portraits = {
@@ -171,7 +171,7 @@ every_possible_country = {
     
     # 空軍長官
     generate_character = {
-        token_base = hle_air_chief_reform
+        token_base = hre_air_chief_reform
         advisor = {
             slot = air_chief
             cost = 100
@@ -179,7 +179,7 @@ every_possible_country = {
                 air_chief_reform_2
             }
             visible = {
-                has_completed_focus = HLE_prepare_army
+                has_completed_focus = HRE_prepare_army
             }
         }
         portraits = {
@@ -187,7 +187,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_air_chief_night_op
+        token_base = hre_air_chief_night_op
         advisor = {
             slot = air_chief
             cost = 100
@@ -195,7 +195,7 @@ every_possible_country = {
                 air_chief_night_operations_2
             }
             visible = {
-                has_completed_focus = HLE_prepare_army
+                has_completed_focus = HRE_prepare_army
             }
         }
         portraits = {
@@ -203,7 +203,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_air_chief_ground_support
+        token_base = hre_air_chief_ground_support
         advisor = {
             slot = air_chief
             cost = 100
@@ -211,7 +211,7 @@ every_possible_country = {
                 air_chief_ground_support_2
             }
             visible = {
-                has_completed_focus = HLE_prepare_army
+                has_completed_focus = HRE_prepare_army
             }
         }
         portraits = {
@@ -219,7 +219,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_air_chief_all_weather
+        token_base = hre_air_chief_all_weather
         advisor = {
             slot = air_chief
             cost = 100
@@ -227,7 +227,7 @@ every_possible_country = {
                 air_chief_all_weather_2
             }
             visible = {
-                has_completed_focus = HLE_prepare_army
+                has_completed_focus = HRE_prepare_army
             }
         }
         portraits = {
@@ -237,7 +237,7 @@ every_possible_country = {
     
     # 最高司令部
     generate_character = {
-        token_base = hle_army_armored
+        token_base = hre_army_armored
         advisor = {
             slot = high_command
             ledger = army
@@ -246,7 +246,7 @@ every_possible_country = {
                 army_armored_2
             }
             visible = {
-                has_completed_focus = HLE_focus_to_army
+                has_completed_focus = HRE_focus_to_army
             }
         }
         portraits = {
@@ -254,7 +254,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_army_artillery
+        token_base = hre_army_artillery
         advisor = {
             slot = high_command
             ledger = army
@@ -263,7 +263,7 @@ every_possible_country = {
                 army_artillery_2
             }
             visible = {
-                has_completed_focus = HLE_focus_to_army
+                has_completed_focus = HRE_focus_to_army
             }
         }
         portraits = {
@@ -271,7 +271,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_army_infantry
+        token_base = hre_army_infantry
         advisor = {
             slot = high_command
             ledger = army
@@ -280,7 +280,7 @@ every_possible_country = {
                 army_infantry_2
             }
             visible = {
-                has_completed_focus = HLE_focus_to_army
+                has_completed_focus = HRE_focus_to_army
             }
         }
         portraits = {
@@ -288,7 +288,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_army_commando
+        token_base = hre_army_commando
         advisor = {
             slot = high_command
             ledger = army
@@ -297,7 +297,7 @@ every_possible_country = {
                 army_commando_2
             }
             visible = {
-                has_completed_focus = HLE_focus_to_army
+                has_completed_focus = HRE_focus_to_army
             }
         }
         portraits = {
@@ -305,7 +305,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_army_regrouping
+        token_base = hre_army_regrouping
         advisor = {
             slot = high_command
             ledger = army
@@ -314,7 +314,7 @@ every_possible_country = {
                 army_regrouping_2
             }
             visible = {
-                has_completed_focus = HLE_focus_to_army
+                has_completed_focus = HRE_focus_to_army
             }
         }
         portraits = {
@@ -322,7 +322,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_army_logistics
+        token_base = hre_army_logistics
         advisor = {
             slot = high_command
             ledger = army
@@ -331,7 +331,7 @@ every_possible_country = {
                 army_logistics_2
             }
             visible = {
-                has_completed_focus = HLE_focus_to_army
+                has_completed_focus = HRE_focus_to_army
             }
         }
         portraits = {
@@ -340,7 +340,7 @@ every_possible_country = {
     }
     
     generate_character = {
-        token_base = hle_air_training
+        token_base = hre_air_training
         advisor = {
             slot = high_command
             ledger = air
@@ -349,7 +349,7 @@ every_possible_country = {
                 air_air_combat_training_2
             }
             visible = {
-                has_completed_focus = HLE_focus_to_air
+                has_completed_focus = HRE_focus_to_air
             }
         }
         portraits = {
@@ -357,7 +357,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_air_naval_strike
+        token_base = hre_air_naval_strike
         advisor = {
             slot = high_command
             ledger = air
@@ -366,7 +366,7 @@ every_possible_country = {
                 air_naval_strike_2
             }
             visible = {
-                has_completed_focus = HLE_focus_to_air
+                has_completed_focus = HRE_focus_to_air
             }
         }
         portraits = {
@@ -374,7 +374,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_air_superiority
+        token_base = hre_air_superiority
         advisor = {
             slot = high_command
             ledger = air
@@ -383,7 +383,7 @@ every_possible_country = {
                 air_air_superiority_2
             }
             visible = {
-                has_completed_focus = HLE_focus_to_air
+                has_completed_focus = HRE_focus_to_air
             }
         }
         portraits = {
@@ -391,7 +391,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_air_cas
+        token_base = hre_air_cas
         advisor = {
             slot = high_command
             ledger = air
@@ -400,7 +400,7 @@ every_possible_country = {
                 air_close_air_support_2
             }
             visible = {
-                has_completed_focus = HLE_focus_to_air
+                has_completed_focus = HRE_focus_to_air
             }
         }
         portraits = {
@@ -408,7 +408,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_air_pilot_training
+        token_base = hre_air_pilot_training
         advisor = {
             slot = high_command
             ledger = air
@@ -417,7 +417,7 @@ every_possible_country = {
                 air_pilot_training_2
             }
             visible = {
-                has_completed_focus = HLE_focus_to_air
+                has_completed_focus = HRE_focus_to_air
             }
         }
         portraits = {
@@ -425,7 +425,7 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hle_air_strategic_bomb
+        token_base = hre_air_strategic_bomb
         advisor = {
             slot = high_command
             ledger = air
@@ -434,7 +434,7 @@ every_possible_country = {
                 air_strategic_bombing_2
             }
             visible = {
-                has_completed_focus = HLE_focus_to_air
+                has_completed_focus = HRE_focus_to_air
             }
         }
         portraits = {

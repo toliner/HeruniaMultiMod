@@ -10,7 +10,6 @@ country_event = {
         name = herunia.1.a
         
         add_research_slot = 1
-        inherit_technology = GER
         set_rule = {
             can_join_factions = yes
         }
@@ -18,6 +17,14 @@ country_event = {
             add_to_faction = PREV
         }
         add_ideas = HERUNIA_player_idea
+        if = {
+            limit = {
+                NOT = {
+                    tag = GER
+                }
+            }
+            inherit_technology = GER
+        }
         country_event = herunia.2
     }
 }
@@ -52,6 +59,10 @@ country_event = {
     is_triggered_only = yes
     
     option = {
+        name = herunia.3.b
+        country_event = herunia.8
+    }
+    option = {
         name = herunia.3.a
         country_event = herunia.2
     }
@@ -78,5 +89,151 @@ country_event = {
     option = {
         name = herunia.5.a
         country_event = herunia.2
+    }
+}
+
+# AIによる中南米併合イベント
+country_event = {
+    id = herunia.6
+    title = herunia.6.t
+    desc = herunia.6.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.6.a
+        annex_country = {
+            target = GUA
+        }
+        annex_country = {
+            target = ELS
+        }
+        annex_country = {
+            target = HON
+        }
+        annex_country = {
+            target = NIC
+        }
+        annex_country = {
+            target = COS
+        }
+        annex_country = {
+            target = PAN
+        }
+        annex_country = {
+            target = CUB
+        }
+        annex_country = {
+            target = HAI
+        }
+        annex_country = {
+            target = DOM
+        }
+        annex_country = {
+            target = COL
+        }
+        annex_country = {
+            target = VEN
+        }
+        annex_country = {
+            target = ECU
+        }
+        annex_country = {
+            target = PRU
+        }
+        annex_country = {
+            target = BOL
+        }
+        annex_country = {
+            target = CHL
+        }
+        annex_country = {
+            target = ARG
+        }
+        annex_country = {
+            target = URG
+        }
+        annex_country = {
+            target = BRA
+        }
+        country_event = {
+            id = herunia.7
+            days = 7
+        }
+    }
+}
+
+country_event = {
+    id = herunia.7
+    title = herunia.7.t
+    desc = herunia.7.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.7.a
+        every_controlled_state = {
+            add_core_of = controller
+        }
+        set_political_party = {
+            ideology = democratic
+            popularity = 100
+        }
+        set_politics = {
+            ruling_party = democratic
+            elections_allowed = no
+            last_election = "1935.12.17"
+            election_frequency = 48
+        }
+        add_ideas = {
+            free_trade
+            undisturbed_isolation
+            ENG_the_war_to_end_all_wars
+            HOL_de_crisisjaren_5
+            HOL_shell_shocked_spectator_5
+            HOL_aloof_neutrality
+            FRA_inefficient_economy_2
+            FRA_full_employment
+            FRA_disjointed_government
+            FRA_victors_of_wwi
+            SPR_military_disloyalty
+            SPR_national_strikes_3
+            CHI_hyper_inflation_3
+            CHI_incompetent_officers
+            CHI_army_corruption_1
+            great_depression
+            GRE_schachtplan
+            GRE_foreign_monopolies
+            GRE_agrarian_society
+            BUL_army_restrictions
+            JAP_hirohito
+        }
+        set_stability = 1
+        hidden_effect = {
+            news_event = herunia.100
+        }
+    }
+}
+
+country_event = {
+    id = herunia.8
+    title = herunia.8.t
+    desc = herunia.8.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.8.a
+        country_event = herunia.2
+    }
+}
+
+news_event = {
+    id = herunia.100
+    title = herunia.100.t
+    desc = herunia.100.d
+    picture = GFX_news_event_nuke
+    major = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.100.a
     }
 }

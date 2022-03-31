@@ -1,4 +1,4 @@
-set_oob = HLE_oob
+set_oob = HRE_oob
 
 set_research_slots = 3
 set_convoys = 50

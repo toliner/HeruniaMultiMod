@@ -1,5 +1,5 @@
 capital = 65
-set_oob = HLE_oob
+set_oob = HRE_oob
 
 recruit_character = SAX_friedrich_iii
 

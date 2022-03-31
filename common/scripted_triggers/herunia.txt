@@ -1,4 +1,4 @@
-is_hle_country = {
+is_hre_country = {
     OR = {
         tag = GER
         tag = BAY

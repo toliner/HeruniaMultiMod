@@ -15,4 +15,6 @@ focus_tree = {
     shared_focus = HRE_prepare_army
     
     shared_focus = HRE_plan_four_years
+    
+    shared_focus = HRE_build_monarchy_government
 }

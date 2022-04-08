@@ -1223,6 +1223,97 @@ ideas = {
                 equipment_conversion_speed = 0.2
             }
         }
+        
+        HRE_volunteer_available = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+            
+            picture = generic_volunteer_expedition_bonus
+            
+            modifier = {
+                send_volunteers_tension = -1
+            }
+        }
+        
+        HRE_absolutism = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+            
+            picture = idea_generic_monarchist_uprising
+            
+            modifier = {
+                political_advisor_cost_factor = -0.2
+                army_chief_cost_factor = -0.2
+                navy_chief_cost_factor = -0.2
+                air_chief_cost_factor = -0.2
+                high_command_cost_factor = -0.2
+            }
+        }
+        HRE_constitutional_monarchy = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_generic_monarchist_uprising
+        
+            modifier = {
+                political_power_gain = 0.2
+            }
+        }
+        HRE_dont_export_with_free_trade_1 = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = goal_generic_trade
+            
+            modifier = {
+                min_export = -0.15
+            }
+        }
+        HRE_dont_export_with_free_trade_2 = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = goal_generic_trade
+        
+            modifier = {
+                min_export = -0.30
+            }
+        }
     }
     
     industrial_concern = {

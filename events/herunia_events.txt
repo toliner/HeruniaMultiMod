@@ -43,10 +43,11 @@ country_event = {
         name = herunia.2.b
         country_event = herunia.4
     }
-    option = {
-        name = herunia.2.c
-        country_event = herunia.5
-    }
+    # ToDo: ネタバレ防止
+    #option = {
+    #    name = herunia.2.c
+    #    country_event = herunia.5
+    #}
     option = {
         name = herunia.2.e
     }
@@ -208,7 +209,8 @@ country_event = {
         }
         set_stability = 1
         hidden_effect = {
-            news_event = herunia.100
+            # ToDo: ネタバレ防止
+            # news_event = herunia.100
         }
     }
 }

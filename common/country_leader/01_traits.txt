@@ -5,4 +5,8 @@ leader_traits = {
         research_speed_factor = 0.05
         stability_factor = 0.05
     }
+    
+    external_technology_company = {
+        random = no
+    }
 }

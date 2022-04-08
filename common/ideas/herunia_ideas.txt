@@ -1066,5 +1066,182 @@ ideas = {
                 }
             }
         }
+        
+        HRE_dummy_captain_of_industry = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+            
+            traits = {
+                captain_of_industry
+            }
+        }
+        HRE_dummy_war_industrialist = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            traits = {
+                war_industrialist
+            }
+        }
+        HRE_dummy_external_technology_company = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            traits = {
+                external_technology_company
+            }
+        }
+        
+        HRE_central_industry_idea_1 = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+            
+            picture = generic_production_bonus
+            
+            modifier = {
+                production_factory_max_efficiency_factor = 0.05
+            }
+        }
+        HRE_central_industry_idea_2 = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = generic_production_bonus
+        
+            modifier = {
+                production_factory_max_efficiency_factor = 0.05
+                industrial_capacity_factory = 0.05
+            }
+        }
+        HRE_central_industry_idea_3 = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = generic_production_bonus
+        
+            modifier = {
+                production_factory_max_efficiency_factor = 0.10
+                industrial_capacity_factory = 0.10
+            }
+        }
+        
+        HRE_separate_industry_idea_1 = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = generic_production_bonus
+    
+            modifier = {
+                production_factory_start_efficiency_factor = 0.05
+                production_lack_of_resource_penalty_factor = -0.05
+            }
+        }
+        HRE_separate_industry_idea_2 = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = generic_production_bonus
+        
+            modifier = {
+                production_factory_start_efficiency_factor = 0.05
+                production_lack_of_resource_penalty_factor = -0.05
+                equipment_conversion_speed = 0.1
+            }
+        }
+        HRE_separate_industry_idea_3 = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = generic_production_bonus
+        
+            modifier = {
+                production_factory_start_efficiency_factor = 0.10
+                production_lack_of_resource_penalty_factor = -0.10
+                equipment_conversion_speed = 0.2
+            }
+        }
+    }
+    
+    industrial_concern = {
+        HRE_railway_company = {
+            picture = generic_industrial_concern_2
+            
+            allowed = {
+                is_hre_country = yes
+            }
+            
+            available = {
+                has_completed_focus = HRE_invest_to_infra_1
+            }
+    
+            cost = 100
+    
+            traits = {
+                railway_company
+            }
+        }
     }
 }

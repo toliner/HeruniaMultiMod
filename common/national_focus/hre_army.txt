@@ -9,9 +9,8 @@ shared_focus = {
     
     }
     completion_reward = {
-        army_experience = 30
-        navy_experience = 30
-        air_experience = 30
+        add_command_power = 50
+        add_war_support = 0.1
         custom_effect_tooltip = HRE_available_military_officer
         create_corps_commander = {
             name = "マリアリ信者"
@@ -29,7 +28,7 @@ shared_focus = {
     icon = GFX_goal_generic_small_arms
     x = -2
     y = 1
-    cost = 10
+    cost = 2
     prerequisite = {
         focus = HRE_prepare_army
     }
@@ -41,12 +40,7 @@ shared_focus = {
     
     }
     completion_reward = {
-        army_experience = 50
-        add_doctrine_cost_reduction = {
-            cost_reduction = 0.50
-            uses = 1
-            category = land_doctrine
-        }
+        army_experience = 20
         add_ideas = HRE_focus_to_army_idea
         mark_focus_tree_layout_dirty = yes
     }
@@ -57,7 +51,7 @@ shared_focus = {
     icon = GFX_goal_generic_build_airforce
     x = 2
     y = 1
-    cost = 10
+    cost = 2
     prerequisite = {
         focus = HRE_prepare_army
     }
@@ -69,12 +63,7 @@ shared_focus = {
     
     }
     completion_reward = {
-        air_experience = 50
-        add_doctrine_cost_reduction = {
-            cost_reduction = 0.50
-            uses = 1
-            category = air_doctrine
-        }
+        air_experience = 20
         add_ideas = HRE_focus_to_air_idea
         mark_focus_tree_layout_dirty = yes
     }
@@ -85,7 +74,7 @@ shared_focus = {
     icon = GFX_goal_demand_sudetenland
     x = 0
     y = 1
-    cost = 10
+    cost = 8
     prerequisite = {
         focus = HRE_focus_to_army
         focus = HRE_focus_to_air
@@ -110,7 +99,7 @@ shared_focus = {
     icon = GFX_focus_generic_manpower
     x = 2
     y = 1
-    cost = 10
+    cost = 8
     prerequisite = {
         focus = HRE_focus_to_army
         focus = HRE_focus_to_air
@@ -135,7 +124,7 @@ shared_focus = {
     icon = GFX_goal_generic_production
     x = 4
     y = 1
-    cost = 10
+    cost = 8
     prerequisite = {
         focus = HRE_focus_to_army
         focus = HRE_focus_to_air
@@ -171,9 +160,9 @@ shared_focus = {
     
     }
     completion_reward = {
-        add_political_power = 50
-        add_command_power = 20
-        add_war_support = 0.1
+        army_experience = 30
+        navy_experience = 30
+        air_experience = 30
     }
 }
 

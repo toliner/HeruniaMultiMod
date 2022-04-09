@@ -362,6 +362,21 @@ shared_focus = {
                     instant_build = yes
                 }
             }
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = industrial_complex
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 1
+                    instant_build = yes
+                }
+            }
         }
         else_if = {
             limit = {
@@ -584,6 +599,21 @@ shared_focus = {
         if = {
             limit = {
                 has_completed_focus = HRE_invest_our_country
+            }
+            random_owned_controlled_state = {
+                limit = {
+                    free_building_slots = {
+                        building = arms_factory
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
             }
             random_owned_controlled_state = {
                 limit = {

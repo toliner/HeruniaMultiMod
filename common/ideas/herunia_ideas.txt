@@ -17,6 +17,10 @@ ideas = {
                 required_garrison_factor = -0.2
                 occupation_cost  = -0.10
                 compliance_growth = 0.05
+                drift_defence_factor = 1
+            }
+            rule = {
+                can_not_declare_war = yes
             }
         }
         
@@ -1034,11 +1038,11 @@ ideas = {
             equipment_bonus = {
                 jet_fighter_equipment = {
                     instant = yes
-                    build_cost_ic = 0.05
+                    build_cost_ic = -0.05
                 }
                 jet_strat_bomber_equipment = {
                     instant = yes
-                    build_cost_ic = 0.05
+                    build_cost_ic = -0.05
                 }
             }
         }
@@ -1058,11 +1062,11 @@ ideas = {
             equipment_bonus = {
                 jet_fighter_equipment = {
                     instant = yes
-                    build_cost_ic = 0.10
+                    build_cost_ic = -0.10
                 }
                 jet_strat_bomber_equipment = {
                     instant = yes
-                    build_cost_ic = 0.10
+                    build_cost_ic = -0.10
                 }
             }
         }
@@ -1312,6 +1316,48 @@ ideas = {
         
             modifier = {
                 min_export = -0.30
+            }
+        }
+        
+        HRE_resource_mine = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = idea_generic_exploit_mines
+            
+            modifier = {
+                local_resources_factor = 0.2
+            }
+        }
+        HRE_resource_import = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+            # ToDo: 逆転
+            targeted_modifier = {
+                tag = PAR
+                trade_cost_for_target_factor = -0.125
+            }
+            targeted_modifier = {
+                tag = USA
+                trade_cost_for_target_factor = -0.125
+            }
+            targeted_modifier = {
+                tag = JAP
+                trade_cost_for_target_factor = -0.125
             }
         }
     }

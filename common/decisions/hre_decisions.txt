@@ -1,6 +1,6 @@
 invest_decisions = {
     invest_tank_company_a = {
-        cost = 120
+        cost = 150
         fire_only_once = yes
         days_remove = 60
         modifier = {
@@ -20,7 +20,7 @@ invest_decisions = {
         }
     }
     invest_tank_company_b = {
-        cost = 120
+        cost = 150
         fire_only_once = yes
         days_remove = 60
         modifier = {
@@ -40,7 +40,7 @@ invest_decisions = {
         }
     }
     invest_tank_company_c = {
-        cost = 120
+        cost = 150
         fire_only_once = yes
         days_remove = 60
         modifier = {
@@ -60,7 +60,7 @@ invest_decisions = {
         }
     }
     invest_tank_company_d = {
-        cost = 120
+        cost = 150
         fire_only_once = yes
         days_remove = 60
         modifier = {
@@ -81,7 +81,7 @@ invest_decisions = {
     }
     
     invest_air_company_a = {
-        cost = 180
+        cost = 200
         fire_only_once = yes
         days_remove = 60
         modifier = {
@@ -101,7 +101,7 @@ invest_decisions = {
         }
     }
     invest_air_company_b = {
-        cost = 120
+        cost = 150
         fire_only_once = yes
         days_remove = 60
         modifier = {
@@ -121,7 +121,7 @@ invest_decisions = {
         }
     }
     invest_air_company_c = {
-        cost = 120
+        cost = 150
         fire_only_once = yes
         days_remove = 60
         modifier = {
@@ -142,7 +142,7 @@ invest_decisions = {
     }
     
     invest_industry_company_a = {
-        cost = 120
+        cost = 150
         fire_only_once = yes
         days_remove = 60
         modifier = {
@@ -162,7 +162,7 @@ invest_decisions = {
         }
     }
     invest_industry_company_b = {
-        cost = 120
+        cost = 150
         fire_only_once = yes
         days_remove = 60
         modifier = {
@@ -182,7 +182,7 @@ invest_decisions = {
         }
     }
     invest_industry_company_c = {
-        cost = 120
+        cost = 150
         fire_only_once = yes
         days_remove = 60
         modifier = {

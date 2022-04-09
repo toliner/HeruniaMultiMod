@@ -15,5 +15,6 @@ is_hre_country = {
         tag = CRO
         tag = AUS
         tag = THU
+        tag = HUN
     }
 }

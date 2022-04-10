@@ -448,9 +448,6 @@ every_possible_country = {
 every_possible_country = {
     limit = {
         is_hre_country = yes
-        NOT = {
-            tag = GER
-        }
     }
     # 寡黙な勤勉家
     generate_character = {

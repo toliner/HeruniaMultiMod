@@ -8,7 +8,7 @@ shared_focus = {
     
     }
     completion_reward = {
-        add_political_power = 150
+        add_political_power = 100
         set_rule = {
             can_send_volunteers = yes
         }
@@ -21,7 +21,7 @@ shared_focus = {
     icon = GFX_focus_generic_monarchy_2
     x = -2
     y = 1
-    cost = 10
+    cost = 5
     prerequisite = {
         focus = HRE_build_monarchy_government
     }
@@ -34,7 +34,6 @@ shared_focus = {
     }
     completion_reward = {
         add_ideas = HRE_absolutism
-        add_war_support = 0.1
     }
 }
 
@@ -43,7 +42,7 @@ shared_focus = {
     icon = GFX_focus_generic_monarchy_1
     x = 2
     y = 1
-    cost = 10
+    cost = 5
     prerequisite = {
         focus = HRE_build_monarchy_government
     }
@@ -56,7 +55,6 @@ shared_focus = {
     }
     completion_reward = {
         add_ideas = HRE_constitutional_monarchy
-        add_stability = 0.1
     }
 }
 
@@ -79,25 +77,14 @@ shared_focus = {
             limit = {
                 has_completed_focus = HRE_absolutism
             }
-            if = {
-                OR = {
-                    has_idea = civilian_economy
-                    has_idea = low_economic_mobilisation
-                }
-                add_ideas = partial_economic_mobilisation
-                add_war_support = 0.05
-            }
-            else = {
-                add_war_support = 0.10
-            }
+            add_ideas = war_economy
+            add_war_support = 0.1
         }
         else_if = {
             limit = {
                 has_completed_focus = HRE_constitutional_monarchy
             }
             add_ideas = free_trade
-            add_stability = 0.05
-            add_war_support = 0.05
         }
         else = {
             custom_effect_tooltip = HRE_tooltip_if_absolutism
@@ -126,9 +113,7 @@ shared_focus = {
             limit = {
                 has_completed_focus = HRE_absolutism
             }
-            add_ideas = war_economy
-            add_ideas = limited_exports
-            add_war_support = 0.1
+            add_ideas = tot_economic_mobilisation
         }
         else_if = {
             limit = {
@@ -176,9 +161,7 @@ shared_focus = {
             limit = {
                 has_completed_focus = HRE_absolutism
             }
-            add_ideas = tot_economic_mobilisation
-            add_ideas = closed_economy
-            add_war_support = 0.1
+            add_ideas = spiritual_mobilization_idea
         }
         else_if = {
             limit = {
@@ -227,7 +210,7 @@ shared_focus = {
     }
     completion_reward = {
         add_ideas = paramilitarism_focus
-        add_political_power = 20
+        add_political_power = 50
     }
 }
 
@@ -283,6 +266,7 @@ shared_focus = {
     }
     completion_reward = {
         add_ideas = military_youth_focus
+        add_political_power = 50
     }
 }
 

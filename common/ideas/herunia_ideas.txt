@@ -347,7 +347,7 @@ ideas = {
             equipment_bonus = {
                 infantry_equipment = {
                     instant = yes
-                    build_cost_ic  = -0.15
+                    build_cost_ic  = -0.10
                 }
             }
         }
@@ -398,11 +398,19 @@ ideas = {
             picture = idea_generic_air_bonus
         
             equipment_bonus = {
-                category_fighter = {
+                fighter_equipment = {
                     instant = yes
                     air_agility  = 0.10
                 }
-                category_heavy_fighter = {
+                cv_fighter_equipment = {
+                    instant = yes
+                    air_agility  = 0.10
+                }
+                heavy_fighter_equipment = {
+                    instant = yes
+                    air_agility = 0.10
+                }
+                jet_fighter_equipment = {
                     instant = yes
                     air_agility = 0.10
                 }
@@ -426,11 +434,19 @@ ideas = {
             picture = idea_generic_air_bonus
         
             equipment_bonus = {
-                category_fighter = {
+                fighter_equipment = {
                     instant = yes
                     build_cost_ic  = -0.05
                 }
-                category_heavy_fighter = {
+                cv_fighter_equipment = {
+                    instant = yes
+                    build_cost_ic  = -0.05
+                }
+                heavy_fighter_equipment = {
+                    instant = yes
+                    build_cost_ic  = -0.05
+                }
+                jet_fighter_equipment = {
                     instant = yes
                     build_cost_ic  = -0.05
                 }
@@ -450,14 +466,24 @@ ideas = {
             picture = idea_generic_air_bonus
         
             equipment_bonus = {
-                category_fighter = {
+                fighter_equipment = {
                     instant = yes
-                    build_cost_ic  = -0.10
+                    build_cost_ic = -0.10
                     fuel_consumption = -0.10
                 }
-                category_heavy_fighter = {
+                cv_fighter_equipment = {
                     instant = yes
-                    build_cost_ic  = -0.10
+                    build_cost_ic = -0.10
+                    fuel_consumption = -0.10
+                }
+                heavy_fighter_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.10
+                    fuel_consumption = -0.10
+                }
+                jet_fighter_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.10
                     fuel_consumption = -0.10
                 }
             }
@@ -477,16 +503,16 @@ ideas = {
             picture = idea_generic_artillery_regiments
     
             equipment_bonus = {
-                artillery = {
+                artillery_equipment = {
                     instant = yes
                     soft_attack = 0.05
                 }
-                anti_tank = {
+                anti_tank_equipment = {
                     instant = yes
                     hard_attack = 0.05
                     ap_attack = 0.05
                 }
-                anti_air = {
+                anti_air_equipment = {
                     instant = yes
                     air_attack = 0.05
                 }
@@ -506,16 +532,16 @@ ideas = {
             picture = idea_generic_artillery_regiments
         
             equipment_bonus = {
-                artillery = {
+                artillery_equipment = {
                     instant = yes
                     soft_attack = 0.10
                 }
-                anti_tank = {
+                anti_tank_equipment = {
                     instant = yes
                     hard_attack = 0.10
                     ap_attack = 0.10
                 }
-                anti_air = {
+                anti_air_equipment = {
                     instant = yes
                     air_attack = 0.10
                 }
@@ -536,15 +562,15 @@ ideas = {
             picture = idea_generic_artillery_regiments
         
             equipment_bonus = {
-                artillery = {
+                artillery_equipment = {
                     instant = yes
                     build_cost_ic = -0.05
                 }
-                anti_tank = {
+                anti_tank_equipment = {
                     instant = yes
                     build_cost_ic = -0.05
                 }
-                anti_air = {
+                anti_air_equipment = {
                     instant = yes
                     build_cost_ic = -0.05
                 }
@@ -564,15 +590,15 @@ ideas = {
             picture = idea_generic_artillery_regiments
         
             equipment_bonus = {
-                artillery = {
+                artillery_equipment = {
                     instant = yes
                     build_cost_ic = -0.10
                 }
-                anti_tank = {
+                anti_tank_equipment = {
                     instant = yes
                     build_cost_ic = -0.10
                 }
-                anti_air = {
+                anti_air_equipment = {
                     instant = yes
                     build_cost_ic = -0.10
                 }
@@ -593,11 +619,20 @@ ideas = {
             picture = generic_air_bonus
         
             equipment_bonus = {
-                cas = {
+                CAS_equipment = {
                     instant = yes
                     air_ground_attack = 0.05
                 }
-                naval_bomber = {
+                cv_CAS_equipment = {
+                    instant = yes
+                    air_ground_attack = 0.05
+                }
+                nav_bomber_equipment = {
+                    instant = yes
+                    naval_strike_attack = 0.05
+                    naval_strike_targetting = 0.05
+                }
+                cv_nav_bomber_equipment = {
                     instant = yes
                     naval_strike_attack = 0.05
                     naval_strike_targetting = 0.05
@@ -618,11 +653,20 @@ ideas = {
             picture = generic_air_bonus
         
             equipment_bonus = {
-                cas = {
+                CAS_equipment = {
                     instant = yes
                     air_ground_attack = 0.10
                 }
-                naval_bomber = {
+                cv_CAS_equipment = {
+                    instant = yes
+                    air_ground_attack = 0.10
+                }
+                nav_bomber_equipment = {
+                    instant = yes
+                    naval_strike_attack = 0.10
+                    naval_strike_targetting = 0.10
+                }
+                cv_nav_bomber_equipment = {
                     instant = yes
                     naval_strike_attack = 0.10
                     naval_strike_targetting = 0.10
@@ -644,11 +688,19 @@ ideas = {
             picture = generic_air_bonus
         
             equipment_bonus = {
-                cas = {
+                CAS_equipment = {
                     instant = yes
                     build_cost_ic = -0.05
                 }
-                naval_bomber = {
+                cv_CAS_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.05
+                }
+                nav_bomber_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.05
+                }
+                cv_nav_bomber_equipment = {
                     instant = yes
                     build_cost_ic = -0.05
                 }
@@ -668,11 +720,19 @@ ideas = {
             picture = generic_air_bonus
         
             equipment_bonus = {
-                cas = {
+                CAS_equipment = {
                     instant = yes
                     build_cost_ic = -0.10
                 }
-                naval_bomber = {
+                cv_CAS_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.10
+                }
+                nav_bomber_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.10
+                }
+                cv_nav_bomber_equipment = {
                     instant = yes
                     build_cost_ic = -0.10
                 }
@@ -771,11 +831,15 @@ ideas = {
             picture = strategic_bombing_focus
     
             equipment_bonus = {
-                tactical_bomber = {
+                tac_bomber_equipment = {
                     instant = yes
                     air_bombing = 0.05
                 }
-                strategic_bomber = {
+                strat_bomber_equipment = {
+                    instant = yes
+                    air_bombing = 0.05
+                }
+                jet_tac_bomber_equipment = {
                     instant = yes
                     air_bombing = 0.05
                 }
@@ -799,11 +863,15 @@ ideas = {
             picture = strategic_bombing_focus
         
             equipment_bonus = {
-                tactical_bomber = {
+                tac_bomber_equipment = {
                     instant = yes
                     air_bombing = 0.10
                 }
-                strategic_bomber = {
+                strat_bomber_equipment = {
+                    instant = yes
+                    air_bombing = 0.10
+                }
+                jet_tac_bomber_equipment = {
                     instant = yes
                     air_bombing = 0.10
                 }
@@ -828,11 +896,19 @@ ideas = {
             picture = strategic_bombing_focus
         
             equipment_bonus = {
-                tactical_bomber = {
+                tac_bomber_equipment = {
                     instant = yes
                     build_cost_ic = -0.05
                 }
                 strat_bomber_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.05
+                }
+                jet_tac_bomber_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.05
+                }
+                jet_strat_bomber_equipment = {
                     instant = yes
                     build_cost_ic = -0.05
                 }
@@ -852,11 +928,19 @@ ideas = {
             picture = strategic_bombing_focus
         
             equipment_bonus = {
-                tactical_bomber = {
+                tac_bomber_equipment = {
                     instant = yes
                     build_cost_ic = -0.10
                 }
-                strategic_bomber = {
+                strat_bomber_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.10
+                }
+                jet_tac_bomber_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.10
+                }
+                jet_strat_bomber_equipment = {
                     instant = yes
                     build_cost_ic = -0.10
                 }
@@ -1243,6 +1327,7 @@ ideas = {
             
             modifier = {
                 send_volunteers_tension = -1
+                send_volunteer_divisions_required = -0.5
             }
         }
         

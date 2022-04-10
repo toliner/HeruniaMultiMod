@@ -505,11 +505,9 @@ shared_focus = {
                 limit = {
                     has_completed_focus = HRE_superior_spirit
                 }
-                hidden_effect = {
-                    swap_ideas = {
-                        remove_idea = HRE_focus_to_infantry_equipment_or_fighter_1_land_spirit
-                        add_idea = HRE_focus_to_infantry_equipment_or_fighter_2_land_spirit
-                    }
+                swap_ideas = {
+                    remove_idea = HRE_focus_to_infantry_equipment_or_fighter_1_land_spirit
+                    add_idea = HRE_focus_to_infantry_equipment_or_fighter_2_land_spirit
                 }
             }
             else_if = {
@@ -563,7 +561,7 @@ shared_focus = {
                 }
                 swap_ideas = {
                     add_idea = HRE_focus_to_infantry_equipment_or_fighter_2_air_mass
-                    remove_idea = HRE_focus_to_infantry_equipment_or_fighter_2_air_mass
+                    remove_idea = HRE_focus_to_infantry_equipment_or_fighter_1_air_mass
                 }
             }
             else_if = {
@@ -713,13 +711,19 @@ shared_focus = {
                 limit = {
                     has_completed_focus = HRE_superior_spirit
                 }
-                add_ideas = HRE_focus_to_artillery_or_cas_2_land_spirit
+                swap_ideas = {
+                    add_idea = HRE_focus_to_artillery_or_cas_2_land_spirit
+                    remove_idea = HRE_focus_to_artillery_or_cas_1_land_spirit
+                }
             }
             else_if = {
                 limit = {
                     has_completed_focus = HRE_superior_mass
                 }
-                add_ideas = HRE_focus_to_artillery_or_cas_2_land_mass
+                swap_ideas = {
+                    add_idea = HRE_focus_to_artillery_or_cas_2_land_mass
+                    remove_idea = HRE_focus_to_artillery_or_cas_1_land_mass
+                }
             }
             else_if = {
                 limit = {
@@ -752,13 +756,19 @@ shared_focus = {
                 limit = {
                     has_completed_focus = HRE_superior_spirit
                 }
-                add_ideas = HRE_focus_to_artillery_or_cas_2_air_spirit
+                swap_ideas = {
+                    add_idea = HRE_focus_to_artillery_or_cas_2_air_spirit
+                    remove_idea = HRE_focus_to_artillery_or_cas_1_air_spirit
+                }
             }
             else_if = {
                 limit = {
                     has_completed_focus = HRE_superior_mass
                 }
-                add_ideas = HRE_focus_to_artillery_or_cas_2_air_mass
+                swap_ideas = {
+                    add_idea = HRE_focus_to_artillery_or_cas_2_air_mass
+                    remove_idea = HRE_focus_to_artillery_or_cas_1_air_mass
+                }
             }
             else_if = {
                 limit = {
@@ -908,13 +918,19 @@ shared_focus = {
                 limit = {
                     has_completed_focus = HRE_superior_spirit
                 }
-                add_ideas = HRE_focus_to_support_or_bomber_2_land_spirit
+                swap_ideas = {
+                    add_idea = HRE_focus_to_support_or_bomber_2_land_spirit
+                    remove_idea = HRE_focus_to_support_or_bomber_1_land_spirit
+                }
             }
             else_if = {
                 limit = {
                     has_completed_focus = HRE_superior_mass
                 }
-                add_ideas = HRE_focus_to_support_or_bomber_2_land_mass
+                swap_ideas = {
+                    add_idea = HRE_focus_to_support_or_bomber_2_land_mass
+                    remove_idea = HRE_focus_to_support_or_bomber_1_land_mass
+                }
             }
             else_if = {
                 limit = {
@@ -946,13 +962,19 @@ shared_focus = {
                 limit = {
                     has_completed_focus = HRE_superior_spirit
                 }
-                add_ideas = HRE_focus_to_support_or_bomber_2_air_spirit
+                swap_ideas = {
+                    add_idea = HRE_focus_to_support_or_bomber_2_air_spirit
+                    remove_idea = HRE_focus_to_support_or_bomber_1_air_spirit
+                }
             }
             else_if = {
                 limit = {
                     has_completed_focus = HRE_superior_mass
                 }
-                add_ideas = HRE_focus_to_support_or_bomber_2_air_mass
+                swap_ideas = {
+                    add_idea = HRE_focus_to_support_or_bomber_2_air_mass
+                    remove_idea = HRE_focus_to_support_or_bomber_1_air_mass
+                }
             }
             else_if = {
                 limit = {
@@ -1100,13 +1122,19 @@ shared_focus = {
                 limit = {
                     has_completed_focus = HRE_superior_spirit
                 }
-                add_ideas = HRE_focus_to_tank_or_jet_2_land_spirit
+                swap_ideas = {
+                    add_idea = HRE_focus_to_tank_or_jet_2_land_spirit
+                    remove_idea = HRE_focus_to_tank_or_jet_1_land_spirit
+                }
             }
             else_if = {
                 limit = {
                     has_completed_focus = HRE_superior_mass
                 }
-                add_ideas = HRE_focus_to_tank_or_jet_2_land_mass
+                swap_ideas = {
+                    add_idea = HRE_focus_to_tank_or_jet_2_land_mass
+                    remove_idea = HRE_focus_to_tank_or_jet_1_land_mass
+                }
             }
             else_if = {
                 limit = {
@@ -1139,13 +1167,19 @@ shared_focus = {
                 limit = {
                     has_completed_focus = HRE_superior_spirit
                 }
-                add_ideas = HRE_focus_to_tank_or_jet_1_air_spirit
+                swap_ideas = {
+                    add_idea = HRE_focus_to_tank_or_jet_2_air_spirit
+                    remove_idea = HRE_focus_to_tank_or_jet_1_air_spirit
+                }
             }
             else_if = {
                 limit = {
                     has_completed_focus = HRE_superior_mass
                 }
-                add_ideas = HRE_focus_to_tank_or_jet_1_air_mass
+                swap_ideas = {
+                    add_idea = HRE_focus_to_tank_or_jet_2_air_mass
+                    remove_idea = HRE_focus_to_tank_or_jet_1_air_mass
+                }
             }
             else_if = {
                 limit = {

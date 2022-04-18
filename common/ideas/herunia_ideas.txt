@@ -24,6 +24,20 @@ ideas = {
             }
         }
         
+        YOU_CAN_NOT_DECLARE_WAR_LOL = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+    
+            rule = {
+                can_not_declare_war = yes
+            }
+        }
+        
         HRE_focus_to_army_idea = {
             allowed = {
                 always = no
@@ -1327,7 +1341,7 @@ ideas = {
             
             modifier = {
                 send_volunteers_tension = -1
-                send_volunteer_divisions_required = -0.5
+                send_volunteer_divisions_required = -1
             }
         }
         
@@ -1421,7 +1435,8 @@ ideas = {
                 local_resources_factor = 0.2
             }
         }
-        HRE_resource_import = {
+        
+        HRE_resource_cost_a_1 = {
             allowed = {
                 always = no
             }
@@ -1431,18 +1446,97 @@ ideas = {
             }
     
             removal_cost = -1
-            # ToDo: 逆転
-            targeted_modifier = {
-                tag = PAR
-                trade_cost_for_target_factor = -0.125
+            
+            picture = generic_goods_red_bonus
+            
+            modifier = {
+                civilian_factory_use = 2
             }
-            targeted_modifier = {
-                tag = USA
-                trade_cost_for_target_factor = -0.125
+        }
+        HRE_resource_cost_a_2 = {
+            allowed = {
+                always = no
             }
-            targeted_modifier = {
-                tag = JAP
-                trade_cost_for_target_factor = -0.125
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = generic_goods_red_bonus
+        
+            modifier = {
+                civilian_factory_use = 4
+            }
+        }
+        HRE_resource_cost_a_3 = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = generic_goods_red_bonus
+        
+            modifier = {
+                civilian_factory_use = 6
+            }
+        }
+        
+        HRE_resource_cost_b_1 = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = generic_goods_red_bonus
+    
+            modifier = {
+                consumer_goods_factor = 0.025
+            }
+        }
+        HRE_resource_cost_b_2 = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = generic_goods_red_bonus
+        
+            modifier = {
+                consumer_goods_factor = 0.050
+            }
+        }
+        HRE_resource_cost_b_3 = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = generic_goods_red_bonus
+        
+            modifier = {
+                consumer_goods_factor = 0.1
             }
         }
     }

@@ -211,6 +211,12 @@ country_event = {
         hidden_effect = {
             # ToDo: ネタバレ防止
             # news_event = herunia.100
+            HOL = {
+                country_event = {
+                    id = herunia.9
+                    days = 180
+                }
+            }
         }
     }
 }
@@ -227,6 +233,161 @@ country_event = {
     }
 }
 
+country_event = {
+    id = herunia.9
+    title = herunia.9.t
+    desc = herunia.9.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.9.a
+        annex_country = {
+            target = BEL
+        }
+        release = INS
+        annex_country = {
+            target = INS
+        }
+        annex_country = {
+            target = SIA
+        }
+        annex_country = {
+            target = POR
+        }
+        add_threat = 5
+        country_event = {
+            id = herunia.10
+            days = 7
+        }
+    }
+}
+
+country_event = {
+    id = herunia.10
+    title = herunia.10.t
+    desc = herunia.10.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.10.a
+        every_controlled_state = {
+            add_core_of = controller
+        }
+        add_ideas = {
+            free_trade
+            BUL_army_restrictions
+            GRE_schachtplan
+        }
+        set_cosmetic_tag = united_polynesia
+        hidden_effect = {
+#            news_event = herunia.101
+        }
+    }
+}
+
+country_event = {
+    id = herunia.11
+    title = herunia.11.t
+    desc = herunia.11.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.11.a
+        set_cosmetic_tag = ENG_imperial_federation_india_unified
+        news_event = { id = mtg_news.9 days = 1 }
+        CAN = {
+            every_unit_leader = {
+                set_nationality = ENG
+            }
+        }
+        annex_country = {
+            target = CAN
+            transfer_troops = yes
+        }
+        SAF = {
+            every_unit_leader = {
+                set_nationality = ENG
+            }
+        }
+        annex_country = {
+            target = SAF
+            transfer_troops = yes
+        }
+        RAJ = {
+            every_unit_leader = {
+                set_nationality = ENG
+            }
+        }
+        annex_country = {
+            target = RAJ
+            transfer_troops = yes
+        }
+        AST = {
+            every_unit_leader = {
+                set_nationality = ENG
+            }
+        }
+        annex_country = {
+            target = AST
+            transfer_troops = yes
+        }
+        NZL = {
+            every_unit_leader = {
+                set_nationality = ENG
+            }
+        }
+        annex_country = {
+            target = NZL
+            transfer_troops = yes
+        }
+        MAL = {
+            every_unit_leader = {
+                set_nationality = ENG
+            }
+        }
+        annex_country = {
+            target = MAL
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = IRE
+            transfer_troops = yes
+        }
+        
+        add_threat = 10
+        
+        country_event = {
+            id = herunia.12
+            days = 7
+        }
+    }
+}
+
+country_event = {
+    id = herunia.12
+    title = herunia.12.t
+    desc = herunia.12.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.12.a
+        every_controlled_state = {
+            add_core_of = controller
+        }
+        add_timed_idea = {
+            idea = TUR_italo_turkish_merchant_fleet
+            days = 730
+        }
+        add_timed_idea = {
+            idea = POR_hydroelectric_power
+            days = 365
+        }
+        hidden_effect = {
+        
+        }
+    }
+}
+
 news_event = {
     id = herunia.100
     title = herunia.100.t
@@ -239,3 +400,17 @@ news_event = {
         name = herunia.100.a
     }
 }
+
+news_event = {
+    id = herunia.101
+    title = herunia.101.t
+    desc = herunia.101.d
+    picture = GFX_news_event_nuke
+    major = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.101.a
+    }
+}
+

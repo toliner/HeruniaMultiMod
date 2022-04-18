@@ -112,6 +112,10 @@ shared_focus = {
             type = train_equipment
             amount = 50
         }
+        add_equipment_to_stockpile = {
+            type = convoy
+            amount = 50
+        }
         custom_effect_tooltip = available_industrial_concern
         show_ideas_tooltip = HRE_railway_company
     }

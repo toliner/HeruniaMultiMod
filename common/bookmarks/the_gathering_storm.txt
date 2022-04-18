@@ -1,0 +1,234 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "GER"
+		default = yes
+		
+		"GER"={
+			history = "HRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			available = { has_dlc = "Waking the Tiger" }
+			ideas = {
+				sour_loser
+				general_staff
+				GER_mefo_bills_1
+			}
+			focuses = {
+				HRE_prepare_army
+				HRE_build_monarchy_government
+				HRE_plan_four_years
+			}
+		}
+		
+		"AUS"={
+			history = "HRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			available = { has_dlc = "Waking the Tiger" }
+			ideas = {
+
+			}
+			focuses = {
+				HRE_prepare_army
+				HRE_build_monarchy_government
+				HRE_plan_four_years
+			}
+		}
+		
+		"HUN"={
+			history = "HRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+				HRE_prepare_army
+				HRE_build_monarchy_government
+				HRE_plan_four_years
+			}
+		}
+		
+		"CZE" = {
+			history = "HRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+				HRE_prepare_army
+				HRE_build_monarchy_government
+				HRE_plan_four_years
+			}
+		}
+
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+
+
+		# minors from DLC ####
+		"BAY"={
+			minor = yes
+			history = "HRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+				HRE_prepare_army
+				HRE_build_monarchy_government
+				HRE_plan_four_years
+			}
+		}
+		"HAN"={
+			minor = yes
+			history = "HRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+				HRE_prepare_army
+				HRE_build_monarchy_government
+				HRE_plan_four_years
+			}
+		}
+		"HSN"={
+			minor = yes
+			history = "HRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+				HRE_prepare_army
+				HRE_build_monarchy_government
+				HRE_plan_four_years
+			}
+		}
+		"KGL"={
+			minor = yes
+			history = "HRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+				HRE_prepare_army
+				HRE_build_monarchy_government
+				HRE_plan_four_years
+			}
+		}
+		"RHL"={
+			minor = yes
+			history = "HRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+				HRE_prepare_army
+				HRE_build_monarchy_government
+				HRE_plan_four_years
+			}
+		}
+		"SAX"={
+			minor = yes
+			history = "HRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+				HRE_prepare_army
+				HRE_build_monarchy_government
+				HRE_plan_four_years
+			}
+		}
+		"SHL"={
+			minor = yes
+			history = "HRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+				HRE_prepare_army
+				HRE_build_monarchy_government
+				HRE_plan_four_years
+			}
+		}
+		"SLO"={
+			minor = yes
+			history = "HRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+				HRE_prepare_army
+				HRE_build_monarchy_government
+				HRE_plan_four_years
+			}
+		}
+		"WUR"={
+			minor = yes
+			history = "HRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+				HRE_prepare_army
+				HRE_build_monarchy_government
+				HRE_plan_four_years
+			}
+		}
+		"ELR"={
+			minor = yes
+			history = "HRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+				HRE_prepare_army
+				HRE_build_monarchy_government
+				HRE_plan_four_years
+			}
+		}
+		"CRO"={
+			minor = yes
+			history = "HRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+				HRE_prepare_army
+				HRE_build_monarchy_government
+				HRE_plan_four_years
+			}
+		}
+		"THU"={
+			minor = yes
+			history = "HRE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			
+			}
+			focuses = {
+				HRE_prepare_army
+				HRE_build_monarchy_government
+				HRE_plan_four_years
+			}
+		}
+		
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -282,6 +282,12 @@ country_event = {
         hidden_effect = {
 #            news_event = herunia.101
         }
+        ENG = {
+            country_event = {
+                id = herunia.11
+                days = 180
+            }
+        }
     }
 }
 
@@ -354,7 +360,7 @@ country_event = {
             transfer_troops = yes
         }
         
-        add_threat = 10
+        add_threat = 5
         
         country_event = {
             id = herunia.12
@@ -382,9 +388,300 @@ country_event = {
             idea = POR_hydroelectric_power
             days = 365
         }
+        ITA = {
+            country_event = {
+                id = herunia.13
+                days = 180
+            }
+        }
         hidden_effect = {
         
         }
+    }
+}
+
+country_event = {
+    id = herunia.13
+    title = herunia.13.t
+    desc = herunia.13.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.13.a
+        annex_country = {
+            target = GRE
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = TUR
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = ALB
+            transfer_troops = yes
+        }
+        add_timed_idea = {
+            idea = POL_four_year_plan_complete_4
+            days = 730
+        }
+        add_threat = 7
+        183 = {
+            transfer_state_to = ITA
+        }
+        268 = {
+            transfer_state_to = ITA
+        }
+        269 = {
+            transfer_state_to = ITA
+        }
+        446 = {
+            transfer_state_to = ITA
+        }
+        447 = {
+            transfer_state_to = ITA
+        }
+        452 = {
+            transfer_state_to = ITA
+        }
+        453 = {
+            transfer_state_to = ITA
+        }
+        454 = {
+            transfer_state_to = ITA
+        }
+        455 = {
+            transfer_state_to = ITA
+        }
+        456 = {
+            transfer_state_to = ITA
+        }
+        457 = {
+            transfer_state_to = ITA
+        }
+        551 = {
+            transfer_state_to = ITA
+        }
+        552 = {
+            transfer_state_to = ITA
+        }
+        553 = {
+            transfer_state_to = ITA
+        }
+        554 = {
+            transfer_state_to = ITA
+        }
+        677 = {
+            transfer_state_to = ITA
+        }
+        680 = {
+            transfer_state_to = ITA
+        }
+        767 = {
+            transfer_state_to = ITA
+        }
+        799 = {
+            transfer_state_to = ITA
+        }
+        country_event = {
+            id = herunia.14
+            days = 7
+        }
+    }
+}
+
+country_event = {
+    id = herunia.14
+    title = herunia.14.t
+    desc = herunia.14.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.14.a
+        every_controlled_state = {
+            add_core_of = controller
+        }
+        set_cosmetic_tag = SPQR_UNIFIED
+        SPR = {
+            country_event = {
+                id = herunia.15
+                days = 180
+            }
+        }
+        hidden_effect = {
+        
+        }
+    }
+}
+
+country_event = {
+    id = herunia.15
+    title = herunia.15.t
+    desc = herunia.15.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.15.a
+        every_enemy_country = {
+            white_peace = SPR
+        }
+        FRA = {
+            country_event = {
+                id = herunia.16
+                days = 1
+            }
+        }
+    }
+}
+
+country_event = {
+    id = herunia.16
+    title = herunia.16.t
+    desc = herunia.16.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.16.a
+        annex_country = {
+            target = SPR
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = MEX
+        }
+        add_threat = 10
+        country_event = {
+            id = herunia.17
+            days = 5
+        }
+    }
+}
+
+country_event = {
+    id = herunia.17
+    title = herunia.17.t
+    desc = herunia.17.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.17.a
+        every_controlled_state = {
+            add_core_of = controller
+        }
+        add_ideas = british_arms_discount
+        add_timed_idea = {
+            idea = ENG_trade_union_construction_worker_support
+            days = 365
+        }
+        add_timed_idea = {
+            idea = ENG_spirit_of_the_industrial_revolution_idea
+            days = 730
+        }
+        SOV = {
+            country_event = {
+                id = herunia.18
+                days = 180
+            }
+        }
+    }
+}
+
+country_event = {
+    id = herunia.18
+    title = herunia.18.t
+    desc = herunia.18.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.18.a
+        annex_country = {
+            target = IRQ
+        }
+        annex_country = {
+            target = SAU
+        }
+        annex_country = {
+            target = OMA
+        }
+        annex_country = {
+            target = YEM
+        }
+        annex_country = {
+            target = PER
+        }
+        annex_country = {
+            target = AFG
+        }
+        annex_country = {
+            target = TAN
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = MON
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = SIK
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = FIN
+        }
+        annex_country = {
+            target = SWE
+        }
+        annex_country = {
+            target = NOR
+        }
+        country_event = {
+            id = herunia.19
+            days = 5
+        }
+        add_threat = 10
+    }
+}
+
+country_event = {
+    id = herunia.19
+    title = herunia.19.t
+    desc = herunia.19.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.19.a
+        every_controlled_state = {
+            add_core_of = controller
+        }
+        add_ideas = USA_full_desegregation
+        add_timed_idea = {
+            idea = USA_national_employment_strategy
+            days = 730
+        }
+        add_timed_idea = {
+            idea = POL_four_year_plan_complete_4
+            days = 365
+        }
+        ENG = {
+            country_event = {
+                id = herunia.20
+                days = 60
+            }
+        }
+    }
+}
+
+country_event = {
+    id = herunia.20
+    title = herunia.20.t
+    desc = herunia.20.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.20.a
+        set_faction_name = "反ドイツ同盟"
+        add_to_faction = SOV
+        add_to_faction = FRA
+        add_to_faction = ITA
+        # todo: news-event
     }
 }
 

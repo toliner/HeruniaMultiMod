@@ -10,6 +10,18 @@ on_actions = {
             PAR = {
                 country_event = herunia.6
             }
+            ENG = {
+                add_ideas = HERUNIA_enemy_buff
+            }
+            FRA = {
+                add_ideas = HERUNIA_enemy_buff
+            }
+            SOV = {
+                add_ideas = HERUNIA_enemy_buff
+            }
+            ITA = {
+                add_ideas = HERUNIA_enemy_buff
+            }
         }
     }
 }

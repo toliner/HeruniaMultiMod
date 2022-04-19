@@ -24,6 +24,31 @@ ideas = {
             }
         }
         
+        HERUNIA_enemy_buff = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+    
+            picture = warrior_traditions_idea
+            
+            modifier = {
+                production_factory_max_efficiency_factor = 0.15
+                production_factory_efficiency_gain_factor = 0.25
+                industrial_capacity_dockyard = 0.2
+                political_power_factor = 0.25
+                research_speed_factor = 0.1
+                production_lack_of_resource_penalty_factor = -0.3
+    
+                army_fuel_consumption_factor = -0.40
+                air_fuel_consumption_factor = -0.40
+                navy_fuel_consumption_factor = -0.40
+            }
+        }
+        
         YOU_CAN_NOT_DECLARE_WAR_LOL = {
             allowed = {
                 always = no

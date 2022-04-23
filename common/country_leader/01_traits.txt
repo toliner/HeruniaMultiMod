@@ -2,11 +2,96 @@ leader_traits = {
     der_weise = {
         random = no
         
-        research_speed_factor = 0.05
+        research_speed_factor = 0.10
         stability_factor = 0.05
     }
     
     external_technology_company = {
         random = no
+    }
+    
+    the_last_prince_of_austria_hungary = {
+        random = no
+        
+        stability_factor = 0.10
+        consumer_goods_factor = -0.05
+    }
+    
+    leader_of_hapsburg = {
+        random = no
+    
+        political_advisor_cost_factor = -0.10
+        high_command_cost_factor = -0.10
+        air_chief_cost_factor = -0.10
+        army_chief_cost_factor = -0.10
+        navy_chief_cost_factor = -0.10
+    }
+    
+    volunteer_sender = {
+        random = no
+    
+        war_support_factor = 0.10
+        political_power_factor = 0.1
+        conscription_factor = 0.005
+    }
+    
+    crazy_build_king = {
+        random = no
+        
+        consumer_goods_factor = 0.05
+        production_speed_buildings_factor = 0.2
+    }
+    
+    doryoko = {
+        random = no
+    
+        political_power_factor = 0.1
+        stability_factor = 0.05
+    }
+    
+    den_yngre = {
+        random = no
+    
+        production_speed_arms_factory_factor = 0.05
+        production_speed_dockyard_factor = 0.05
+    }
+    
+    der_bekenner = {
+        random = no
+        
+        political_power_gain = 0.3
+    }
+    
+    the_greatest_triangle = {
+        random = no
+        
+        neutrality_drift = 0.05
+    }
+    
+    founder_of_marisa_alice = {
+        random = no
+    
+        stability_weekly = 0.001
+        political_power_factor = 0.10
+        consumer_goods_factor = -0.05
+    }
+    
+    yoguruto = {
+        random = no
+    
+        production_speed_industrial_complex_factor = 0.1
+        production_speed_infrastructure_factor = 0.1
+        production_speed_rail_way_factor = 0.1
+        production_speed_synthetic_refinery_factor = 0.1
+        production_speed_arms_factory_factor = 0.1
+        production_speed_dockyard_factor = 0.1
+        production_speed_fuel_silo_factor = 0.1
+        production_factory_max_efficiency_factor = 0.1
+    }
+    
+    the_first_wurttemberg = {
+        random = no
+        political_power_factor = 0.1
+        production_speed_arms_factory_factor = 0.1
     }
 }

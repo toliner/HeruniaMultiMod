@@ -17,3 +17,5 @@ set_popularities = {
     fascism = 10
     communism = 10
 }
+
+recruit_character = THU_Johann_Friedrich

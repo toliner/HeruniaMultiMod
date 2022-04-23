@@ -97,6 +97,7 @@ set_popularities = {
 add_ideas = {
 }
 
+recruit_character = BAY_ludwig_ii
 
 
 #create_country_leader = {

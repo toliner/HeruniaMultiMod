@@ -8,5 +8,103 @@ characters = {
                 der_weise
             }
         }
+        promote_leader = yes
+    }
+    HUN_Otto_Von_Hapsburg = {
+        name = Otto_Von_Hapsburg
+        
+        country_leader = {
+            ideology = despotism
+            traits = {
+                the_last_prince_of_austria_hungary
+                leader_of_hapsburg
+            }
+        }
+        promote_leader = yes
+    }
+    
+    HSN_Friedrich_ii = {
+        name = HSN_friedrich_ii
+        
+        country_leader = {
+            ideology = despotism
+            traits = {
+                volunteer_sender
+            }
+        }
+        promote_leader = yes
+    }
+    
+    BAY_Ludwig_ii = {
+        name = BAY_ludwig_ii
+        
+        country_leader = {
+            ideology = despotism
+            traits = {
+                crazy_build_king
+            }
+        }
+        promote_leader = yes
+    }
+    THU_Johann_Friedrich = {
+        name = THU_johann_friedrich
+        
+        country_leader = {
+            ideology = despotism
+            traits = {
+                doryoko
+            }
+        }
+        promote_leader = yes
+    }
+    
+    SHL_Hans_den_yngre = {
+        name = SHL_hans_den_yngre
+        
+        country_leader = {
+            ideology = despotism
+            traits = {
+                den_yngre
+            }
+        }
+        promote_leader = yes
+    }
+    
+    HAN_Ernst_I = {
+        name = HAN_ernst_i
+        
+        country_leader = {
+            ideology = despotism
+            traits = {
+                der_bekenner
+            }
+        }
+        promote_leader = yes
+    }
+    
+    AUS_Herunia = {
+        name = AUS_herunia
+    
+        country_leader = {
+            ideology = despotism
+            traits = {
+                the_greatest_triangle
+                founder_of_marisa_alice
+                yoguruto
+            }
+        }
+        promote_leader = yes
+    }
+    
+    WUR_Eberhard_I = {
+        name = WUR_eberhard_i
+    
+        country_leader = {
+            ideology = despotism
+            traits = {
+                the_first_wurttemberg
+            }
+        }
+        promote_leader = yes
     }
 }

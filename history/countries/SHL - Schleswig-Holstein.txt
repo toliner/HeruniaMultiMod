@@ -92,8 +92,4 @@ set_popularities = {
 add_ideas = {
 }
 
-
-
-
-
-
+recruit_character = SHL_Hans_den_yngre

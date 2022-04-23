@@ -248,6 +248,7 @@ recruit_character = HUN_gyula_gombos_de_jakfa
 recruit_character = HUN_otto_von_habsburg
 recruit_character = HUN_franz_friedrich
 
+recruit_character = HUN_Otto_Von_Hapsburg
 
 1939.1.1 = {
 	set_politics = {

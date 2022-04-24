@@ -379,57 +379,152 @@ naval_decisions = {
                 create_battle_cruiser_equipment_variant = yes
                 create_career_equipment_variant = yes
             }
+            
+            create_carrier_by_usa = yes
+            create_carrier_by_usa = yes
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+        }
+    }
+}
+
+revive_pol_decisions = {
+    get_warusyawa = {
+        available = {
+            controls_state = 10
+            controls_state = 87
+            controls_state = 90
+        }
+        cost = 50
+        fire_only_once = yes
+        
+        complete_effect = {
+            10 = {
+                add_core_of = KGL
+            }
+            87 = {
+                add_core_of = KGL
+            }
+            90 = {
+                add_core_of = KGL
+            }
+        }
+    }
     
-            create_carrier_by_usa = yes
-            create_carrier_by_usa = yes
-            create_bc_by_usa = yes
-            create_bc_by_usa = yes
-            create_bc_by_usa = yes
-            create_bc_by_usa = yes
-            create_bc_by_usa = yes
-            create_bc_by_usa = yes
-            create_bc_by_usa = yes
-            create_bc_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
-            create_cruiser_by_usa = yes
+    revive_poland = {
+        available = {
+            controls_state = 10
+            controls_state = 87
+            controls_state = 90
+            controls_state = 92
+            controls_state = 93
+            controls_state = 94
+            controls_state = 95
+            controls_state = 96
+            controls_state = 97
+            controls_state = 98
+            controls_state = 784
+        }
+        cost = 50
+        fire_only_once = yes
+        
+        complete_effect = {
+            92 = {
+                add_core_of = KGL
+            }
+            93 = {
+                add_core_of = KGL
+            }
+            94 = {
+                add_core_of = KGL
+            }
+            95 = {
+                add_core_of = KGL
+            }
+            96 = {
+                add_core_of = KGL
+            }
+            97 = {
+                add_core_of = KGL
+            }
+            98 = {
+                add_core_of = KGL
+            }
+            784 = {
+                add_core_of = KGL
+            }
+            set_cosmetic_tag = POL
+        }
+    }
+    
+    pol_ukr_commonwealth = {
+        available = {
+            UKR = {
+                all_core_state = {
+                    is_controlled_by = KGL
+                }
+            }
+            num_of_civilian_factories_available_for_projects > 11
+        }
+        cost = 300
+        days_remove = 90
+        modifier = {
+            civilian_factory_use = 12
+        }
+        remove_effect = {
+            every_state = {
+                limit = {
+                    is_core_of = UKR
+                }
+                add_core_of = KGL
+            }
+            set_cosmetic_tag = POL_UKR_COMMON
         }
     }
 }

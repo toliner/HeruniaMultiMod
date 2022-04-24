@@ -1309,7 +1309,7 @@ ideas = {
     
             modifier = {
                 production_factory_start_efficiency_factor = 0.05
-                production_lack_of_resource_penalty_factor = -0.05
+                license_purchase_cost = -0.25
             }
         }
         HRE_separate_industry_idea_2 = {
@@ -1327,8 +1327,9 @@ ideas = {
         
             modifier = {
                 production_factory_start_efficiency_factor = 0.05
-                production_lack_of_resource_penalty_factor = -0.05
-                equipment_conversion_speed = 0.1
+                license_purchase_cost = -0.25
+                production_factory_efficiency_gain_factor = 0.05
+                equipment_conversion_speed = 0.15
             }
         }
         HRE_separate_industry_idea_3 = {
@@ -1346,8 +1347,9 @@ ideas = {
         
             modifier = {
                 production_factory_start_efficiency_factor = 0.10
-                production_lack_of_resource_penalty_factor = -0.10
-                equipment_conversion_speed = 0.2
+                license_purchase_cost = -0.50
+                production_factory_efficiency_gain_factor = 0.10
+                equipment_conversion_speed = 0.3
             }
         }
         
@@ -1527,7 +1529,7 @@ ideas = {
             picture = generic_goods_red_bonus
     
             modifier = {
-                consumer_goods_factor = 0.025
+                consumer_goods_factor = 0.05
             }
         }
         HRE_resource_cost_b_2 = {
@@ -1544,7 +1546,7 @@ ideas = {
             picture = generic_goods_red_bonus
         
             modifier = {
-                consumer_goods_factor = 0.050
+                consumer_goods_factor = 0.1
             }
         }
         HRE_resource_cost_b_3 = {
@@ -1561,7 +1563,7 @@ ideas = {
             picture = generic_goods_red_bonus
         
             modifier = {
-                consumer_goods_factor = 0.1
+                consumer_goods_factor = 0.15
             }
         }
         
@@ -1616,7 +1618,7 @@ ideas = {
             equipment_bonus = {
                 screen_ship = {
                     instant = yes
-                    build_cost_ic = -0.05
+                    build_cost_ic = -0.075
                 }
             }
         }
@@ -1636,7 +1638,7 @@ ideas = {
             equipment_bonus = {
                 screen_ship = {
                     instant = yes
-                    build_cost_ic = -0.10
+                    build_cost_ic = -0.15
                 }
             }
         }
@@ -1656,11 +1658,11 @@ ideas = {
             equipment_bonus = {
                 capital_ship = {
                     instant = yes
-                    build_cost_ic = -0.075
+                    build_cost_ic = -0.10
                 }
                 carrier = {
                     instant = yes
-                    build_cost_ic = -0.075
+                    build_cost_ic = -0.10
                 }
             }
         }
@@ -1680,11 +1682,11 @@ ideas = {
             equipment_bonus = {
                 capital_ship = {
                     instant = yes
-                    build_cost_ic = -0.15
+                    build_cost_ic = -0.20
                 }
                 carrier = {
                     instant = yes
-                    build_cost_ic = -0.15
+                    build_cost_ic = -0.20
                 }
             }
         }
@@ -1738,6 +1740,25 @@ ideas = {
         
             modifier = {
                 production_speed_dockyard_factor = 0.25
+            }
+        }
+        
+        # ToDo: 開戦時に付与
+        HERUNIA_SOV_surrender_limit = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = todo
+    
+            modifier = {
+                surrender_limit = -0.25
             }
         }
     }

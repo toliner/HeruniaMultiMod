@@ -18,4 +18,9 @@ set_popularities = {
     communism = 10
 }
 
-recruit_character = HSN_Friedrich_ii
+recruit_character = HSN_friedrich_ii
+
+promote_character = {
+    character = HSN_friedrich_ii
+    Ideology = neutrality
+}

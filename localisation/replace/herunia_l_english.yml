@@ -75,6 +75,11 @@
  ELR:0 "エルザス・ロートリンゲン"
  ELR_DEF:0 "エルザス・ロートリンゲン"
  ELR_ADJ:0 "エルザス"
+ POL_UKR_COMMON:0 "ポーランド=ウクライナ コモンウェルス"
+ POL_UKR_COMMON_fascism:0 "ポーランド=ウクライナ コモンウェルス"
+ POL_UKR_COMMON_communism:0 "ポーランド=ウクライナ コモンウェルス"
+ POL_UKR_COMMON_democratic:0 "ポーランド=ウクライナ コモンウェルス"
+ POL_UKR_COMMON_neutrality:0 "ポーランド=ウクライナ コモンウェルス"
 # 特性
  der_weise:0 "賢明公"
  external_technology_company:0 "海外企業の駐在員"
@@ -88,6 +93,7 @@
  founder_of_marisa_alice:0 "マリアリ教の創始者"
  yoguruto:0 "ヨーグルト(意味深)の生産者"
  the_first_wurttemberg:0 "初代ヴェルデンブルク公爵"
+ der_bekenner:0 "告白公"
 # 人
  SAX_friedrich_iii:0 "フリードリヒ3世"
  Otto_Von_Hapsburg:0 "オットー・フォン・ハプスブルク"
@@ -97,6 +103,7 @@
  SHL_hans_den_yngre:0 "ハンス若公"
  AUS_herunia:0 "ヘルニア"
  WUR_eberhard_i:0 "エーバーハルト1世"
+ HAN_ernst_i:0 "エルンスト1世"
 # idea
  HERUNIA_player_idea:0 "マリアリの薄い本製造工場"
  HRE_focus_to_army_idea:0 "陸軍への注力"
@@ -172,6 +179,7 @@
  HRE_naval_construction_idea_2:0 "増殖する造船所"
  HRE_naval_construction_idea_3:0 "増殖する造船所"
  ger_tank_manufacturer:0 "ドイツ戦車工房"
+ HRE_volunteer_available:0 "義勇軍への志願"
 # Tooltip
  HRE_available_military_officer:0 "§G各軍の長官が追加される§!"
  HRE_effect_superior_spirit:0 "\n§C精神的優越を取得すると、個々の師団の性能を向上させるようなバフが多く取得出来る§!"
@@ -584,7 +592,10 @@
  buy_raid_fleet_from_usa:0 "アメリカから襲撃艦隊を購入する"
  buy_strike_fleet_from_usa:0 "アメリカから打撃艦隊を購入する"
  buy_mobile_fleet_from_usa:0 "アメリカから空母機動艦隊を購入する"
- 
+ revive_pol_decisions:0 "ポーランド再興"
+ get_warusyawa:0 "ワルシャワの奪還"
+ revive_poland:0 "ポーランドの再興"
+ pol_ukr_commonwealth:0 "ポーランド=ウクライナ コモンウェルスの結成"
 # State
  STATE_835:0 "北シュレスヴィヒ"
 # Modifier

@@ -38,6 +38,10 @@ recruit_character = AUS_julius_raab
 recruit_character = AUS_leopold_figl
 recruit_character = AUS_Herunia
 
+promote_character = {
+	character = AUS_Herunia
+	Ideology = neutrality
+}
 
 set_politics = {
 	ruling_party = neutrality

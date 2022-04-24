@@ -90,6 +90,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_1
             has_idea = HRE_resource_cost_b_1
         }
+        num_of_civilian_factories_available_for_projects > 1
     }
     completion_reward = {
         if = {
@@ -103,7 +104,7 @@ shared_focus = {
             capital_scope = {
                 add_resource = {
                     type = steel
-                    amount = 10
+                    amount = 8
                 }
             }
         }
@@ -146,6 +147,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_2
             has_idea = HRE_resource_cost_b_2
         }
+        num_of_civilian_factories_available_for_projects > 3
     }
     completion_reward = {
         if = {
@@ -159,7 +161,7 @@ shared_focus = {
             capital_scope = {
                 add_resource = {
                     type = steel
-                    amount = 20
+                    amount = 16
                 }
             }
         }
@@ -202,6 +204,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_3
             has_idea = HRE_resource_cost_b_3
         }
+        num_of_civilian_factories_available_for_projects > 5
     }
     completion_reward = {
         if = {
@@ -215,7 +218,7 @@ shared_focus = {
             capital_scope = {
                 add_resource = {
                     type = steel
-                    amount = 40
+                    amount = 32
                 }
             }
         }
@@ -259,6 +262,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_1
             has_idea = HRE_resource_cost_b_1
         }
+        num_of_civilian_factories_available_for_projects > 1
     }
     completion_reward = {
         if = {
@@ -272,7 +276,7 @@ shared_focus = {
             capital_scope = {
                 add_resource = {
                     type = aluminium
-                    amount = 10
+                    amount = 8
                 }
             }
         }
@@ -315,6 +319,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_2
             has_idea = HRE_resource_cost_b_2
         }
+        num_of_civilian_factories_available_for_projects > 3
     }
     completion_reward = {
         if = {
@@ -328,7 +333,7 @@ shared_focus = {
             capital_scope = {
                 add_resource = {
                     type = aluminium
-                    amount = 20
+                    amount = 16
                 }
             }
         }
@@ -371,6 +376,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_3
             has_idea = HRE_resource_cost_b_3
         }
+        num_of_civilian_factories_available_for_projects > 5
     }
     completion_reward = {
         if = {
@@ -384,7 +390,7 @@ shared_focus = {
             capital_scope = {
                 add_resource = {
                     type = aluminium
-                    amount = 40
+                    amount = 32
                 }
             }
         }
@@ -428,6 +434,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_1
             has_idea = HRE_resource_cost_b_1
         }
+        num_of_civilian_factories_available_for_projects > 1
     }
     completion_reward = {
         if = {
@@ -441,7 +448,7 @@ shared_focus = {
             capital_scope = {
                 add_resource = {
                     type = tungsten
-                    amount = 10
+                    amount = 8
                 }
             }
         }
@@ -484,6 +491,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_2
             has_idea = HRE_resource_cost_b_2
         }
+        num_of_civilian_factories_available_for_projects > 3
     }
     completion_reward = {
         if = {
@@ -497,7 +505,7 @@ shared_focus = {
             capital_scope = {
                 add_resource = {
                     type = tungsten
-                    amount = 20
+                    amount = 16
                 }
             }
         }
@@ -540,6 +548,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_3
             has_idea = HRE_resource_cost_b_3
         }
+        num_of_civilian_factories_available_for_projects > 5
     }
     completion_reward = {
         if = {
@@ -553,7 +562,7 @@ shared_focus = {
             capital_scope = {
                 add_resource = {
                     type = tungsten
-                    amount = 40
+                    amount = 32
                 }
             }
         }
@@ -597,6 +606,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_1
             has_idea = HRE_resource_cost_b_1
         }
+        num_of_civilian_factories_available_for_projects > 1
     }
     completion_reward = {
         if = {
@@ -610,7 +620,7 @@ shared_focus = {
             capital_scope = {
                 add_resource = {
                     type = chromium
-                    amount = 10
+                    amount = 8
                 }
             }
         }
@@ -653,6 +663,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_2
             has_idea = HRE_resource_cost_b_2
         }
+        num_of_civilian_factories_available_for_projects > 3
     }
     completion_reward = {
         if = {
@@ -666,7 +677,7 @@ shared_focus = {
             capital_scope = {
                 add_resource = {
                     type = chromium
-                    amount = 20
+                    amount = 16
                 }
             }
         }
@@ -709,6 +720,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_3
             has_idea = HRE_resource_cost_b_3
         }
+        num_of_civilian_factories_available_for_projects > 5
     }
     completion_reward = {
         if = {
@@ -722,7 +734,7 @@ shared_focus = {
             capital_scope = {
                 add_resource = {
                     type = chromium
-                    amount = 40
+                    amount = 32
                 }
             }
         }
@@ -766,6 +778,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_1
             has_idea = HRE_resource_cost_b_1
         }
+        num_of_civilian_factories_available_for_projects > 1
     }
     completion_reward = {
         if = {
@@ -779,7 +792,7 @@ shared_focus = {
             capital_scope = {
                 add_resource = {
                     type = rubber
-                    amount = 10
+                    amount = 8
                 }
             }
         }
@@ -822,6 +835,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_2
             has_idea = HRE_resource_cost_b_2
         }
+        num_of_civilian_factories_available_for_projects > 3
     }
     completion_reward = {
         if = {
@@ -835,7 +849,7 @@ shared_focus = {
             capital_scope = {
                 add_resource = {
                     type = rubber
-                    amount = 20
+                    amount = 16
                 }
             }
         }
@@ -878,6 +892,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_3
             has_idea = HRE_resource_cost_b_3
         }
+        num_of_civilian_factories_available_for_projects > 5
     }
     completion_reward = {
         if = {
@@ -891,7 +906,7 @@ shared_focus = {
             capital_scope = {
                 add_resource = {
                     type = rubber
-                    amount = 40
+                    amount = 32
                 }
             }
         }
@@ -935,6 +950,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_1
             has_idea = HRE_resource_cost_b_1
         }
+        num_of_civilian_factories_available_for_projects > 1
     }
     completion_reward = {
         if = {
@@ -991,6 +1007,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_2
             has_idea = HRE_resource_cost_b_2
         }
+        num_of_civilian_factories_available_for_projects > 3
     }
     completion_reward = {
         if = {
@@ -1047,6 +1064,7 @@ shared_focus = {
             has_idea = HRE_resource_cost_a_3
             has_idea = HRE_resource_cost_b_3
         }
+        num_of_civilian_factories_available_for_projects > 5
     }
     completion_reward = {
         if = {

@@ -15,7 +15,7 @@ shared_focus = {
     }
     completion_reward = {
         unlock_decision_category_tooltip = naval_decisions
-        navy_experience = 30
+        navy_experience = 50
         random_owned_controlled_state = {
             limit = {
                 free_building_slots = {
@@ -79,6 +79,20 @@ shared_focus = {
     
     }
     completion_reward = {
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
+        }
         random_owned_controlled_state = {
             limit = {
                 free_building_slots = {
@@ -357,6 +371,20 @@ shared_focus = {
                 instant_build = yes
             }
         }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
+        }
     }
 }
 
@@ -406,6 +434,20 @@ shared_focus = {
                 instant_build = yes
             }
         }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
+        }
     }
 }
 
@@ -426,6 +468,20 @@ shared_focus = {
         swap_ideas = {
             add_idea = HRE_naval_construction_idea_3
             remove_idea = HRE_naval_construction_idea_2
+        }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
         }
         random_owned_controlled_state = {
             limit = {

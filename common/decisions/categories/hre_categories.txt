@@ -11,3 +11,9 @@ naval_decisions = {
         has_completed_focus = HRE_focus_naval
     }
 }
+
+revive_pol_decisions = {
+    visible = {
+        tag = KGL
+    }
+}

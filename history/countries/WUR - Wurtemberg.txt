@@ -93,6 +93,11 @@ add_ideas = {
 
 recruit_character = WUR_Eberhard_I
 
+promote_character = {
+	character = WUR_Eberhard_I
+	Ideology = neutrality
+}
+
 #create_country_leader = {
 #	name = "Dennis Fredauer"
 #	desc = ""

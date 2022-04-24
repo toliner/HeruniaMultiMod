@@ -2,6 +2,10 @@ capital = 65
 set_oob = HRE_oob
 
 recruit_character = SAX_friedrich_iii
+promote_character = {
+	character = SAX_friedrich_iii
+	Ideology = neutrality
+}
 
 # Starting tech
 set_technology = {

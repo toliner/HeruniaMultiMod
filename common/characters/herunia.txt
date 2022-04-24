@@ -8,8 +8,8 @@ characters = {
                 der_weise
             }
         }
-        promote_leader = yes
     }
+    
     HUN_Otto_Von_Hapsburg = {
         name = Otto_Von_Hapsburg
         
@@ -20,10 +20,9 @@ characters = {
                 leader_of_hapsburg
             }
         }
-        promote_leader = yes
     }
     
-    HSN_Friedrich_ii = {
+    HSN_Friedrich_II = {
         name = HSN_friedrich_ii
         
         country_leader = {
@@ -32,7 +31,6 @@ characters = {
                 volunteer_sender
             }
         }
-        promote_leader = yes
     }
     
     BAY_Ludwig_ii = {
@@ -44,9 +42,9 @@ characters = {
                 crazy_build_king
             }
         }
-        promote_leader = yes
     }
-    THU_Johann_Friedrich = {
+    
+    THU_Johann_Friedrich_aaaa = {
         name = THU_johann_friedrich
         
         country_leader = {
@@ -55,7 +53,6 @@ characters = {
                 doryoko
             }
         }
-        promote_leader = yes
     }
     
     SHL_Hans_den_yngre = {
@@ -67,7 +64,6 @@ characters = {
                 den_yngre
             }
         }
-        promote_leader = yes
     }
     
     HAN_Ernst_I = {
@@ -79,7 +75,6 @@ characters = {
                 der_bekenner
             }
         }
-        promote_leader = yes
     }
     
     AUS_Herunia = {
@@ -93,7 +88,6 @@ characters = {
                 yoguruto
             }
         }
-        promote_leader = yes
     }
     
     WUR_Eberhard_I = {
@@ -105,6 +99,5 @@ characters = {
                 the_first_wurttemberg
             }
         }
-        promote_leader = yes
     }
 }

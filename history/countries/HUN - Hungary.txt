@@ -249,6 +249,10 @@ recruit_character = HUN_otto_von_habsburg
 recruit_character = HUN_franz_friedrich
 
 recruit_character = HUN_Otto_Von_Hapsburg
+promote_character = {
+	character = HUN_Otto_Von_Hapsburg
+	Ideology = neutrality
+}
 
 1939.1.1 = {
 	set_politics = {

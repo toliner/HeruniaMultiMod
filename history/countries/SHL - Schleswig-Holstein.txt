@@ -93,3 +93,8 @@ add_ideas = {
 }
 
 recruit_character = SHL_Hans_den_yngre
+
+promote_character = {
+	character = SHL_Hans_den_yngre
+	Ideology = neutrality
+}

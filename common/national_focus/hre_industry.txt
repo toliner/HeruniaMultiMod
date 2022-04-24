@@ -71,7 +71,7 @@ shared_focus = {
     icon = GFX_goal_generic_construct_infrastructure
     x = -4
     y = 1
-    cost = 10
+    cost = 5
     prerequisite = {
         focus = HRE_invest_our_country
         focus = HRE_invest_foreign_country
@@ -94,26 +94,13 @@ shared_focus = {
                 instant_build = yes
             }
         }
-        random_owned_controlled_state = {
-            limit = {
-                free_building_slots = {
-                    building = infrastructure
-                    size > 0
-                }
-            }
-            add_building_construction = {
-                type = infrastructure
-                level = 1
-                instant_build = yes
-            }
-        }
         add_equipment_to_stockpile = {
             type = train_equipment
-            amount = 50
+            amount = 40
         }
         add_equipment_to_stockpile = {
             type = convoy
-            amount = 50
+            amount = 40
         }
         custom_effect_tooltip = available_industrial_concern
         show_ideas_tooltip = HRE_railway_company
@@ -161,9 +148,26 @@ shared_focus = {
                 instant_build = yes
             }
         }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = infrastructure
+                    size > 0
+                }
+            }
+            add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+            }
+        }
         add_equipment_to_stockpile = {
             type = train_equipment
             amount = 50
+        }
+        add_equipment_to_stockpile = {
+            type = convoy
+            amount = 60
         }
         add_equipment_to_stockpile = {
             type = motorized_equipment_1
@@ -213,13 +217,39 @@ shared_focus = {
                 instant_build = yes
             }
         }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = infrastructure
+                    size > 0
+                }
+            }
+            add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = infrastructure
+                    size > 0
+                }
+            }
+            add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+            }
+        }
         add_equipment_to_stockpile = {
             type = train_equipment
-            amount = 50
+            amount = 100
         }
         add_equipment_to_stockpile = {
             type = motorized_equipment_1
-            amount = 50
+            amount = 100
         }
     }
 }

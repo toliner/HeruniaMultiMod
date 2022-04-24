@@ -1564,6 +1564,182 @@ ideas = {
                 consumer_goods_factor = 0.1
             }
         }
+        
+        HRE_naval_production = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+            
+            picture = todo
+            
+            modifier = {
+                industrial_capacity_dockyard = 0.5
+            }
+        }
+        HRE_naval_research = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = todo
+    
+            research_bonus = {
+                naval_equipment = 0.2
+            }
+        }
+        
+        HRE_naval_small_ship_cost_reduction_1 = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = todo
+            
+            equipment_bonus = {
+                screen_ship = {
+                    instant = yes
+                    build_cost_ic = -0.05
+                }
+            }
+        }
+        HRE_naval_small_ship_cost_reduction_2 = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = todo
+        
+            equipment_bonus = {
+                screen_ship = {
+                    instant = yes
+                    build_cost_ic = -0.10
+                }
+            }
+        }
+        HRE_naval_large_ship_cost_reduction_1 = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = todo
+            
+            equipment_bonus = {
+                capital_ship = {
+                    instant = yes
+                    build_cost_ic = -0.075
+                }
+                carrier = {
+                    instant = yes
+                    build_cost_ic = -0.075
+                }
+            }
+        }
+        HRE_naval_large_ship_cost_reduction_2 = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = todo
+        
+            equipment_bonus = {
+                capital_ship = {
+                    instant = yes
+                    build_cost_ic = -0.15
+                }
+                carrier = {
+                    instant = yes
+                    build_cost_ic = -0.15
+                }
+            }
+        }
+        
+        HRE_naval_construction_idea_1 = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = todo
+    
+            modifier = {
+                production_speed_dockyard_factor = 0.05
+            }
+        }
+        HRE_naval_construction_idea_2 = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = todo
+        
+            modifier = {
+                production_speed_dockyard_factor = 0.15
+            }
+        }
+        HRE_naval_construction_idea_3 = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = todo
+        
+            modifier = {
+                production_speed_dockyard_factor = 0.25
+            }
+        }
     }
     
     industrial_concern = {
@@ -1583,6 +1759,26 @@ ideas = {
             traits = {
                 railway_company
             }
+        }
+    }
+    
+    tank_manufacturer = {
+        designer = yes
+        
+        ger_tank_manufacturer = {
+            allowed = {
+                is_hre_country = yes
+            }
+            
+            available = {
+                has_completed_focus = HRE_invest_our_country
+            }
+    
+            research_bonus = {
+                armor = 0.15
+            }
+    
+            traits = { fast_tank_manufacturer }
         }
     }
 }

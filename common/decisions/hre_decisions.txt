@@ -202,3 +202,234 @@ invest_decisions = {
         }
     }
 }
+
+naval_decisions = {
+    buy_simple_escort_fleet_from_usa = {
+        available = {
+            num_of_civilian_factories_available_for_projects  > 2
+        }
+        cost = 100
+        days_remove = 180
+        icon = generic_naval
+        modifier = {
+            civilian_factory_use = 3
+        }
+        remove_effect = {
+            USA = {
+                create_destroyer_equipment_variant = yes
+            }
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+        }
+    }
+    
+    buy_escort_fleet_from_usa = {
+        available = {
+            num_of_civilian_factories_available_for_projects  > 5
+        }
+        cost = 100
+        days_remove = 180
+        icon = generic_naval
+        modifier = {
+            civilian_factory_use = 6
+        }
+        remove_effect = {
+            USA = {
+                create_destroyer_equipment_variant = yes
+                create_cruiser_equipment_variant = yes
+            }
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+        }
+    }
+    
+    buy_raid_fleet_from_usa = {
+        available = {
+            num_of_civilian_factories_available_for_projects > 9
+        }
+        cost = 100
+        days_remove = 240
+        icon = generic_naval
+        modifier = {
+            civilian_factory_use = 10
+        }
+        remove_effect = {
+            USA = {
+                create_destroyer_equipment_variant = yes
+                create_cruiser_equipment_variant = yes
+                create_heavy_cruiser_equipment_variant = yes
+            }
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_heavy_cruiser_by_usa = yes
+            create_heavy_cruiser_by_usa = yes
+        }
+    }
+    
+    buy_strike_fleet_from_usa = {
+        available = {
+            num_of_civilian_factories_available_for_projects > 14
+        }
+        cost = 100
+        days_remove = 360
+        icon = generic_naval
+        modifier = {
+            civilian_factory_use = 15
+        }
+        remove_effect = {
+            USA = {
+                create_destroyer_equipment_variant = yes
+                create_cruiser_equipment_variant = yes
+                create_heavy_cruiser_equipment_variant = yes
+                create_battleship_equipment_variant = yes
+            }
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_heavy_cruiser_by_usa = yes
+            create_heavy_cruiser_by_usa = yes
+            create_heavy_cruiser_by_usa = yes
+            create_heavy_cruiser_by_usa = yes
+            create_heavy_cruiser_by_usa = yes
+            create_heavy_cruiser_by_usa = yes
+            create_heavy_cruiser_by_usa = yes
+            create_heavy_cruiser_by_usa = yes
+            create_bb_by_usa = yes
+            create_bb_by_usa = yes
+        }
+    }
+    
+    buy_mobile_fleet_from_usa = {
+        available = {
+            num_of_civilian_factories_available_for_projects > 29
+        }
+        cost = 100
+        days_remove = 1
+        icon = generic_naval
+        modifier = {
+            civilian_factory_use = 30
+        }
+        remove_effect = {
+            USA = {
+                create_destroyer_equipment_variant = yes
+                create_cruiser_equipment_variant = yes
+                create_battle_cruiser_equipment_variant = yes
+                create_career_equipment_variant = yes
+            }
+    
+            create_carrier_by_usa = yes
+            create_carrier_by_usa = yes
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+        }
+    }
+}

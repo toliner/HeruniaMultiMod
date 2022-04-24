@@ -60,10 +60,9 @@ shared_focus = {
     
     }
     completion_reward = {
+        unlock_decision_category_tooltip = invest_decisions
         custom_effect_tooltip = available_political_advisor
         show_ideas_tooltip = HRE_dummy_external_technology_company
-        # ToDo: ディシジョン実装
-        # unlock_decision_category_tooltip
     }
 }
 

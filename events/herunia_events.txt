@@ -25,6 +25,7 @@ country_event = {
             }
             inherit_technology = GER
         }
+        add_to_tech_sharing_group = axis_research
         country_event = herunia.2
     }
 }
@@ -681,6 +682,11 @@ country_event = {
         add_to_faction = SOV
         add_to_faction = FRA
         add_to_faction = ITA
+    
+        create_wargoal = {
+            type = annex_everything
+            target = GER
+        }
         # todo: news-event
     }
 }

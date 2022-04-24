@@ -1,0 +1,473 @@
+shared_focus = {
+    id = HRE_focus_naval
+    icon = GFX_goal_generic_navy_doctrines_tactics
+    x = 36
+    y = 0
+    cost = 10
+    available = {
+        any_owned_state = {
+            is_core_of = ROOT
+            free_building_slots = {
+                building = dockyard
+                size > 0
+            }
+        }
+    }
+    completion_reward = {
+        unlock_decision_category_tooltip = naval_decisions
+        navy_experience = 30
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
+        }
+    }
+}
+
+shared_focus = {
+    id = HRE_naval_production
+    icon = GFX_goal_generic_navy_battleship
+    x = -2
+    y = 1
+    cost = 10
+    prerequisite = {
+        focus = HRE_focus_naval
+    }
+    relative_position_id = HRE_focus_naval
+    available = {
+    
+    }
+    completion_reward = {
+        add_ideas = HRE_naval_production
+    }
+}
+
+shared_focus = {
+    id = HRE_naval_construction
+    icon = GFX_goal_generic_construct_naval_dockyard
+    x = 0
+    y = 1
+    cost = 10
+    prerequisite = {
+        focus = HRE_focus_naval
+    }
+    relative_position_id = HRE_focus_naval
+    available = {
+    
+    }
+    completion_reward = {
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
+        }
+    }
+}
+
+shared_focus = {
+    id = HRE_naval_research
+    icon = GFX_goal_generic_navy_carrier
+    x = 2
+    y = 1
+    cost = 10
+    prerequisite = {
+        focus = HRE_focus_naval
+    }
+    relative_position_id = HRE_focus_naval
+    available = {
+    
+    }
+    completion_reward = {
+        add_ideas = HRE_naval_research
+    }
+}
+
+shared_focus = {
+    id = HRE_naval_small_ship_1
+    icon = GFX_goal_generic_navy_cruiser
+    x = 0
+    y = 1
+    cost = 10
+    prerequisite = {
+        focus = HRE_naval_production
+        focus = HRE_naval_construction
+        focus = HRE_naval_research
+    }
+    relative_position_id = HRE_naval_production
+    available = {
+    
+    }
+    completion_reward = {
+        add_tech_bonus = {
+            bonus = 1
+            uses = 2
+            category = dd_tech
+            category = cl_tech
+        }
+    }
+}
+
+shared_focus = {
+    id = HRE_naval_small_ship_2
+    icon = GFX_goal_generic_navy_cruiser
+    x = 0
+    y = 1
+    cost = 10
+    prerequisite = {
+        focus = HRE_naval_small_ship_1
+    }
+    relative_position_id = HRE_naval_small_ship_1
+    available = {
+    
+    }
+    completion_reward = {
+        add_tech_bonus = {
+            bonus = 1
+            uses = 2
+            category = dd_tech
+            category = cl_tech
+            technology = improved_light_battery
+            technology = advanced_light_battery
+            technology = basic_light_shell
+            technology = improved_light_shell
+        }
+        add_ideas = HRE_naval_small_ship_cost_reduction_1
+    }
+}
+
+shared_focus = {
+    id = HRE_naval_small_ship_3
+    icon = GFX_goal_generic_navy_cruiser
+    x = 0
+    y = 1
+    cost = 10
+    prerequisite = {
+        focus = HRE_naval_small_ship_2
+    }
+    relative_position_id = HRE_naval_small_ship_2
+    available = {
+    
+    }
+    completion_reward = {
+        add_tech_bonus = {
+            bonus = 1
+            uses = 2
+            category = dd_tech
+            category = cl_tech
+            technology = improved_light_battery
+            technology = advanced_light_battery
+            technology = basic_light_shell
+            technology = improved_light_shell
+            technology = improved_medium_battery
+            technology = advanced_medium_battery
+            technology = basic_medium_shell
+            technology = improved_medium_shell
+        }
+        swap_ideas = {
+            adD_idea = HRE_naval_small_ship_cost_reduction_2
+            remove_idea = HRE_naval_small_ship_cost_reduction_1
+        }
+    }
+}
+
+shared_focus = {
+    id = HRE_naval_large_ship_1
+    icon = GFX_focus_generic_navy_battleship2
+    x = 0
+    y = 1
+    cost = 10
+    prerequisite = {
+        focus = HRE_naval_production
+        focus = HRE_naval_construction
+        focus = HRE_naval_research
+    }
+    relative_position_id = HRE_naval_research
+    available = {
+    
+    }
+    completion_reward = {
+        add_tech_bonus = {
+            bonus = 1
+            uses = 2
+            category = cv_tech
+            category = bc_tech
+            category = bb_tech
+            category = shbb_tech
+        }
+    }
+}
+
+shared_focus = {
+    id = HRE_naval_large_ship_2
+    icon = GFX_focus_generic_navy_battleship2
+    x = 0
+    y = 1
+    cost = 10
+    prerequisite = {
+        focus = HRE_naval_large_ship_1
+    }
+    relative_position_id = HRE_naval_large_ship_1
+    available = {
+    
+    }
+    completion_reward = {
+        add_tech_bonus = {
+            bonus = 1
+            uses = 2
+            category = cv_tech
+            category = bc_tech
+            category = bb_tech
+            category = shbb_tech
+            technology = improved_medium_battery
+            technology = advanced_medium_battery
+            technology = basic_medium_shell
+            technology = improved_medium_shell
+        }
+        add_ideas = HRE_naval_large_ship_cost_reduction_1
+    }
+}
+
+shared_focus = {
+    id = HRE_naval_large_ship_3
+    icon = GFX_focus_generic_navy_battleship2
+    x = 0
+    y = 1
+    cost = 10
+    prerequisite = {
+        focus = HRE_naval_large_ship_2
+    }
+    relative_position_id = HRE_naval_large_ship_2
+    available = {
+    
+    }
+    completion_reward = {
+        add_tech_bonus = {
+            bonus = 1
+            uses = 2
+            category = cv_tech
+            category = bc_tech
+            category = bb_tech
+            category = shbb_tech
+            technology = improved_medium_battery
+            technology = advanced_medium_battery
+            technology = basic_medium_shell
+            technology = improved_medium_shell
+            technology = improved_heavy_battery
+            technology = advanced_heavy_battery
+            technology = basic_heavy_shell
+            technology = improved_heavy_shell
+        }
+        swap_ideas = {
+            add_idea = HRE_naval_large_ship_cost_reduction_2
+            remove_idea = HRE_naval_large_ship_cost_reduction_1
+        }
+    }
+}
+
+shared_focus = {
+    id = HRE_naval_construction_1
+    icon = GFX_goal_generic_construct_naval_dockyard
+    x = 0
+    y = 1
+    cost = 10
+    prerequisite = {
+        focus = HRE_naval_production
+        focus = HRE_naval_construction
+        focus = HRE_naval_research
+    }
+    relative_position_id = HRE_naval_construction
+    available = {
+    
+    }
+    completion_reward = {
+        add_ideas = {
+            HRE_naval_construction_idea_1
+        }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
+        }
+    }
+}
+
+shared_focus = {
+    id = HRE_naval_construction_2
+    icon = GFX_goal_generic_construct_naval_dockyard
+    x = 0
+    y = 1
+    cost = 10
+    prerequisite = {
+        focus = HRE_naval_construction_1
+    }
+    relative_position_id = HRE_naval_construction_1
+    available = {
+    
+    }
+    completion_reward = {
+        swap_ideas = {
+            add_idea = HRE_naval_construction_idea_2
+            remove_idea = HRE_naval_construction_idea_1
+        }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
+        }
+    }
+}
+
+shared_focus = {
+    id = HRE_naval_construction_3
+    icon = GFX_goal_generic_construct_naval_dockyard
+    x = 0
+    y = 1
+    cost = 10
+    prerequisite = {
+        focus = HRE_naval_construction_2
+    }
+    relative_position_id = HRE_naval_construction_2
+    available = {
+    
+    }
+    completion_reward = {
+        swap_ideas = {
+            add_idea = HRE_naval_construction_idea_3
+            remove_idea = HRE_naval_construction_idea_2
+        }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
+        }
+    }
+}

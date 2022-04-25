@@ -300,6 +300,7 @@
  HRE_tooltip_import_oil_1:0 "$HRE_tooltip_import_a$石油$HRE_tooltip_import_b_1$"
  HRE_tooltip_import_oil_2:0 "$HRE_tooltip_import_a$石油$HRE_tooltip_import_b_2$"
  HRE_tooltip_import_oil_3:0 "$HRE_tooltip_import_a$石油$HRE_tooltip_import_b_3$"
+ CRO_tooltip_be_a_yugoslavia:0 "ユーゴスラビアである"
  # Focus
  HRE_prepare_army:0 "軍拡の準備"
  HRE_prepare_army_desc:0 "我々は小国なれど、周辺には強大な軍事力を持った大国が多く存在する。彼らに対抗するためにも、一刻も早い軍備拡張が必要である。"
@@ -596,8 +597,21 @@
  get_warusyawa:0 "ワルシャワの奪還"
  revive_poland:0 "ポーランドの再興"
  pol_ukr_commonwealth:0 "ポーランド=ウクライナ コモンウェルスの結成"
+ elr_get_north_france:0 "北フランスの征服"
+ get_3_state:0 "東部3州の征服"
+ exchange_luxembourg_and_palis:0 "ルクセンブルク・パリ交換条約"
+ rhl_get_benelux:0 "ラインラントの野望"
+ get_benelux:0 "ルクセンブルク・パリ交換条約の履行"
+ aus_get_north_italy:0 "イタリアの征服"
+ get_italy_two_state:0 "北部イタリア2州の獲得"
+ get_italy_three_state:0 "北イタリアの制圧"
+ cro_become_yugoslavia:0 "ユーゴスラビアの復興"
+ be_a_yugoslavia:0 "ユーゴスラビアの復興"
+ integrate_greece:0 "ギリシャの統合"
+ hun_integrate_rumania:0 "ルーマニア領の統合"
 # State
  STATE_835:0 "北シュレスヴィヒ"
+ STATE_28:0 "エルザス・ロートリンゲン"
 # Modifier
  resource_import_modifier:0 "貿易の優遇"
 # Other

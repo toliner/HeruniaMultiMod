@@ -17,3 +17,33 @@ revive_pol_decisions = {
         tag = KGL
     }
 }
+
+elr_get_north_france = {
+    visible = {
+        tag = ELR
+    }
+}
+
+rhl_get_benelux = {
+    visible = {
+        tag = RHL
+    }
+}
+
+aus_get_north_italy = {
+    visible = {
+        tag = AUS
+    }
+}
+
+cro_become_yugoslavia = {
+    visible = {
+        tag = CRO
+    }
+}
+
+hun_integrate_rumania = {
+    visible = {
+        tag = HUN
+    }
+}

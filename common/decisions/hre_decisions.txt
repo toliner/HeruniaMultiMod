@@ -507,7 +507,10 @@ revive_pol_decisions = {
         available = {
             UKR = {
                 all_core_state = {
-                    is_controlled_by = KGL
+                    OR = {
+                        is_controlled_by = KGL
+                        state = 766
+                    }
                 }
             }
             num_of_civilian_factories_available_for_projects > 11
@@ -525,6 +528,205 @@ revive_pol_decisions = {
                 add_core_of = KGL
             }
             set_cosmetic_tag = POL_UKR_COMMON
+        }
+    }
+}
+
+elr_get_north_france = {
+    get_3_state = {
+        available = {
+            controls_state = 17
+            controls_state = 18
+            controls_state = 27
+        }
+        cost = 50
+        fire_only_once = yes
+        
+        complete_effect = {
+            add_state_core = 17
+            add_state_core = 18
+            add_state_core = 27
+        }
+    }
+    
+    exchange_luxembourg_and_palis = {
+        available = {
+            controls_state = 17
+            controls_state = 18
+            controls_state = 27
+            
+            controls_state = 16
+            controls_state = 24
+            controls_state = 29
+            controls_state = 785
+        }
+        cost = 100
+        fire_only_once = yes
+        
+        complete_effect = {
+            add_state_core = 16
+            add_state_core = 24
+            add_state_core = 29
+            add_state_core = 785
+            
+            RHL = {
+                transfer_state = 8
+                add_state_core = 8
+            }
+        }
+    }
+}
+
+rhl_get_benelux = {
+    get_benelux = {
+        available = {
+            8 = {
+                is_controlled_by = RHL
+                is_core_of = RHL
+            }
+            FRA = {
+                has_capitulated = yes
+            }
+        }
+        cost = 50
+        fire_only_once = yes
+        
+        complete_effect = {
+            transfer_state = 6
+            add_state_core = 6
+            transfer_state = 34
+            add_state_core = 34
+            transfer_state = 35
+            add_state_core = 35
+        }
+    }
+}
+
+aus_get_north_italy = {
+    get_italy_two_state = {
+        available = {
+            controls_state = 159
+            controls_state = 160
+        }
+        
+        cost = 50
+        fire_only_once = yes
+        
+        complete_effect = {
+            add_state_core = 159
+            add_state_core = 160
+        }
+    }
+    
+    get_italy_three_state = {
+        available = {
+            controls_state = 158
+            controls_state = 161
+            controls_state = 735
+        }
+        
+        cost = 50
+        fire_only_once = yes
+        
+        complete_effect = {
+            add_state_core = 158
+            add_state_core = 161
+            add_state_core = 735
+            transfer_state = 3
+            add_state_core = 3
+            transfer_state = 151
+            add_state_core = 151
+        }
+    }
+}
+
+cro_become_yugoslavia = {
+    be_a_yugoslavia = {
+        available = {
+            ITA = {
+                has_capitulated = yes
+            }
+            controls_state = 47
+        }
+        
+        cost = 150
+        fire_only_once = yes
+        
+        complete_effect = {
+            transfer_state = 107
+            add_state_core = 107
+            transfer_state = 108
+            add_state_core = 108
+            transfer_state = 105
+            add_state_core = 105
+            transfer_state = 802
+            add_state_core = 802
+            transfer_state = 803
+            add_state_core = 803
+            transfer_state = 106
+            add_state_core = 106
+            transfer_state = 44
+            add_state_core = 44
+            transfer_state = 805
+            add_state_core = 805
+            
+            set_cosmetic_tag = YUG
+        }
+    }
+    
+    integrate_greece = {
+        available = {
+            
+            controls_state = 47
+            controls_state = 185
+            controls_state = 186
+            controls_state = 731
+            custom_trigger_tooltip = {
+                tooltip = CRO_tooltip_be_a_yugoslavia
+                has_cosmetic_tag = YUG
+            }
+        }
+        
+        cost = 100
+        fire_only_once = yes
+        
+        complete_effect = {
+            add_state_core = 47
+            add_state_core = 185
+            add_state_core = 186
+            add_state_core = 731
+        }
+    }
+}
+
+hun_integrate_rumania = {
+    hun_integrate_rumania = {
+        available = {
+            controls_state = 79
+            controls_state = 78
+            controls_state = 766
+            num_of_civilian_factories_available_for_projects > 7
+        }
+        
+        cost = 150
+        fire_only_once = yes
+        days_remove = 1
+        
+        modifier = {
+            civilian_factory_use = 8
+        }
+        
+        complete_effect = {
+            add_state_core = 78
+            add_state_core = 79
+            add_state_core = 766
+        }
+        
+        remove_effect = {
+            transfer_state = 46
+            add_state_core = 46
+            transfer_state = 81
+            add_state_core = 81
         }
     }
 }

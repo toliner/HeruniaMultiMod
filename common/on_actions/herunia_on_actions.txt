@@ -7,6 +7,15 @@ on_actions = {
                 }
                 country_event = herunia.1
             }
+            every_country = {
+                limit = {
+                    is_ai = yes
+                    NOT = {
+                        tag = JAP
+                    }
+                }
+                add_ideas = YOU_CAN_NOT_DECLARE_WAR_LOL
+            }
             PAR = {
                 country_event = herunia.6
             }

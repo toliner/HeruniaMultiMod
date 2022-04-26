@@ -389,6 +389,7 @@ country_event = {
             idea = POR_hydroelectric_power
             days = 365
         }
+        war_support_factor = 0.1
         ITA = {
             country_event = {
                 id = herunia.13
@@ -700,7 +701,7 @@ country_event = {
     fire_only_once = yes
     trigger = {
         date > 1939.09.01
-        tag = ENG
+        original_tag = ENG
     }
     mean_time_to_happen = {
         days = 0
@@ -719,6 +720,20 @@ country_event = {
                 type = annex_everything
             }
         }
+        every_country = {
+            limit = {
+                is_hre_country = yes
+            }
+            add_timed_idea = {
+                idea = HRE_desperate_defence
+                days = 180
+            }
+        }
+        add_threat = 100
+        SOV = {
+            add_ideas = HERUNIA_SOV_surrender_limit
+        }
+        
         # todo: news event
     }
 }
@@ -782,6 +797,7 @@ country_event = {
             SPR_military_disloyalty
             BUL_army_restrictions
         }
+        add_threat = 10
     }
 }
 

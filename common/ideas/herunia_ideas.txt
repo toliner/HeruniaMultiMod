@@ -12,7 +12,6 @@ ideas = {
             picture = warrior_traditions_idea
             
             modifier = {
-                global_building_slots = 1
                 global_building_slots_factor = 0.3
                 required_garrison_factor = -0.2
                 occupation_cost  = -0.10
@@ -1743,7 +1742,25 @@ ideas = {
             }
         }
         
-        # ToDo: 開戦時に付与
+        HRE_desperate_defence = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = todo
+            
+            modifier = {
+                army_defence_factor = 0.2
+                army_core_defence_factor = 0.2
+                war_support_weekly = 0.01
+            }
+        }
         HERUNIA_SOV_surrender_limit = {
             allowed = {
                 always = no

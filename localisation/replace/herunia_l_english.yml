@@ -181,6 +181,8 @@
  ger_tank_manufacturer:0 "ドイツ戦車工房"
  HRE_volunteer_available:0 "義勇軍への志願"
  YOU_CAN_NOT_DECLARE_WAR_LOL:0 "ゲームルール: 宣戦布告不可"
+ HRE_desperate_defence:0 "絶望的な防衛"
+ HERUNIA_SOV_surrender_limit:0 "降伏限界調整: ソ連"
 # Tooltip
  HRE_available_military_officer:0 "§G各軍の長官が追加される§!"
  HRE_effect_superior_spirit:0 "\n§C精神的優越を取得すると、個々の師団の性能を向上させるようなバフが多く取得出来る§!"

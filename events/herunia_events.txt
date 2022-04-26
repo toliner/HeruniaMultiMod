@@ -94,7 +94,6 @@ country_event = {
     }
 }
 
-# AIによる中南米併合イベント
 country_event = {
     id = herunia.6
     title = herunia.6.t
@@ -281,6 +280,7 @@ country_event = {
         }
         set_cosmetic_tag = united_polynesia
         hidden_effect = {
+            # todo
 #            news_event = herunia.101
         }
         ENG = {
@@ -396,7 +396,8 @@ country_event = {
             }
         }
         hidden_effect = {
-        
+            # todo
+#            news_event = herunia.102
         }
     }
 }
@@ -509,7 +510,8 @@ country_event = {
             }
         }
         hidden_effect = {
-        
+        # todo
+#            news_event = herunia.103
         }
     }
 }
@@ -691,6 +693,98 @@ country_event = {
     }
 }
 
+country_event = {
+    id = herunia.21
+    title = herunia.21.t
+    desc = herunia.21.d
+    fire_only_once = yes
+    trigger = {
+        date > 1939.09.01
+        tag = ENG
+    }
+    mean_time_to_happen = {
+        days = 0
+    }
+    option = {
+        name = herunia.21.a
+        every_country = {
+            limit = {
+                OR = {
+                    tag = ENG
+                    is_in_faction_with = ENG
+                }
+            }
+            declare_war_on = {
+                target = GER
+                type = annex_everything
+            }
+        }
+        # todo: news event
+    }
+}
+
+country_event = {
+    id = herunia.22
+    title = herunia.22.t
+    desc = herunia.22.d
+    fire_only_once = yes
+    
+    trigger = {
+        date > 1939.01.01
+        tag = JAP
+    }
+    mean_time_to_happen = {
+        days = 0
+    }
+    option = {
+        name = herunia.22.a
+        annex_country = {
+            target = CHI
+        }
+        annex_country = {
+            target = PRC
+        }
+        annex_country = {
+            target = YUN
+        }
+        annex_country = {
+            target = SHX
+        }
+        annex_country = {
+            target = GXC
+        }
+        annex_country = {
+            target = XSM
+        }
+        country_event = {
+            herunia.23
+            days = 5
+        }
+    }
+}
+
+country_event = {
+    id = herunia.23
+    title = herunia.23.t
+    desc = herunia.23.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.23.a
+        every_controlled_state = {
+            add_core_of = controller
+        }
+        add_ideas = {
+            free_trade
+            disarmed_nation
+            civilian_economy
+            YOU_CAN_NOT_DECLARE_WAR_LOL
+            SPR_military_disloyalty
+            BUL_army_restrictions
+        }
+    }
+}
+
 news_event = {
     id = herunia.100
     title = herunia.100.t
@@ -717,3 +811,32 @@ news_event = {
     }
 }
 
+news_event = {
+    id = herunia.102
+    title = herunia.102.t
+    desc = herunia.102.d
+    picture = GFX_news_event_nuke
+    major = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.102.a
+    }
+    
+    option = {
+        name = herunia.102.b
+    }
+}
+
+news_event = {
+    id = herunia.103
+    title = herunia.103.t
+    desc = herunia.103.d
+    picture = GFX_news_event_nuke
+    major = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.103.a
+    }
+}

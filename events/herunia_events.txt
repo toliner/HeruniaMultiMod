@@ -397,7 +397,7 @@ country_event = {
             idea = POR_hydroelectric_power
             days = 365
         }
-        war_support_factor = 0.3
+        add_war_support = 0.3
         hidden_effect = {
             if = {
                 limit = {
@@ -584,6 +584,13 @@ country_event = {
             add_core_of = controller
         }
         add_ideas = british_arms_discount
+        remove_ideas = {
+            FRA_inefficient_economy_2
+            FRA_inefficient_economy_1
+            FRA_political_violence
+            FRA_full_employment
+            FRA_victors_of_wwi
+        }
         add_timed_idea = {
             idea = ENG_trade_union_construction_worker_support
             days = 365
@@ -731,11 +738,15 @@ country_event = {
                 target = GER
                 type = annex_everything
             }
+            add_war_support = 1
+            add_stability = 0.1
         }
         add_threat = 100
+        add_ideas = HERUNIA_ENG_surrender_limit
         SOV = {
             add_ideas = HERUNIA_SOV_surrender_limit
         }
+        
         
         # todo: news event
     }
@@ -775,9 +786,14 @@ country_event = {
             target = XSM
         }
         country_event = {
-            herunia.23
+            id = herunia.23
             days = 5
         }
+        
+        set_faction_name = "環太平洋中立機構"
+        add_to_faction = USA
+        add_to_faction = HOL
+        add_to_faction = PAR
     }
 }
 
@@ -822,6 +838,22 @@ country_event = {
                 days = 180
             }
         }
+    }
+}
+
+country_event = {
+    id = herunia.201
+    title = herunia.201.t
+    desc = herunia.201.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.201.a
+        annex_country = {
+            target = SOS
+            transfer_troops = yes
+        }
+        add_research_slot = 1
     }
 }
 
@@ -878,6 +910,19 @@ news_event = {
     
     option = {
         name = herunia.103.a
+    }
+}
+
+news_event = {
+    id = herunia.104
+    title = herunia.104.t
+    desc = herunia.104.d
+    picture = GFX_news_event_nuke
+    major = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.104.a
     }
 }
 

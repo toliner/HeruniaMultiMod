@@ -1778,6 +1778,23 @@ ideas = {
                 surrender_limit = -0.25
             }
         }
+        HERUNIA_ENG_surrender_limit = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = todo
+    
+            modifier = {
+                surrender_limit = -0.60
+            }
+        }
     }
     
     industrial_concern = {

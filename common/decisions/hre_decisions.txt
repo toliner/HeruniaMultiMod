@@ -454,6 +454,9 @@ revive_pol_decisions = {
             90 = {
                 add_core_of = KGL
             }
+            set_capital = {
+                state = 10
+            }
         }
     }
     

@@ -1,0 +1,78 @@
+FRA_alternate_plan_monarchist_bonaparte = {
+	name = "Napoleon VI: Napoeleon Returns: Zombie Sharks Attack"
+	desc = ""
+
+	allowed = {
+		original_tag = FRA
+		has_dlc = "La Resistance"
+	}
+	enable = {
+		always = yes
+	}
+	abort = {
+		
+	}
+
+	ai_national_focuses = {
+		FRA_revive_the_national_bloc
+		FRA_utilize_the_leagues
+		FRA_the_council_of_rambouillet
+		FRA_revise_the_constitution
+		FRA_devalue_the_franc
+		#1937
+		FRA_agricultural_protectionism
+		FRA_invest_in_the_metropole
+		FRA_begin_rearmament
+		FRA_invest_in_the_colonies
+		FRA_aggressive_focus
+		#1938
+		FRA_repeal_the_law_of_exile
+		FRA_proclaim_the_third_empire
+		FRA_metropolitan_france
+		FRA_algerie_france
+		FRA_industrial_expansion
+		FRA_extra_research_slot
+		FRA_economic_devolution
+		#1939
+		FRA_battle_of_maneuver
+		FRA_motorized_focus
+		FRA_mechanized_focus
+		FRA_promote_entrepeneurship
+		FRA_light_medium_armor
+		#1940
+		FRA_army_reform
+		FRA_invest_in_indochina
+		FRA_avenge_waterloo
+		FRA_invest_in_syria
+		FRA_invest_in_west_africa
+		#1941
+		FRA_colonial_industry
+		FRA_military_factories
+		FRA_retribution_for_sedan
+		FRA_extra_research_slot_2
+		FRA_disunite_germany
+		#1942
+		FRA_naval_rearmament
+		FRA_capital_ship_focus
+		FRA_fighter_focus
+		FRA_cas_focus
+		FRA_return_to_borodino
+		FRA_je_suis_la_deluge
+	}			
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+}

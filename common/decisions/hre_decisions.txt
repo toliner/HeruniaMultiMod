@@ -730,3 +730,40 @@ hun_integrate_rumania = {
         }
     }
 }
+
+developer_only_command = {
+    honban = {
+        fire_only_once = yes
+        complete_effect = {
+            set_global_flag = HERUNIA_FLAG_HONBAN
+            news_event = herunia.1000
+        }
+    }
+}
+
+vote_to_marisa_alice = {
+    vote_to_marisa = {
+        days_remove = 30
+        complete_effect = {
+            add_to_variable = {
+                global.marisa = 1
+            }
+        }
+    }
+    vote_to_alice = {
+        days_remove = 30
+        complete_effect = {
+            add_to_variable = {
+                global.alice = 1
+            }
+        }
+    }
+    vote_to_herunia = {
+        days_remove = 30
+        complete_effect = {
+            add_to_variable = {
+                global.herunia = 1
+            }
+        }
+    }
+}

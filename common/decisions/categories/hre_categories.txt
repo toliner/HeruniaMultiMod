@@ -47,3 +47,17 @@ hun_integrate_rumania = {
         tag = HUN
     }
 }
+
+developer_only_command = {
+    visible = {
+        tag = CZE
+        is_ai = no
+    }
+}
+
+vote_to_marisa_alice = {
+    visible = {
+        is_hre_country = yes
+        has_global_flag = HERUNIA_FLAG_HONBAN
+    }
+}

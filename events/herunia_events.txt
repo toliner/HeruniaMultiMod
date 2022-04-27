@@ -209,8 +209,12 @@ country_event = {
         }
         set_stability = 1
         hidden_effect = {
-            # ToDo: ネタバレ防止
-            # news_event = herunia.100
+            if = {
+                limit = {
+                    has_global_flag = HERUNIA_FLAG_HONBAN
+                }
+                news_event = herunia.100
+            }
             HOL = {
                 country_event = {
                     id = herunia.9
@@ -280,13 +284,17 @@ country_event = {
         }
         set_cosmetic_tag = united_polynesia
         hidden_effect = {
-            # todo
-#            news_event = herunia.101
-        }
-        ENG = {
-            country_event = {
-                id = herunia.11
-                days = 180
+            if = {
+                limit = {
+                    has_global_flag = HERUNIA_FLAG_HONBAN
+                }
+                news_event = herunia.101
+            }
+            ENG = {
+                country_event = {
+                    id = herunia.11
+                    days = 180
+                }
             }
         }
     }
@@ -389,16 +397,20 @@ country_event = {
             idea = POR_hydroelectric_power
             days = 365
         }
-        war_support_factor = 0.1
-        ITA = {
-            country_event = {
-                id = herunia.13
-                days = 180
-            }
-        }
+        war_support_factor = 0.3
         hidden_effect = {
-            # todo
-#            news_event = herunia.102
+            if = {
+                limit = {
+                    has_global_flag = HERUNIA_FLAG_HONBAN
+                }
+                news_event = herunia.102
+            }
+            ITA = {
+                country_event = {
+                    id = herunia.13
+                    days = 180
+                }
+            }
         }
     }
 }
@@ -720,15 +732,6 @@ country_event = {
                 type = annex_everything
             }
         }
-        every_country = {
-            limit = {
-                is_hre_country = yes
-            }
-            add_timed_idea = {
-                idea = HRE_desperate_defence
-                days = 180
-            }
-        }
         add_threat = 100
         SOV = {
             add_ideas = HERUNIA_SOV_surrender_limit
@@ -801,6 +804,27 @@ country_event = {
     }
 }
 
+country_event = {
+    id = herunia.24
+    title = herunia.24.t
+    desc = herunia.24.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.24.a
+        every_country = {
+            # ToDo: マリアリディシジョンに基づいたあれこれ(国民精神付与とか)
+            limit = {
+                is_hre_country = yes
+            }
+            add_timed_idea = {
+                idea = HRE_desperate_defence
+                days = 180
+            }
+        }
+    }
+}
+
 news_event = {
     id = herunia.100
     title = herunia.100.t
@@ -854,5 +878,18 @@ news_event = {
     
     option = {
         name = herunia.103.a
+    }
+}
+
+news_event = {
+    id = herunia.1000
+    title = herunia.1000.t
+    desc = herunia.1000.d
+    picture = GFX_news_event_nuke
+    major = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.1000.a
     }
 }

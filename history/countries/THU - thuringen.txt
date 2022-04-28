@@ -18,9 +18,9 @@ set_popularities = {
     communism = 10
 }
 
-recruit_character = THU_johann_friedrich
+recruit_character = THU_Johann_Friedrich_aaaa
 
 promote_character = {
-    character = THU_johann_friedrich
+    character = THU_Johann_Friedrich_aaaa
     Ideology = neutrality
 }

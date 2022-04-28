@@ -46,7 +46,7 @@ characters = {
     
     THU_Johann_Friedrich_aaaa = {
         name = THU_johann_friedrich
-        
+    
         country_leader = {
             ideology = despotism
             traits = {

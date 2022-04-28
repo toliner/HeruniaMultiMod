@@ -456,7 +456,6 @@ ideas = {
             modifier = {
                 air_mission_efficiency = 0.1
             }
-            # todo: ジェット対応
         }
         HRE_focus_to_infantry_equipment_or_fighter_1_air_mass = {
             allowed = {
@@ -1577,7 +1576,7 @@ ideas = {
     
             removal_cost = -1
             
-            picture = todo
+            picture = generic_navy_bonus
             
             modifier = {
                 industrial_capacity_dockyard = 0.5
@@ -1594,7 +1593,7 @@ ideas = {
     
             removal_cost = -1
     
-            picture = todo
+            picture = idea_maizuru_naval_arsenal
     
             research_bonus = {
                 naval_equipment = 0.2
@@ -1612,7 +1611,7 @@ ideas = {
     
             removal_cost = -1
     
-            picture = todo
+            picture = idea_generic_sea_focused_navy
             
             equipment_bonus = {
                 screen_ship = {
@@ -1632,7 +1631,7 @@ ideas = {
         
             removal_cost = -1
         
-            picture = todo
+            picture = idea_generic_sea_focused_navy
         
             equipment_bonus = {
                 screen_ship = {
@@ -1652,7 +1651,7 @@ ideas = {
     
             removal_cost = -1
     
-            picture = todo
+            picture = idea_generic_sea_focused_navy
             
             equipment_bonus = {
                 capital_ship = {
@@ -1676,7 +1675,7 @@ ideas = {
         
             removal_cost = -1
         
-            picture = todo
+            picture = idea_generic_sea_focused_navy
         
             equipment_bonus = {
                 capital_ship = {
@@ -1701,7 +1700,7 @@ ideas = {
     
             removal_cost = -1
     
-            picture = todo
+            picture = idea_generic_navy_carrier_bonus
     
             modifier = {
                 production_speed_dockyard_factor = 0.05
@@ -1718,7 +1717,7 @@ ideas = {
         
             removal_cost = -1
         
-            picture = todo
+            picture = idea_generic_navy_carrier_bonus
         
             modifier = {
                 production_speed_dockyard_factor = 0.15
@@ -1735,7 +1734,7 @@ ideas = {
         
             removal_cost = -1
         
-            picture = todo
+            picture = idea_generic_navy_carrier_bonus
         
             modifier = {
                 production_speed_dockyard_factor = 0.25
@@ -1753,7 +1752,7 @@ ideas = {
     
             removal_cost = -1
     
-            picture = todo
+            picture = idea_yug_federal_defense_council
             
             modifier = {
                 army_defence_factor = 0.2
@@ -1772,7 +1771,7 @@ ideas = {
     
             removal_cost = -1
     
-            picture = todo
+            picture = idea_POL_the_peasants_strike
     
             modifier = {
                 surrender_limit = -0.25
@@ -1789,7 +1788,7 @@ ideas = {
     
             removal_cost = -1
     
-            picture = todo
+            picture = idea_POL_the_peasants_strike
     
             modifier = {
                 surrender_limit = -0.60

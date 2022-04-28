@@ -519,6 +519,7 @@ country_event = {
             add_core_of = controller
         }
         set_cosmetic_tag = SPQR_UNIFIED
+        add_war_support = 0.1
         SPR = {
             country_event = {
                 id = herunia.15
@@ -526,8 +527,12 @@ country_event = {
             }
         }
         hidden_effect = {
-        # todo
-#            news_event = herunia.103
+            if = {
+                limit = {
+                    has_global_flag = HERUNIA_FLAG_HONBAN
+                }
+                news_event = herunia.103
+            }
         }
     }
 }
@@ -601,6 +606,14 @@ country_event = {
         add_timed_idea = {
             idea = ENG_spirit_of_the_industrial_revolution_idea
             days = 730
+        }
+        hidden_effect = {
+            if = {
+                limit = {
+                    has_global_flag = HERUNIA_FLAG_HONBAN
+                }
+                news_event = herunia.105
+            }
         }
         SOV = {
             country_event = {
@@ -793,7 +806,8 @@ country_event = {
             days = 5
         }
         
-        set_faction_name = "環太平洋中立機構"
+        dismantle_faction = yes
+        create_faction = "環太平洋中立機構"
         add_to_faction = USA
         add_to_faction = HOL
         add_to_faction = PAR
@@ -1021,6 +1035,19 @@ news_event = {
     
     option = {
         name = herunia.104.a
+    }
+}
+
+news_event = {
+    id = herunia.105
+    title = herunia.105.t
+    desc = herunia.105.d
+    picture = GFX_news_event_nuke
+    major = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.105.a
     }
 }
 

@@ -1816,24 +1816,4 @@ ideas = {
             }
         }
     }
-    
-    tank_manufacturer = {
-        designer = yes
-        
-        ger_tank_manufacturer = {
-            allowed = {
-                is_hre_country = yes
-            }
-            
-            available = {
-                has_completed_focus = HRE_invest_our_country
-            }
-    
-            research_bonus = {
-                armor = 0.15
-            }
-    
-            traits = { fast_tank_manufacturer }
-        }
-    }
 }

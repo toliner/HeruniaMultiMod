@@ -2,6 +2,9 @@ create_destroyer_equipment_variant = {
     if = {
         limit = {
             has_tech = advanced_ship_hull_light
+            NOT = {
+                has_country_flag = HRE_naval_design_dd_3
+            }
         }
         create_equipment_variant = {
             name = "ヘルニア級 III"
@@ -19,10 +22,14 @@ create_destroyer_equipment_variant = {
                 rear_1_custom_slot = ship_depth_charge_4
             }
         }
+        set_country_flag = HRE_naval_design_dd_3
     }
     else_if = {
         limit = {
             has_tech = improved_ship_hull_light
+            NOT = {
+                has_country_flag = HRE_naval_design_dd_2
+            }
         }
         create_equipment_variant = {
             name = "ヘルニア級 II"
@@ -40,8 +47,14 @@ create_destroyer_equipment_variant = {
                 rear_1_custom_slot = ship_depth_charge_3
             }
         }
+        set_country_flag = HRE_naval_design_dd_2
     }
-    else = {
+    else_if = {
+        limit = {
+            NOT = {
+                has_country_flag = HRE_naval_design_dd_1
+            }
+        }
         create_equipment_variant = {
             name = "ヘルニア級 I"
             type = ship_hull_light_2
@@ -58,6 +71,7 @@ create_destroyer_equipment_variant = {
                 rear_1_custom_slot = ship_depth_charge_2
             }
         }
+        set_country_flag = HRE_naval_design_dd_1
     }
 }
 
@@ -65,6 +79,9 @@ create_cruiser_equipment_variant = {
     if = {
         limit = {
             has_tech = advanced_ship_hull_cruiser
+            NOT = {
+                has_country_flag = HRE_naval_design_cruiser_3
+            }
         }
         create_equipment_variant = {
             name = "アリス級 III"
@@ -85,10 +102,14 @@ create_cruiser_equipment_variant = {
                 front_1_custom_slot = ship_light_medium_battery_4
             }
         }
+        set_country_flag = HRE_naval_design_cruiser_3
     }
     else_if = {
         limit = {
             has_tech = improved_ship_hull_cruiser
+            NOT = {
+                has_country_flag = HRE_naval_design_cruiser_2
+            }
         }
         create_equipment_variant = {
             name = "アリス級 II"
@@ -109,8 +130,14 @@ create_cruiser_equipment_variant = {
                 front_1_custom_slot = ship_light_medium_battery_3
             }
         }
+        set_country_flag = HRE_naval_design_cruiser_2
     }
-    else = {
+    else_if = {
+        limit = {
+            NOT = {
+                has_country_flag = HRE_naval_design_cruiser_1
+            }
+        }
         create_equipment_variant = {
             name = "アリス級 I"
             type = ship_hull_cruiser_2
@@ -130,6 +157,7 @@ create_cruiser_equipment_variant = {
                 front_1_custom_slot = ship_light_medium_battery_2
             }
         }
+        set_country_flag = HRE_naval_design_cruiser_1
     }
 }
 
@@ -137,6 +165,9 @@ create_heavy_cruiser_equipment_variant = {
     if = {
         limit = {
             has_tech = advanced_ship_hull_cruiser
+            NOT = {
+                has_country_flag = HRE_naval_design_heavy_cruiser_3
+            }
         }
         create_equipment_variant = {
             name = "マリサ級 III"
@@ -157,10 +188,14 @@ create_heavy_cruiser_equipment_variant = {
                 front_1_custom_slot = ship_medium_battery_4
             }
         }
+        set_country_flag = HRE_naval_design_heavy_cruiser_3
     }
     else_if = {
         limit = {
             has_tech = improved_ship_hull_cruiser
+            NOT = {
+                has_country_flag = HRE_naval_design_heavy_cruiser_2
+            }
         }
         create_equipment_variant = {
             name = "マリサ級 II"
@@ -181,8 +216,14 @@ create_heavy_cruiser_equipment_variant = {
                 front_1_custom_slot = ship_medium_battery_3
             }
         }
+        set_country_flag = HRE_naval_design_heavy_cruiser_2
     }
-    else = {
+    else_if = {
+        limit = {
+            NOt = {
+                has_country_flag = HRE_naval_design_heavy_cruiser_1
+            }
+        }
         create_equipment_variant = {
             name = "マリサ級 I"
             type = ship_hull_cruiser_2
@@ -202,6 +243,7 @@ create_heavy_cruiser_equipment_variant = {
                 front_1_custom_slot = ship_medium_battery_2
             }
         }
+        set_country_flag = HRE_naval_design_heavy_cruiser_1
     }
 }
 
@@ -209,6 +251,9 @@ create_battleship_equipment_variant = {
     if = {
         limit = {
             has_tech = advanced_ship_hull_heavy
+            NOT = {
+                has_country_flag = HRE_naval_design_bb_3
+            }
         }
         create_equipment_variant = {
             name = "大和級 III"
@@ -230,10 +275,14 @@ create_battleship_equipment_variant = {
                 rear_1_custom_slot = dp_ship_secondaries
             }
         }
+        set_country_flag = HRE_naval_design_bb_3
     }
     else_if = {
         limit = {
             has_tech = improved_ship_hull_heavy
+            NOT = {
+                has_country_flag = HRE_naval_design_bb_2
+            }
         }
         create_equipment_variant = {
             name = "大和級 II"
@@ -255,8 +304,14 @@ create_battleship_equipment_variant = {
                 rear_1_custom_slot = dp_ship_secondaries
             }
         }
+        set_country_flag = HRE_naval_design_bb_2
     }
-    else = {
+    else_if = {
+        limit = {
+            NOT = {
+                has_country_flag = HRE_naval_design_bb_1
+            }
+        }
         create_equipment_variant = {
             name = "大和級 I"
             type = ship_hull_heavy_2
@@ -276,6 +331,7 @@ create_battleship_equipment_variant = {
                 rear_1_custom_slot = dp_ship_secondaries
             }
         }
+        set_country_flag = HRE_naval_design_bb_1
     }
 }
 
@@ -283,6 +339,9 @@ create_battle_cruiser_equipment_variant = {
     if = {
         limit = {
             has_tech = advanced_ship_hull_heavy
+            NOT = {
+                has_country_flag = HRE_naval_design_bc_3
+            }
         }
         create_equipment_variant = {
             name = "巨乳級 III"
@@ -304,10 +363,14 @@ create_battle_cruiser_equipment_variant = {
                 rear_1_custom_slot = dp_ship_secondaries
             }
         }
+        set_country_flag = HRE_naval_design_bc_3
     }
     else_if = {
         limit = {
             has_tech = improved_ship_hull_heavy
+            NOT = {
+                has_country_flag = HRE_naval_design_bc_2
+            }
         }
         create_equipment_variant = {
             name = "巨乳級 II"
@@ -329,8 +392,14 @@ create_battle_cruiser_equipment_variant = {
                 rear_1_custom_slot = dp_ship_secondaries
             }
         }
+        set_country_flag = HRE_naval_design_bc_2
     }
-    else = {
+    else_if = {
+        limit = {
+            NOT = {
+                has_country_flag = HRE_naval_design_bc_1
+            }
+        }
         create_equipment_variant = {
             name = "巨乳級 I"
             type = ship_hull_heavy_2
@@ -350,6 +419,7 @@ create_battle_cruiser_equipment_variant = {
                 rear_1_custom_slot = dp_ship_secondaries
             }
         }
+        set_country_flag = HRE_naval_design_bc_1
     }
 }
 
@@ -357,6 +427,9 @@ create_career_equipment_variant = {
     if = {
         limit = {
             has_tech = advanced_ship_hull_carrier
+            NOT = {
+                has_country_flag = HRE_naval_design_career_3
+            }
         }
         create_equipment_variant = {
             name = "マリアリ級 III"
@@ -375,10 +448,14 @@ create_career_equipment_variant = {
                 mid_2_custom_slot = ship_deck_space
             }
         }
+        set_country_flag = HRE_naval_design_career_3
     }
     else_if = {
         limit = {
             has_tech = improved_ship_hull_carrier
+            NOT = {
+                has_country_flag = HRE_naval_design_career_2
+            }
         }
         create_equipment_variant = {
             name = "マリアリ級 II"
@@ -396,8 +473,14 @@ create_career_equipment_variant = {
                 mid_1_custom_slot = ship_deck_space
             }
         }
+        set_country_flag = HRE_naval_design_career_2
     }
-    else = {
+    else_if = {
+        limit = {
+            NOT = {
+                has_country_flag = HRE_naval_design_career_1
+            }
+        }
         create_equipment_variant = {
             name = "マリアリ級 I"
             type = ship_hull_carrier_1
@@ -413,13 +496,16 @@ create_career_equipment_variant = {
                 front_1_custom_slot = ship_deck_space
             }
         }
+        set_country_flag = HRE_naval_design_career_1
     }
 }
 
 create_destroyer_by_usa = {
     if = {
         limit = {
-            has_tech = advanced_ship_hull_light
+            USA = {
+                has_tech = advanced_ship_hull_light
+            }
         }
         create_ship = {
             type = ship_hull_light_4
@@ -429,7 +515,9 @@ create_destroyer_by_usa = {
     }
     else_if = {
         limit = {
-            has_tech = improved_ship_hull_light
+            USA = {
+                has_tech = improved_ship_hull_light
+            }
         }
         create_ship = {
             type = ship_hull_light_3
@@ -449,7 +537,9 @@ create_destroyer_by_usa = {
 create_cruiser_by_usa = {
     if = {
         limit = {
-            has_tech = advanced_ship_hull_cruiser
+            USA = {
+                has_tech = advanced_ship_hull_cruiser
+            }
         }
         create_ship = {
             type = ship_hull_cruiser_4
@@ -459,7 +549,9 @@ create_cruiser_by_usa = {
     }
     else_if = {
         limit = {
-            has_tech = improved_ship_hull_cruiser
+            USA = {
+                has_tech = improved_ship_hull_cruiser
+            }
         }
         create_ship = {
             type = ship_hull_cruiser_3
@@ -479,7 +571,9 @@ create_cruiser_by_usa = {
 create_heavy_cruiser_by_usa = {
     if = {
         limit = {
-            has_tech = advanced_ship_hull_cruiser
+            USA = {
+                has_tech = advanced_ship_hull_cruiser
+            }
         }
         create_ship = {
             type = ship_hull_cruiser_4
@@ -489,7 +583,9 @@ create_heavy_cruiser_by_usa = {
     }
     else_if = {
         limit = {
-            has_tech = improved_ship_hull_cruiser
+            USA = {
+                has_tech = improved_ship_hull_cruiser
+            }
         }
         create_ship = {
             type = ship_hull_cruiser_3
@@ -509,7 +605,9 @@ create_heavy_cruiser_by_usa = {
 create_bb_by_usa = {
     if = {
         limit = {
-            has_tech = advanced_ship_hull_heavy
+            USA = {
+                has_tech = advanced_ship_hull_heavy
+            }
         }
         create_ship = {
             equipment_variant = "大和級 III"
@@ -519,7 +617,9 @@ create_bb_by_usa = {
     }
     else_if = {
         limit = {
-            has_tech = improved_ship_hull_heavy
+            USA = {
+                has_tech = improved_ship_hull_heavy
+            }
         }
         create_ship = {
             equipment_variant = "大和級 II"
@@ -539,7 +639,9 @@ create_bb_by_usa = {
 create_bc_by_usa = {
     if = {
         limit = {
-            has_tech = advanced_ship_hull_heavy
+            USA = {
+                has_tech = advanced_ship_hull_heavy
+            }
         }
         create_ship = {
             equipment_variant = "巨乳級 III"
@@ -549,7 +651,9 @@ create_bc_by_usa = {
     }
     else_if = {
         limit = {
-            has_tech = improved_ship_hull_heavy
+            USA = {
+                has_tech = improved_ship_hull_heavy
+            }
         }
         create_ship = {
             equipment_variant = "巨乳級 II"
@@ -569,7 +673,9 @@ create_bc_by_usa = {
 create_carrier_by_usa = {
     if = {
         limit = {
-            has_tech = advanced_ship_hull_carrier
+            USA = {
+                has_tech = advanced_ship_hull_carrier
+            }
         }
         create_ship = {
             equipment_variant = "マリアリ級 III"
@@ -579,7 +685,9 @@ create_carrier_by_usa = {
     }
     else_if = {
         limit = {
-            has_tech = improved_ship_hull_carrier
+            USA = {
+                has_tech = improved_ship_hull_carrier
+            }
         }
         create_ship = {
             equipment_variant = "マリアリ級 II"

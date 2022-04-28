@@ -516,7 +516,7 @@ every_possible_country = {
             army = { small = GFX_idea_generic_army_art }
         }
     }
-    # 戦略的破壊
+    # 空
     generate_character = {
         token_base = hre_victory_through_airpower
         advisor={
@@ -568,6 +568,7 @@ every_possible_country = {
             army = { small = GFX_idea_generic_air_air_combat_trainer }
         }
     }
+    # 海
     generate_character = {
         token_base = hre_naval_aviation_pioneer
         advisor={

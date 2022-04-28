@@ -51,6 +51,9 @@ country_event = {
     #}
     option = {
         name = herunia.2.e
+        country_event = {
+            id = herunia.25
+        }
     }
 }
 
@@ -837,6 +840,101 @@ country_event = {
                 idea = HRE_desperate_defence
                 days = 180
             }
+        }
+    }
+}
+
+country_event = {
+    id = herunia.25
+    title = herunia.25.t
+    desc = herunia.25.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.25.a
+        set_technology = {
+            mobile_warfare = 1
+            superior_firepower = 0
+            trench_warfare = 0
+            mass_assault = 0
+            popup = no
+        }
+        country_event = {
+            id = herunia.26
+        }
+    }
+    option = {
+        name = herunia.25.b
+        set_technology = {
+            mobile_warfare = 0
+            superior_firepower = 1
+            trench_warfare = 0
+            mass_assault = 0
+            popup = no
+        }
+        country_event = {
+            id = herunia.26
+        }
+    }
+    option = {
+        name = herunia.25.c
+        set_technology = {
+            mobile_warfare = 0
+            superior_firepower = 0
+            trench_warfare = 1
+            mass_assault = 0
+            popup = no
+        }
+        country_event = {
+            id = herunia.26
+        }
+    }
+    option = {
+        name = herunia.25.e
+        set_technology = {
+            mobile_warfare = 0
+            superior_firepower = 0
+            trench_warfare = 0
+            mass_assault = 1
+            popup = no
+        }
+        country_event = {
+            id = herunia.26
+        }
+    }
+}
+
+country_event = {
+    id = herunia.26
+    title = herunia.26.t
+    desc = herunia.26.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.26.a
+        set_technology = {
+            air_superiority = 1
+            force_rotation = 0
+            formation_flying = 0
+            popup = no
+        }
+    }
+    option = {
+        name = herunia.26.b
+        set_technology = {
+            air_superiority = 0
+            force_rotation = 1
+            formation_flying = 0
+            popup = no
+        }
+    }
+    option = {
+        name = herunia.26.c
+        set_technology = {
+            air_superiority = 0
+            force_rotation = 0
+            formation_flying = 1
+            popup = no
         }
     }
 }

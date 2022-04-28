@@ -1602,7 +1602,7 @@ ideas = {
 
 			
 			allowed = {
-				original_tag = GER
+				is_hre_country = yes
 			}
 			
 			research_bonus = {
@@ -1621,7 +1621,7 @@ ideas = {
 
 			
 			allowed = {
-				original_tag = GER
+				is_hre_country = yes
 			}
 			
 			research_bonus = {
@@ -1640,7 +1640,7 @@ ideas = {
 			picture = GER_MAN
 			
 			allowed = {
-				original_tag = GER
+				is_hre_country = yes
 			}
 			
 			research_bonus = {
@@ -1663,7 +1663,7 @@ ideas = {
 
 			
 			allowed = {
-				original_tag = GER
+				is_hre_country = yes
 			}
 			
 			research_bonus = {
@@ -1682,7 +1682,7 @@ ideas = {
 
 			
 			allowed = {
-				original_tag = GER
+				is_hre_country = yes
 			}
 			
 			research_bonus = {
@@ -1705,7 +1705,7 @@ ideas = {
 		messerschmitt = {
 			
 			allowed = {
-				original_tag = GER
+				is_hre_country = yes
 			}
 			
 			research_bonus = {
@@ -1725,7 +1725,7 @@ ideas = {
 		
 		junkers = { 
 			allowed = {
-				original_tag = GER
+				is_hre_country = yes
 			}
 						
 			research_bonus = {
@@ -1748,7 +1748,7 @@ ideas = {
 
 			
 			allowed = {
-				original_tag = GER
+				is_hre_country = yes
 			}
 			
 						
@@ -1767,7 +1767,7 @@ ideas = {
 
 			
 			allowed = {
-				original_tag = GER
+				is_hre_country = yes
 			}
 			
 			
@@ -1785,7 +1785,7 @@ ideas = {
 		dornier = {
 
 			allowed = {
-				original_tag = GER
+				is_hre_country = yes
 			}
 			
 						
@@ -1808,7 +1808,7 @@ ideas = {
 		ig_faben = {
 			
 			allowed = {
-				original_tag = GER
+				is_hre_country = yes
 			}
 			
 			research_bonus = {
@@ -1826,7 +1826,7 @@ ideas = {
 		krupp = {
 			
 			allowed = {
-				original_tag = GER
+				is_hre_country = yes
 			}
 			
 			research_bonus = {
@@ -1843,7 +1843,7 @@ ideas = {
 		siemens = {
 			
 			allowed = {
-				original_tag = GER
+				is_hre_country = yes
 			}
 			
 			research_bonus = {
@@ -1861,7 +1861,7 @@ ideas = {
 		rheinmetall = {
 			
 			allowed = {
-				original_tag = GER
+				is_hre_country = yes
 			}
 			
 			research_bonus = {
@@ -1879,7 +1879,7 @@ ideas = {
 
 			
 			allowed = {
-				original_tag = GER
+				is_hre_country = yes
 			}
 			
 			research_bonus = {
@@ -1893,13 +1893,10 @@ ideas = {
 			}
 		}
 		
-		
-
-		
 		opel = {
 			
 			allowed = {
-				original_tag = GER
+				is_hre_country = yes
 			}
 			
 			research_bonus = {
@@ -1931,8 +1928,4 @@ ideas = {
 		}
 
 	}
-
-
-
-
 }

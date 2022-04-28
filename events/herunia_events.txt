@@ -720,7 +720,7 @@ country_event = {
     
     option = {
         name = herunia.20.a
-        set_faction_name = "反ドイツ同盟"
+        create_faction = "反ドイツ同盟"
         add_to_faction = SOV
         add_to_faction = FRA
         add_to_faction = ITA

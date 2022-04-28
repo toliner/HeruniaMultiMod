@@ -400,6 +400,7 @@ country_event = {
             idea = POR_hydroelectric_power
             days = 365
         }
+        add_ideas = HERUNIA_ENG_surrender_limit
         add_war_support = 0.3
         hidden_effect = {
             if = {
@@ -690,7 +691,10 @@ country_event = {
         every_controlled_state = {
             add_core_of = controller
         }
-        add_ideas = USA_full_desegregation
+        add_ideas = {
+            USA_full_desegregation
+            HERUNIA_SOV_surrender_limit
+        }
         add_timed_idea = {
             idea = USA_national_employment_strategy
             days = 730
@@ -738,9 +742,6 @@ country_event = {
         date > 1939.09.01
         original_tag = ENG
     }
-    mean_time_to_happen = {
-        days = 0
-    }
     option = {
         name = herunia.21.a
         every_country = {
@@ -758,11 +759,6 @@ country_event = {
             add_stability = 0.1
         }
         add_threat = 100
-        add_ideas = HERUNIA_ENG_surrender_limit
-        SOV = {
-            add_ideas = HERUNIA_SOV_surrender_limit
-        }
-        
         
         # todo: news event
     }

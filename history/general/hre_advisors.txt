@@ -442,6 +442,183 @@ every_possible_country = {
             army = { small = GFX_idea_generic_air_air_combat_trainer }
         }
     }
+    
+    # 理論家
+    # 機動戦
+    generate_character = {
+        token_base = hre_mobile_warfare_expert
+        advisor={
+            cost = 150
+            slot = theorist
+            ledger = army
+            visible = {
+                has_completed_focus = HRE_focus_to_army
+            }
+            traits = {
+                mobile_warfare_expert
+            }
+        }
+        portraits = {
+            army = { small = GFX_idea_generic_army_art }
+        }
+    }
+    # 優勢火力
+    generate_character = {
+        token_base = hre_superior_firepower_expert
+        advisor={
+            cost = 150
+            slot = theorist
+            ledger = army
+            visible = {
+                has_completed_focus = HRE_focus_to_army
+            }
+            traits = {
+                superior_firepower_expert
+            }
+        }
+        portraits = {
+            army = { small = GFX_idea_generic_army_art }
+        }
+    }
+    # 大規模作戦
+    generate_character = {
+        token_base = hre_grand_battle_plan_expert
+        advisor={
+            cost = 150
+            slot = theorist
+            ledger = army
+            visible = {
+                has_completed_focus = HRE_focus_to_army
+            }
+            traits = {
+                grand_battle_plan_expert
+            }
+        }
+        portraits = {
+            army = { small = GFX_idea_generic_army_art }
+        }
+    }
+    # 大量突撃
+    generate_character = {
+        token_base = hre_mass_assault_expert
+        advisor={
+            cost = 150
+            slot = theorist
+            ledger = army
+            traits = {
+                grand_battle_plan_expert
+            }
+            visible = {
+                has_completed_focus = HRE_focus_to_army
+            }
+        }
+        portraits = {
+            army = { small = GFX_idea_generic_army_art }
+        }
+    }
+    # 戦略的破壊
+    generate_character = {
+        token_base = hre_victory_through_airpower
+        advisor={
+            cost = 150
+            slot = theorist
+            ledger = air
+            traits = {
+                victory_through_airpower
+            }
+            visible = {
+                has_completed_focus = HRE_focus_to_air
+            }
+        }
+        portraits = {
+            army = { small = GFX_idea_generic_air_air_combat_trainer }
+        }
+    }
+    generate_character = {
+        token_base = hre_close_air_support_proponent
+        advisor={
+            cost = 150
+            slot = theorist
+            ledger = air
+            traits = {
+                close_air_support_proponent
+            }
+            visible = {
+                has_completed_focus = HRE_focus_to_air
+            }
+        }
+        portraits = {
+            army = { small = GFX_idea_generic_air_air_combat_trainer }
+        }
+    }
+    generate_character = {
+        token_base = hre_assault_avaition
+        advisor={
+            cost = 150
+            slot = theorist
+            ledger = air
+            traits = {
+                assault_avaition
+            }
+            visible = {
+                has_completed_focus = HRE_focus_to_air
+            }
+        }
+        portraits = {
+            army = { small = GFX_idea_generic_air_air_combat_trainer }
+        }
+    }
+    generate_character = {
+        token_base = hre_naval_aviation_pioneer
+        advisor={
+            cost = 150
+            slot = theorist
+            ledger = navy
+            traits = {
+                naval_aviation_pioneer
+            }
+            visible = {
+                has_completed_focus = HRE_focus_naval
+            }
+        }
+        portraits = {
+            army = { small = GFX_idea_generic_navy_chief_decisive_bat }
+        }
+    }
+    generate_character = {
+        token_base = hre_grand_fleet_proponent
+        advisor={
+            cost = 150
+            slot = theorist
+            ledger = navy
+            traits = {
+                grand_fleet_proponent
+            }
+            visible = {
+                has_completed_focus = HRE_focus_naval
+            }
+        }
+        portraits = {
+            army = { small = GFX_idea_generic_navy_chief_decisive_bat }
+        }
+    }
+    generate_character = {
+        token_base = hre_submarine_specialist
+        advisor={
+            cost = 150
+            slot = theorist
+            ledger = navy
+            traits = {
+                submarine_specialist
+            }
+            visible = {
+                has_completed_focus = HRE_focus_naval
+            }
+        }
+        portraits = {
+            army = { small = GFX_idea_generic_navy_chief_decisive_bat }
+        }
+    }
 }
 
 # 政治顧問

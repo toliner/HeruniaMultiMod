@@ -78,6 +78,21 @@ on_actions = {
             set_variable = {
                 global.herunia = 0
             }
+            BUL = {
+                set_rule = {
+                    can_join_factions = no
+                }
+            }
+            YUG = {
+                set_rule = {
+                    can_join_factions = no
+                }
+            }
+            DEN = {
+                set_rule = {
+                    can_join_factions = no
+                }
+            }
         }
     }
 }

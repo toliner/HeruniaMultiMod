@@ -506,7 +506,7 @@ every_possible_country = {
             slot = theorist
             ledger = army
             traits = {
-                grand_battle_plan_expert
+                mass_assault_expert
             }
             visible = {
                 has_completed_focus = HRE_focus_to_army

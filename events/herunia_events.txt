@@ -962,6 +962,7 @@ country_event = {
             transfer_troops = yes
         }
         add_research_slot = 1
+        news_event = herunia.104
     }
 }
 

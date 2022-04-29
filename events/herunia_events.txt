@@ -933,8 +933,8 @@ country_event = {
         name = herunia.26.b
         set_technology = {
             air_superiority = 0
-            force_rotation = 1
-            formation_flying = 0
+            force_rotation = 0
+            formation_flying = 1
             popup = no
         }
     }
@@ -942,8 +942,8 @@ country_event = {
         name = herunia.26.c
         set_technology = {
             air_superiority = 0
-            force_rotation = 0
-            formation_flying = 1
+            force_rotation = 1
+            formation_flying = 0
             popup = no
         }
     }
@@ -1044,6 +1044,19 @@ news_event = {
     
     option = {
         name = herunia.105.a
+    }
+}
+
+news_event = {
+    id = herunia.106
+    title = herunia.106.t
+    desc = herunia.106.d
+    picture = GFX_news_event_nuke
+    major = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.106.a
     }
 }
 

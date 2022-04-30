@@ -46,7 +46,7 @@ characters = {
     
     THU_Johann_Friedrich_aaaa = {
         name = THU_johann_friedrich
-    
+        
         country_leader = {
             ideology = despotism
             traits = {
@@ -79,7 +79,17 @@ characters = {
     
     AUS_Herunia = {
         name = AUS_herunia
-    
+        
+        portraits = {
+            civilian = {
+                large = GFX_portrait_herunia
+            }
+            army = {
+                large = GFX_portrait_herunia
+                small = GFX_portrait_herunia
+            }
+        }
+        
         country_leader = {
             ideology = despotism
             traits = {
@@ -92,11 +102,52 @@ characters = {
     
     WUR_Eberhard_I = {
         name = WUR_eberhard_i
-    
+        
         country_leader = {
             ideology = despotism
             traits = {
                 the_first_wurttemberg
+            }
+        }
+    }
+    
+    AUS_secret_alice = {
+        name = AUS_secret_alice
+    
+        portraits = {
+            civilian = {
+                large = GFX_portrait_alice_normal
+            }
+            army = {
+                large = GFX_portrait_alice_normal
+                small = GFX_portrait_alice_normal
+            }
+        }
+        
+        country_leader = {
+            ideology = despotism
+            traits = {
+                god_alice
+            }
+        }
+    }
+    AUS_secret_marisa = {
+        name = AUS_secret_marisa
+        
+        portraits = {
+            civilian = {
+                large = GFX_portrait_marisa_normal
+            }
+            army = {
+                large = GFX_portrait_marisa_normal
+                small = GFX_portrait_marisa_normal
+            }
+        }
+        
+        country_leader = {
+            ideology = despotism
+            traits = {
+                god_marisa
             }
         }
     }

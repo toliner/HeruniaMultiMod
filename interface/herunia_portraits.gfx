@@ -1,0 +1,37 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_portrait_herunia"
+        texturefile = "gfx/leaders/Portrait_Herunia.dds"
+    }
+    
+    spriteType = {
+        name = "GFX_portrait_marisa_normal"
+        texturefile = "gfx/leaders/Portrait_Marisa_a.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_marisa_angry"
+        texturefile = "gfx/leaders/Portrait_Marisa_b.dds"
+    }
+    
+    spriteType = {
+        name = "GFX_portrait_alice_normal"
+        texturefile = "gfx/leaders/Portrait_Alice_a.dds"
+    }
+    spriteType = {
+        name = "GFX_portrait_alice_good"
+        texturefile = "gfx/leaders/Portrait_Alice_b.dds"
+    }
+    
+    spriteType = {
+        name = "GFX_idea_alice_icon"
+        texturefile = "gfx/interface/ideas/idea_alice.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_marisa_icon"
+        texturefile = "gfx/interface/ideas/idea_marisa.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_herunia_icon"
+        texturefile = "gfx/interface/ideas/idea_herunia.dds"
+    }
+}

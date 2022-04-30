@@ -73,9 +73,6 @@ on_actions = {
                 global.marisa = 0
             }
             set_variable = {
-                global.mariali = 0
-            }
-            set_variable = {
                 global.herunia = 0
             }
             BUL = {

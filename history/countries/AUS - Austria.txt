@@ -37,6 +37,8 @@ recruit_character = AUS_eugen_beyer
 recruit_character = AUS_julius_raab
 recruit_character = AUS_leopold_figl
 recruit_character = AUS_Herunia
+recruit_character = AUS_secret_alice
+recruit_character = AUS_secret_marisa
 
 promote_character = {
 	character = AUS_Herunia

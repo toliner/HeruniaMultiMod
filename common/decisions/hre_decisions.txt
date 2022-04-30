@@ -770,3 +770,35 @@ vote_to_marisa_alice = {
         }
     }
 }
+
+player_decisions = {
+    turn_off_event_voice = {
+        fire_only_once = yes
+        complete_effect = {
+            set_country_flag = HRE_Voice_Off
+        }
+    }
+    
+    explode_herunia = {
+        fire_only_once = yes
+        visible = {
+            NOT = {
+                tag = AUS
+            }
+        }
+        complete_effect = {
+            AUS = {
+                country_event = {
+                    id = herunia.31
+                }
+            }
+        }
+    }
+    
+    do_sex = {
+        days_remove = 365
+        remove_effect = {
+            add_manpower = 1
+        }
+    }
+}

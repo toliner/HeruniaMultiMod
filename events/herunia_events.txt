@@ -54,6 +54,9 @@ country_event = {
         country_event = {
             id = herunia.25
         }
+        country_event = {
+            id = gatcha.1
+        }
     }
 }
 
@@ -520,6 +523,7 @@ country_event = {
             add_core_of = controller
         }
         set_cosmetic_tag = SPQR_UNIFIED
+        add_ideas = HERUNIA_ITA_surrender_limit
         add_war_support = 0.1
         SPR = {
             country_event = {
@@ -608,6 +612,7 @@ country_event = {
             idea = ENG_spirit_of_the_industrial_revolution_idea
             days = 730
         }
+        add_ideas = HERUNIA_FRA_surrender_limit
         hidden_effect = {
             if = {
                 limit = {
@@ -759,8 +764,57 @@ country_event = {
             add_stability = 0.1
         }
         add_threat = 100
-        
-        # todo: news event
+        # マリアリ投票結果確定
+        if = {
+            # マリアリ
+            limit = {
+                check_variable = {
+                    global.alice > 400
+                }
+                check_variable = {
+                    global.marisa > 400
+                }
+            }
+            set_global_flag = HERUNIA_VOTE_MARIALI
+        }
+        else_if = {
+            # アリス
+            limit = {
+                check_variable = {
+                    global.alice > global.marisa
+                }
+                check_variable = {
+                    global.alice > global.herunia
+                }
+            }
+            set_global_flag = HERUNIA_VOTE_ALICE
+        }
+        else_if = {
+            # 魔理沙
+            limit = {
+                check_variable = {
+                    global.marisa > global.herunia
+                }
+            }
+            set_global_flag = HERUNIA_VOTE_MARISA
+        }
+        else = {
+            set_global_flag = HERUNIA_VOTE_HERUNIA
+        }
+        if = {
+            limit = {
+                has_global_flag = HERUNIA_FLAG_HONBAN
+            }
+            news_event = herunia.107
+        }
+        every_country = {
+            limit = {
+                is_hre_country = yes
+            }
+            country_event = {
+                id = herunia.24
+            }
+        }
     }
 }
 
@@ -842,13 +896,38 @@ country_event = {
     option = {
         name = herunia.24.a
         every_country = {
-            # ToDo: マリアリディシジョンに基づいたあれこれ(国民精神付与とか)
             limit = {
                 is_hre_country = yes
             }
             add_timed_idea = {
                 idea = HRE_desperate_defence
                 days = 180
+            }
+            hidden_effect = {
+                if = {
+                    limit = {
+                        has_global_flag = HERUNIA_VOTE_MARIALI
+                    }
+                    country_event = {
+                        id = herunia.27
+                    }
+                }
+                else_if = {
+                    limit = {
+                        has_global_flag = HERUNIA_VOTE_ALICE
+                    }
+                    country_event = {
+                        id = herunia.28
+                    }
+                }
+                else_if = {
+                    limit = {
+                        has_global_flag = HERUNIA_VOTE_MARISA
+                    }
+                    country_event = {
+                        id = herunia.29
+                    }
+                }
             }
         }
     }
@@ -950,6 +1029,120 @@ country_event = {
 }
 
 country_event = {
+    id = herunia.27
+    title = herunia.27.t
+    desc = herunia.27.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.27.a
+        if = {
+            limit = {
+                tag = AUS
+            }
+            add_country_leader_trait = breath_of_marisa_and_alice
+        }
+        if = {
+            limit = {
+                tag = GER
+            }
+            set_faction_name = "マリアリ教十字軍"
+        }
+        set_global_flag = HERUNIA_VOTE_MARIALI
+        add_ideas = {
+            HERUNIA_buff_marisa
+            HERUNIA_buff_alice
+        }
+    }
+}
+
+country_event = {
+    id = herunia.28
+    title = herunia.28.t
+    desc = herunia.28.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.28
+        if = {
+            limit = {
+                tag = AUS
+            }
+            promote_character = {
+                character = AUS_secret_alice
+                Ideology = neutrality
+            }
+        }
+        if = {
+            limit = {
+                tag = GER
+            }
+            set_faction_name = "神聖アリス帝国"
+        }
+        add_ideas = HERUNIA_buff_alice
+    }
+}
+
+country_event = {
+    id = herunia.29
+    title = herunia.29.t
+    desc = herunia.29.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.29
+        if = {
+            limit = {
+                tag = AUS
+            }
+            promote_character = {
+                character = AUS_secret_marisa
+                Ideology = neutrality
+            }
+        }
+        if = {
+            limit = {
+                tag = GER
+            }
+            set_faction_name = "魔理沙騎士団"
+        }
+        add_ideas = HERUNIA_buff_marisa
+    }
+}
+
+country_event = {
+    id = herunia.30
+    title = herunia.30.t
+    desc = herunia.30.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.30.a
+        if = {
+            limit = {
+                tag = GER
+            }
+            set_faction_name = "地獄の淵 ~ Hell Near ~"
+        }
+        country_event = {
+            id = gatcha.1
+        }
+    }
+}
+
+country_event = {
+    id = herunia.31
+    title = herunia.31.t
+    desc = herunia.31.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.31.a
+        add_manpower = -1
+    }
+}
+
+country_event = {
     id = herunia.201
     title = herunia.201.t
     desc = herunia.201.d
@@ -974,6 +1167,16 @@ news_event = {
     major = yes
     is_triggered_only = yes
     
+    immediate = {
+        if = {
+            limit = {
+                NOT = {
+                    has_country_flag = HRE_Voice_Off
+                }
+            }
+            sound_effect = herunia_100_se
+        }
+    }
     option = {
         name = herunia.100.a
     }
@@ -986,7 +1189,16 @@ news_event = {
     picture = GFX_news_event_nuke
     major = yes
     is_triggered_only = yes
-    
+    immediate = {
+        if = {
+            limit = {
+                NOT = {
+                    has_country_flag = HRE_Voice_Off
+                }
+            }
+            sound_effect = herunia_101_se
+        }
+    }
     option = {
         name = herunia.101.a
     }
@@ -999,7 +1211,16 @@ news_event = {
     picture = GFX_news_event_nuke
     major = yes
     is_triggered_only = yes
-    
+    immediate = {
+        if = {
+            limit = {
+                NOT = {
+                    has_country_flag = HRE_Voice_Off
+                }
+            }
+            sound_effect = herunia_102_se
+        }
+    }
     option = {
         name = herunia.102.a
     }
@@ -1016,7 +1237,16 @@ news_event = {
     picture = GFX_news_event_nuke
     major = yes
     is_triggered_only = yes
-    
+    immediate = {
+        if = {
+            limit = {
+                NOT = {
+                    has_country_flag = HRE_Voice_Off
+                }
+            }
+            sound_effect = herunia_103_se
+        }
+    }
     option = {
         name = herunia.103.a
     }
@@ -1042,6 +1272,16 @@ news_event = {
     picture = GFX_news_event_nuke
     major = yes
     is_triggered_only = yes
+    immediate = {
+        if = {
+            limit = {
+                NOT = {
+                    has_country_flag = HRE_Voice_Off
+                }
+            }
+            sound_effect = herunia_105_se
+        }
+    }
     
     option = {
         name = herunia.105.a
@@ -1055,9 +1295,31 @@ news_event = {
     picture = GFX_news_event_nuke
     major = yes
     is_triggered_only = yes
-    
+    immediate = {
+        if = {
+            limit = {
+                NOT = {
+                    has_country_flag = HRE_Voice_Off
+                }
+            }
+            sound_effect = herunia_106_se
+        }
+    }
     option = {
         name = herunia.106.a
+    }
+}
+
+news_event = {
+    id = herunia.107
+    title = herunia.107.t
+    desc = herunia.107.d
+    picture = GFX_news_event_nuke
+    major = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.107.a
     }
 }
 
@@ -1068,7 +1330,9 @@ news_event = {
     picture = GFX_news_event_nuke
     major = yes
     is_triggered_only = yes
-    
+    immediate = {
+        sound_effect = herunia_1000_se
+    }
     option = {
         name = herunia.1000.a
     }

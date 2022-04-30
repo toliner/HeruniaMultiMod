@@ -1,0 +1,255 @@
+add_namespace = gatcha
+
+country_event = {
+    id = gatcha.1
+    title = gatcha.1.t
+    desc = gatcha.1.d
+    is_triggered_only = yes
+    
+    option = {
+        # 超ギャンブル
+        name = gatcha.1.a
+        random_list = {
+            3 = {
+                country_event = {
+                    id = gatcha.2
+                }
+            }
+            97 = {
+                country_event = {
+                    id = gatcha.6
+                }
+            }
+        }
+    }
+    option = {
+        # そこそこ
+        name = gatcha.1.b
+        random_list = {
+            1 = {
+                country_event = {
+                    id = gatcha.2
+                }
+            }
+            3 = {
+                country_event = {
+                    id = gatcha.3
+                }
+            }
+            5 = {
+                country_event = {
+                    id = gatcha.4
+                }
+            }
+            30 = {
+                country_event = {
+                    id = gatcha.5
+                }
+            }
+            61 = {
+                country_event = {
+                    id = gatcha.6
+                }
+            }
+        }
+    }
+    option = {
+        name = gatcha.1.c
+        # 安定より
+        random_list = {
+            5 = {
+                country_event = {
+                    id = gatcha.3
+                }
+            }
+            10 = {
+                country_event = {
+                    id = gatcha.4
+                }
+            }
+            35 = {
+                country_event = {
+                    id = gatcha.5
+                }
+            }
+            50 = {
+                country_event = {
+                    id = gatcha.6
+                }
+            }
+        }
+    }
+    option = {
+        name = gatcha.1.e
+        random_list = {
+            30 = {
+                country_event = {
+                    id = gatcha.4
+                }
+            }
+            35 = {
+                country_event = {
+                    id = gatcha.5
+                }
+            }
+            35 = {
+                country_event = {
+                    id = gatcha.6
+                }
+            }
+        }
+    }
+}
+
+country_event = {
+    id = gatcha.2
+    title = gatcha.2.t
+    desc = gatcha.2.d
+    is_triggered_only = yes
+    
+    option = {
+        name = gatcha.2.a
+        fixed_random_seed = no
+        random_list = {
+            1 = {
+                add_ideas = GATCHA_research_speed
+            }
+            1 = {
+                add_ideas = GATCHA_military_output
+            }
+            1 = {
+                add_ideas = GATCHA_efficiency_max
+            }
+            1 = {
+                add_ideas = GATCHA_supply_consumption
+            }
+        }
+    }
+}
+
+country_event = {
+    id = gatcha.3
+    title = gatcha.3.t
+    desc = gatcha.3.d
+    is_triggered_only = yes
+    
+    option = {
+        name = gatcha.3.a
+        random_list = {
+            1 = {
+                add_ideas = GATCHA_pp_gain
+            }
+            1 = {
+                add_ideas = GATCHA_consumer_goods
+            }
+            1 = {
+                add_ideas = GATCHA_build_speed
+            }
+            1 = {
+                add_ideas = GATCHA_infantry_equipment
+            }
+            1 = {
+                add_ideas = GATCHA_efficiency_gain
+            }
+        }
+    }
+}
+
+country_event = {
+    id = gatcha.4
+    title = gatcha.4.t
+    desc = gatcha.4.d
+    is_triggered_only = yes
+    
+    option = {
+        name = gatcha.4.a
+        random_list = {
+            1 = {
+                add_ideas = GATCHA_efficiency_start
+            }
+            1 = {
+                add_ideas = GATCHA_conscription
+            }
+            1 = {
+                add_ideas = GATCHA_land_doctrine_cost
+            }
+            1 = {
+                add_ideas = GATCHA_navy_doctrine_cost
+            }
+            1 = {
+                add_ideas = GATCHA_air_doctrine_cost
+            }
+        }
+    }
+}
+
+country_event = {
+    id = gatcha.5
+    title = gatcha.5.t
+    desc = gatcha.5.d
+    is_triggered_only = yes
+    
+    option = {
+        name = gatcha.5.a
+        random_list = {
+            1 = {
+                add_ideas = GATCHA_train
+            }
+            1 = {
+                add_ideas = GATCHA_pp_factor
+            }
+            1 = {
+                add_ideas = GATCHA_war_support
+            }
+            1 = {
+                add_ideas = GATCHA_line_change
+            }
+            1 = {
+                add_ideas = GATCHA_special_force_cap
+            }
+            1 = {
+                add_ideas = GATCHA_manpower
+            }
+            1 = {
+                add_ideas = GATCHA_army_leader_level
+            }
+            1 = {
+                add_ideas = GATCHA_navy_leader_level
+            }
+        }
+    }
+}
+
+country_event = {
+    id = gatcha.6
+    title = gatcha.6.t
+    desc = gatcha.6.d
+    is_triggered_only = yes
+    
+    option = {
+        name = gatcha.6.a
+        random_list = {
+            1 = {
+                add_ideas = GATCHA_training_time
+            }
+            1 = {
+                add_ideas = GATCHA_army_leader_cost
+            }
+            1 = {
+                add_ideas = GATCHA_military_leader_cost
+            }
+            1 = {
+                add_ideas = GATCHA_navy_leader_cost
+            }
+            1 = {
+                add_ideas = GATCHA_build_space
+            }
+            1 = {
+                add_ideas = GATCHA_resource_penalty
+            }
+            1 = {
+                add_ideas = GATCHA_naval_output
+            }
+        }
+    }
+}

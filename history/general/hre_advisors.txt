@@ -693,3 +693,73 @@ every_possible_country = {
         }
     }
 }
+
+# 秘密
+every_possible_country = {
+    limit = {
+        is_hre_country = yes
+    }
+    
+    generate_character = {
+        token_base = hre_alice
+        name = "アリス"
+        corps_commander = {
+            skill = 5
+            attack_skill = 2
+            defense_skill = 8
+            planning_skill = 2
+            logistics_skill = 8
+            traits = {
+                organizer
+                commando
+                infantry_leader
+                skilled_staffer
+                inflexible_strategist
+            }
+            
+            visible = {
+                OR = {
+                    has_global_flag = HERUNIA_VOTE_ALICE
+                    has_global_flag = HERUNIA_VOTE_MARIALI
+                }
+            }
+        }
+        portraits = {
+            army = {
+                large = GFX_portrait_marisa_angry
+                small = GFX_portrait_marisa_angry
+            }
+        }
+    }
+    generate_character = {
+        token_base = hre_marisa
+        name = "魔理沙"
+        corps_commander = {
+            skill = 5
+            attack_skill = 8
+            defense_skill = 2
+            planning_skill = 8
+            logistics_skill = 2
+            traits = {
+                organizer
+                trait_engineer
+                infantry_leader
+                skilled_staffer
+                brilliant_strategist
+            }
+            
+            visible = {
+                OR = {
+                    has_global_flag = HERUNIA_VOTE_MARISA
+                    has_global_flag = HERUNIA_VOTE_MARIALI
+                }
+            }
+        }
+        portraits = {
+            army = {
+                large = "GFX_portrait_alice_normal"
+                small = "GFX_portrait_alice_normal"
+            }
+        }
+    }
+}

@@ -1794,6 +1794,95 @@ ideas = {
                 surrender_limit = -0.60
             }
         }
+        HERUNIA_FRA_surrender_limit = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_POL_the_peasants_strike
+        
+            modifier = {
+                surrender_limit = -0.25
+            }
+        }
+        HERUNIA_ITA_surrender_limit = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_POL_the_peasants_strike
+        
+            modifier = {
+                surrender_limit = -0.50
+            }
+        }
+        
+        HERUNIA_buff_marisa = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = idea_marisa_icon
+    
+            modifier = {
+                stability_factor = 0.1
+                army_morale_factor = 0.03
+            }
+        }
+        HERUNIA_buff_alice = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_alice_icon
+        
+            modifier = {
+                stability_factor = 0.1
+                army_org_factor  = 0.1
+            }
+        }
+        HERUNIA_buff_herunia = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_herunia_icon
+        
+            modifier = {
+                stability_factor = 0.1
+                max_planning_factor = 0.1
+            }
+        }
     }
     
     industrial_concern = {

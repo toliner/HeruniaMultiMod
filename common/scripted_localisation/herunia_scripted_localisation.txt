@@ -677,3 +677,31 @@ defined_text = {
         localization_key = HRE_mobilization_and_trade_3_loc
     }
 }
+
+defined_text = {
+    name = GetMariAliVoteResult
+    text = {
+        trigger = {
+            has_global_flag = HERUNIA_VOTE_MARIALI
+        }
+        localization_key = Vote_Result_MARIALI
+    }
+    text = {
+        trigger = {
+            has_global_flag = HERUNIA_VOTE_MARISA
+        }
+        localization_key = Vote_Result_MARISA
+    }
+    text = {
+        trigger = {
+            has_global_flag = HERUNIA_VOTE_ALICE
+        }
+        localization_key = Vote_Result_ALICE
+    }
+    text = {
+        trigger = {
+            has_global_flag = HERUNIA_VOTE_HERUNIA
+        }
+        localization_key = Vote_Result_HERUNIA
+    }
+}

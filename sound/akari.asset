@@ -1,0 +1,97 @@
+sound = {
+    name = herunia_100
+    file = herunia_100.wav
+    always_load = yes
+    volume = 50
+}
+
+soundeffect = {
+    name = herunia_100_se
+    sounds = {
+        sound = herunia_100
+    }
+}
+
+sound = {
+    name = herunia_101
+    file = herunia_101.wav
+    always_load = yes
+    volume = 50
+}
+
+soundeffect = {
+    name = herunia_101_se
+    sounds = {
+        sound = herunia_101
+    }
+}
+
+sound = {
+    name = herunia_102
+    file = herunia_102.wav
+    always_load = yes
+    volume = 50
+}
+
+soundeffect = {
+    name = herunia_102_se
+    sounds = {
+        sound = herunia_102
+    }
+}
+
+sound = {
+    name = herunia_103
+    file = herunia_103.wav
+    always_load = yes
+    volume = 50
+}
+
+soundeffect = {
+    name = herunia_103_se
+    sounds = {
+        sound = herunia_103
+    }
+}
+
+sound = {
+    name = herunia_105
+    file = herunia_105.wav
+    always_load = yes
+    volume = 50
+}
+
+soundeffect = {
+    name = herunia_105_se
+    sounds = {
+        sound = herunia_105
+    }
+}
+
+sound = {
+    name = herunia_106
+    file = herunia_106.wav
+    always_load = yes
+    volume = 50
+}
+
+soundeffect = {
+    name = herunia_106_se
+    sounds = {
+        sound = herunia_106
+    }
+}
+
+sound = {
+    name = herunia_1000
+    file = herunia_1000.wav
+    always_load = yes
+    volume = 50
+}
+
+soundeffect = {
+    name = herunia_1000_se
+    sounds = {
+        sound = herunia_1000
+    }
+}

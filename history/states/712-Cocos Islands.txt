@@ -6,7 +6,8 @@ state={
 	
 	history=
 	{
-		owner = ENG
+		owner = MAL
+                   add_core_of = MAL
 		buildings = {
 			infrastructure = 2
 			13002 = {

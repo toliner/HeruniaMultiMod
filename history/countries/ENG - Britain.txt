@@ -239,6 +239,21 @@ if = {
 		autonomous_state = commonwealth
 		freedom_level = 0.2
 	}
+	set_autonomy = {
+		target = XXW
+		autonomous_state = commonwealth
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = XXM
+		autonomous_state = commonwealth
+		freedom_level = 0.2
+	}
+	set_autonomy = {
+		target = XXE
+		autonomous_state = commonwealth
+		freedom_level = 0.2
+	}
 	else = {
 		puppet = MAL
 		puppet = RAJ

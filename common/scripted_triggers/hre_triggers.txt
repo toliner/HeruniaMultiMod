@@ -14,5 +14,8 @@ is_hre_country = {
         tag = SAF
         tag = AST
         tag = NZL
+        tag = XXW
+        tag = XXM
+        tag = XXE
     }
 }

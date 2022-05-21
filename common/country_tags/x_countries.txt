@@ -1,0 +1,6 @@
+BSF = "countries/British South Africa.txt"
+BMF = "countries/British Mid Africa.txt"
+BWF = "countries/British West Africa.txt"
+BME = "countries/British Mid East.txt"
+BMA = "countries/British Mid America.txt"
+BHK = "countries/honkon.txt"

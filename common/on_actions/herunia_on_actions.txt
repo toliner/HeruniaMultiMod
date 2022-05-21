@@ -1,0 +1,73 @@
+on_actions = {
+    on_startup = {
+        effect = {
+            every_country = {
+                limit = {
+                    is_ai = no
+                }
+                # ToDo
+                # country_event = herunia.1
+            }
+            
+            PAR = {
+                country_event = herunia.6
+            }
+            ENG = {
+                add_ideas = HERUNIA_enemy_buff
+            }
+            FRA = {
+                add_ideas = HERUNIA_enemy_buff
+            }
+            SOV = {
+                add_ideas = HERUNIA_enemy_buff
+            }
+            ITA = {
+                add_ideas = HERUNIA_enemy_buff
+            }
+            85 = {
+                set_demilitarized_zone = no
+                if = {
+                    limit = {
+                        has_dynamic_modifier = { modifier =  international_city }
+                    }
+                    remove_dynamic_modifier = {
+                        modifier = international_city
+                    }
+                }
+                else_if = {
+                    limit = {
+                        has_dynamic_modifier = { modifier =  international_city_2 }
+                    }
+                    remove_dynamic_modifier = {
+                        modifier = international_city_2
+                    }
+                }
+                else_if = {
+                    limit = {
+                        has_dynamic_modifier = { modifier =  international_city_3 }
+                    }
+                    remove_dynamic_modifier = {
+                        modifier = international_city_3
+                    }
+                }
+                else_if = {
+                    limit = {
+                        has_dynamic_modifier = { modifier =  international_city_4 }
+                    }
+                    remove_dynamic_modifier = {
+                        modifier = international_city_4
+                    }
+                }
+            }
+            set_variable = {
+                global.alice = 0
+            }
+            set_variable = {
+                global.marisa = 0
+            }
+            set_variable = {
+                global.herunia = 0
+            }
+        }
+    }
+}

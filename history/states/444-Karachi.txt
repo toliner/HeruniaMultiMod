@@ -11,10 +11,10 @@ state={
 			8066 1
 		}
 		owner = RAJ
+add_core_of = RAJ
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = PAK
 	}
 
 	provinces={

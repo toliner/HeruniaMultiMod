@@ -1,0 +1,18 @@
+is_hre_country = {
+    or = {
+        tag = CYP
+        tag = MLT
+        tag = SRL
+        tag = EGY
+        tag = BSF
+        tag = BWF
+        tag = BME
+        tag = BMA
+        tag = BHK
+        tag = RAJ
+        tag = CAN
+        tag = SAF
+        tag = AST
+        tag = NZL
+    }
+}

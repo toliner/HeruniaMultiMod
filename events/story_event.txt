@@ -1,0 +1,10 @@
+add_namespace = story
+
+country_event = {
+    id = story.1
+    title = story.1.t
+    desc = story.1.d
+    is_triggered_only = yes
+    
+    
+}

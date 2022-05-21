@@ -8,9 +8,29 @@ on_actions = {
                 # ToDo
                 # country_event = herunia.1
             }
-            
-            PAR = {
-                country_event = herunia.6
+            ARG = {
+                country_event = {
+                    id = story.1
+                    days = 7
+                }
+            }
+            NOR = {
+                country_event = {
+                    id = story.2
+                    days = 7
+                }
+            }
+            EST = {
+                country_event = {
+                    id = story.3
+                    days = 7
+                }
+            }
+            CHI = {
+                country_event = {
+                    id = story.4
+                    days = 7
+                }
             }
             ENG = {
                 add_ideas = HERUNIA_enemy_buff

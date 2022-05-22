@@ -215,6 +215,11 @@ if = {
 		freedom_level = 0.2
 	}
 	set_autonomy = {
+		target = BMF
+		autonomous_state = commonwealth
+		freedom_level = 0.2
+	}
+	set_autonomy = {
 		target = BME
 		autonomous_state = commonwealth
 		freedom_level = 0.2

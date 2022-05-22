@@ -1,0 +1,33 @@
+invest_decisions = {
+    icon = generic_research
+    visible = {
+        has_completed_focus = HRE_invest_foreign_country
+    }
+}
+
+naval_decisions = {
+    icon = generic_naval
+    visible = {
+        has_completed_focus = HRE_focus_naval
+    }
+}
+
+developer_only_command = {
+    visible = {
+        tag = CZE
+        is_ai = no
+    }
+}
+
+vote_to_marisa_alice = {
+    visible = {
+        is_hre_country = yes
+        has_global_flag = HERUNIA_FLAG_HONBAN
+    }
+}
+
+player_decisions = {
+    visible = {
+        is_ai = no
+    }
+}

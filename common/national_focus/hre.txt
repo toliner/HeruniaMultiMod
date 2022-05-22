@@ -1,0 +1,22 @@
+focus_tree = {
+    id = hre_focus
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 100
+            is_hre_country = yes
+        }
+    }
+    
+    continuous_focus_position = { x = 50 y = 1200 }
+    
+    shared_focus = HRE_prepare_army
+    
+    shared_focus = HRE_plan_four_years
+    
+    shared_focus = HRE_build_monarchy_government
+    
+    shared_focus = HRE_focus_naval
+}

@@ -19,3 +19,11 @@ is_hre_country = {
         tag = XXE
     }
 }
+
+is_usa_country = {
+    or = {
+        tag = XXW
+        tag = XXM
+        tag = XXE
+    }
+}

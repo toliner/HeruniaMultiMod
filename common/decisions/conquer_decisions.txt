@@ -1,0 +1,169 @@
+conquer_mid_east_decisions = {
+    conquer_sau = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            SAU = {
+                declare_war_on = {
+                    target = BME
+                    type = annex_everything
+                }
+            }
+        }
+    }
+    core_sau = {
+        fire_only_once = yes
+        cost = 50
+        available = {
+            SAU = {
+                all_core_state = {
+                    is_owned_by = ROOT
+                }
+            }
+        }
+        days_remove = 60
+        remove_effect = {
+            every_state = {
+                limit = {
+                    is_core_of = SAU
+                }
+                add_core_of = ROOT
+                remove_core_of = SAU
+            }
+        }
+    }
+    conquer_yem = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            YEM = {
+                declare_war_on = {
+                    target = BME
+                    type = annex_everything
+                }
+            }
+        }
+    }
+    core_yem = {
+        fire_only_once = yes
+        cost = 50
+        available = {
+            YEM = {
+                all_core_state = {
+                    is_owned_by = ROOT
+                }
+            }
+        }
+        days_remove = 60
+        remove_effect = {
+            every_state = {
+                limit = {
+                    is_core_of = YEM
+                }
+                add_core_of = ROOT
+                remove_core_of = YEM
+            }
+        }
+    }
+    conquer_oma = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            OMA = {
+                declare_war_on = {
+                    target = BME
+                    type = annex_everything
+                }
+            }
+        }
+    }
+    core_oma = {
+        fire_only_once = yes
+        cost = 50
+        available = {
+            OMA = {
+                all_core_state = {
+                    is_owned_by = ROOT
+                }
+            }
+        }
+        days_remove = 60
+        remove_effect = {
+            every_state = {
+                limit = {
+                    is_core_of = OMA
+                }
+                add_core_of = ROOT
+                remove_core_of = OMA
+            }
+        }
+    }
+    conquer_irq = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            IRQ = {
+                declare_war_on = {
+                    target = BME
+                    type = annex_everything
+                }
+            }
+        }
+    }
+    core_irq = {
+        fire_only_once = yes
+        cost = 50
+        available = {
+            IRQ = {
+                all_core_state = {
+                    is_owned_by = ROOT
+                }
+            }
+        }
+        days_remove = 60
+        remove_effect = {
+            every_state = {
+                limit = {
+                    is_core_of = IRQ
+                }
+                add_core_of = ROOT
+                remove_core_of = IRQ
+            }
+        }
+    }
+    request_553 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 553
+        }
+    }
+    request_554 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 554
+        }
+    }
+    request_677 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 677
+        }
+    }
+    request_680 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 680
+        }
+    }
+    request_799 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 799
+        }
+    }
+}

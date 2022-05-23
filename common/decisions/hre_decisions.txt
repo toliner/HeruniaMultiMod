@@ -472,13 +472,6 @@ vote_to_marisa_alice = {
 }
 
 player_decisions = {
-    turn_off_event_voice = {
-        fire_only_once = yes
-        complete_effect = {
-            set_country_flag = HRE_Voice_Off
-        }
-    }
-    
     explode_herunia = {
         fire_only_once = yes
         visible = {

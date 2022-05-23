@@ -14,7 +14,7 @@ naval_decisions = {
 
 developer_only_command = {
     visible = {
-        tag = CZE
+        tag = NZL
         is_ai = no
     }
 }
@@ -29,5 +29,11 @@ vote_to_marisa_alice = {
 player_decisions = {
     visible = {
         is_ai = no
+    }
+}
+
+conquer_mid_east_decisions = {
+    visible = {
+        tag = BME
     }
 }

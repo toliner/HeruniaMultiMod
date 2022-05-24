@@ -1741,6 +1741,57 @@ ideas = {
             }
         }
         
+        HRE_idea_democratic = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = todo
+    
+            modifier = {
+                democratic_drift = 0.02
+            }
+        }
+        HRE_idea_fascism = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = todo
+        
+            modifier = {
+                fascism_drift = 0.02
+            }
+        }
+        HRE_idea_neutrality = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = todo
+        
+            modifier = {
+                neutrality_drift = 0.02
+            }
+        }
         HRE_desperate_defence = {
             allowed = {
                 always = no

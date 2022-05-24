@@ -1,5 +1,6 @@
 is_hre_country = {
     or = {
+        tag = ENG
         tag = CYP
         tag = MLT
         tag = SRL

@@ -16,7 +16,7 @@ focus_tree = {
     
     shared_focus = HRE_plan_four_years
     
-    shared_focus = HRE_build_monarchy_government
+    shared_focus = HRE_consider_government
     
     shared_focus = HRE_focus_naval
 }

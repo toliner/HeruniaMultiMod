@@ -23,7 +23,7 @@ shared_focus = {
 
 shared_focus = {
     id = HRE_democratic
-    icon = ToDo
+    icon = GFX_goal_support_democracy
     x = -2
     y = 1
     cost = 5
@@ -58,7 +58,7 @@ shared_focus = {
 
 shared_focus = {
     id = HRE_neutrality
-    icon = ToDo
+    icon = GFX_focus_generic_monarchy_2
     x = 0
     y = 1
     cost = 5
@@ -93,7 +93,7 @@ shared_focus = {
 
 shared_focus = {
     id = HRE_fascism
-    icon = ToDo
+    icon = GFX_goal_support_fascism
     x = 2
     y = 1
     cost = 5
@@ -128,7 +128,7 @@ shared_focus = {
 
 shared_focus = {
     id = HRE_democratic_1
-    icon = ToDo
+    icon = GFX_focus_hol_the_foundations_of_defense
     x = 0
     y = 1
     cost = 10
@@ -150,7 +150,7 @@ shared_focus = {
 
 shared_focus = {
     id = HRE_democratic_2
-    icon = ToDo
+    icon = GFX_goal_generic_propaganda
     x = 0
     y = 1
     cost = 10
@@ -172,7 +172,7 @@ shared_focus = {
 
 shared_focus = {
     id = HRE_democratic_3
-    icon = ToDo
+    icon = GFX_focus_generic_industry_2
     x = 0
     y = 1
     cost = 10
@@ -192,7 +192,7 @@ shared_focus = {
 
 shared_focus = {
     id = HRE_democratic_4
-    icon = ToDo
+    icon = GFX_focus_generic_military_mission
     x = 0
     y = 1
     cost = 10
@@ -212,7 +212,7 @@ shared_focus = {
 
 shared_focus = {
     id = HRE_neutrality_1
-    icon = ToDo
+    icon = GFX_focus_mex_caudillo_private_armies
     x = 0
     y = 1
     cost = 10
@@ -231,7 +231,7 @@ shared_focus = {
 
 shared_focus = {
     id = HRE_neutrality_2
-    icon = ToDo
+    icon = GFX_focus_generic_monarchy_2
     x = 0
     y = 1
     cost = 10
@@ -250,7 +250,7 @@ shared_focus = {
 
 shared_focus = {
     id = HRE_neutrality_3
-    icon = ToDo
+    icon = GFX_focus_generic_military_academy
     x = 0
     y = 1
     cost = 10
@@ -270,7 +270,7 @@ shared_focus = {
 
 shared_focus = {
     id = HRE_neutrality_4
-    icon = ToDo
+    icon = GFX_focus_eng_god_save_the_king
     x = 0
     y = 1
     cost = 10
@@ -296,7 +296,7 @@ shared_focus = {
 
 shared_focus = {
     id = HRE_fascism_1
-    icon = ToDo
+    icon = GFX_focus_SOV_mobilization_plan
     x = 0
     y = 1
     cost = 10
@@ -315,7 +315,7 @@ shared_focus = {
 
 shared_focus = {
     id = HRE_fascism_2
-    icon = ToDo
+    icon = GFX_focus_generic_strike_at_democracy1
     x = 0
     y = 1
     cost = 10
@@ -334,7 +334,7 @@ shared_focus = {
 
 shared_focus = {
     id = HRE_fascism_3
-    icon = ToDo
+    icon = GFX_goal_generic_axis_build_infantry
     x = 0
     y = 1
     cost = 10
@@ -353,7 +353,7 @@ shared_focus = {
 
 shared_focus = {
     id = HRE_fascism_4
-    icon = ToDo
+    icon = GFX_focus_generic_little_entente
     x = 0
     y = 1
     cost = 10

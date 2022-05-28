@@ -6,6 +6,7 @@ is_hre_country = {
         tag = SRL
         tag = EGY
         tag = BSF
+        tag = BMF
         tag = BWF
         tag = BME
         tag = BMA

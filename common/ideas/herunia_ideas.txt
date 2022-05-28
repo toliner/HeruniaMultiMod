@@ -35,16 +35,21 @@ ideas = {
             picture = warrior_traditions_idea
             
             modifier = {
-                production_factory_max_efficiency_factor = 0.15
-                production_factory_efficiency_gain_factor = 0.25
-                industrial_capacity_dockyard = 0.2
-                political_power_factor = 0.25
-                research_speed_factor = 0.1
-                production_lack_of_resource_penalty_factor = -0.3
+                # バニラ最大強化相当(性能は除く)
+                production_factory_max_efficiency_factor = 0.30
+                production_factory_efficiency_gain_factor = 0.50
+                industrial_capacity_dockyard = 0.4
+                political_power_factor = 0.50
+                # research_speed_factor = 0.1 # 研究速度上げるとしんどすぎるので消す
+                production_lack_of_resource_penalty_factor = -0.6
     
-                army_fuel_consumption_factor = -0.40
-                air_fuel_consumption_factor = -0.40
-                navy_fuel_consumption_factor = -0.40
+                army_fuel_consumption_factor = -0.60
+                air_fuel_consumption_factor = -0.60
+                navy_fuel_consumption_factor = -0.60
+                
+                # AIのガバを減らすためのバフ
+                conscription = 0.1
+                production_factory_start_efficiency_factor = 0.5
             }
         }
         

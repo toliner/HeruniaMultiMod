@@ -477,6 +477,7 @@ player_decisions = {
         visible = {
             NOT = {
                 tag = AUS
+                has_global_flag = HERUNIA_FLAG_HONBAN
             }
         }
         complete_effect = {

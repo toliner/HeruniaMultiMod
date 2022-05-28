@@ -37,3 +37,21 @@ conquer_mid_east_decisions = {
         tag = BME
     }
 }
+
+conquer_south_africa_decisions = {
+    visible = {
+        tag = BSF
+    }
+}
+
+conquer_mid_africa_decisions = {
+    visible = {
+        tag = BMF
+    }
+}
+
+conquer_west_africa_decisions = {
+    visible = {
+        tag = BWF
+    }
+}

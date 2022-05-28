@@ -619,66 +619,6 @@ defined_text = {
 }
 
 defined_text = {
-    name = GetHRE_MobAndTrade_1
-    
-    text = {
-        trigger = {
-            has_completed_focus = HRE_absolutism
-        }
-        localization_key = HRE_mobilization_and_trade_1_abs_loc
-    }
-    text = {
-        trigger = {
-            has_completed_focus = HRE_constitutional_monarchy
-        }
-        localization_key = HRE_mobilization_and_trade_1_cst_loc
-    }
-    text = {
-        localization_key = HRE_mobilization_and_trade_1_loc
-    }
-}
-
-defined_text = {
-    name = GetHRE_MobAndTrade_2
-    
-    text = {
-        trigger = {
-            has_completed_focus = HRE_absolutism
-        }
-        localization_key = HRE_mobilization_and_trade_2_abs_loc
-    }
-    text = {
-        trigger = {
-            has_completed_focus = HRE_constitutional_monarchy
-        }
-        localization_key = HRE_mobilization_and_trade_2_cst_loc
-    }
-    text = {
-        localization_key = HRE_mobilization_and_trade_2_loc
-    }
-}
-
-defined_text = {
-    name = GetHRE_MobAndTrade_3
-    
-    text = {
-        trigger = {
-            has_completed_focus = HRE_absolutism
-        }
-        localization_key = HRE_mobilization_and_trade_3_abs_loc
-    }
-    text = {
-        trigger = {
-            has_completed_focus = HRE_constitutional_monarchy
-        }
-        localization_key = HRE_mobilization_and_trade_3_cst_loc
-    }
-    text = {
-        localization_key = HRE_mobilization_and_trade_3_loc
-    }
-}
-
-defined_text = {
     name = GetMariAliVoteResult
     text = {
         trigger = {

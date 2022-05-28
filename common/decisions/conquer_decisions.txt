@@ -166,4 +166,314 @@ conquer_mid_east_decisions = {
             transfer_state = 799
         }
     }
+    core_SYR = {
+        fire_only_once = yes
+        cost = 150
+        available = {
+            SYR = {
+                all_core_state = {
+                    is_owned_by = ROOT
+                }
+            }
+            553 = {
+                is_owned_by = ROOT
+            }
+        }
+        complete_effect = {
+            every_state = {
+                limit = {
+                    OR = {
+                        is_core_of = SYR
+                        state = 553
+                    }
+                }
+                remove_core_of = SYR
+                remove_core_of = LEB
+                add_core_of = ROOT
+            }
+        }
+    }
+}
+
+conquer_south_africa_decisions = {
+    request_544 = {
+        fire_only_once = yes
+        cost = 150
+        complete_effect = {
+            transfer_state = 544
+            add_state_core = 544
+        }
+    }
+    request_540 = {
+        fire_only_once = yes
+        cost = 150
+        complete_effect = {
+            transfer_state = 540
+            add_state_core = 540
+        }
+    }
+    request_295 = {
+        fire_only_once = yes
+        cost = 150
+        complete_effect = {
+            transfer_state = 295
+            add_state_core = 295
+        }
+    }
+    request_796 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 796
+            add_state_core = 796
+        }
+    }
+    request_543 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 543
+            add_state_core = 543
+        }
+    }
+    request_708 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 708
+            add_state_core = 708
+        }
+    }
+}
+
+conquer_mid_africa_decisions = {
+    request_718 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 718
+            add_state_core = 718
+        }
+    }
+    request_538 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 538
+            add_state_core = 538
+        }
+    }
+    request_772 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 772
+            add_state_core = 772
+        }
+    }
+    request_539 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 539
+            add_state_core = 539
+        }
+    }
+    request_297 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 297
+            add_state_core = 297
+        }
+    }
+    request_660 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 660
+            add_state_core = 660
+        }
+    }
+    request_773 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 773
+            add_state_core = 773
+        }
+    }
+    request_774 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 774
+            add_state_core = 774
+        }
+    }
+    request_775 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 775
+            add_state_core = 775
+        }
+    }
+    request_768= {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 768
+            add_state_core = 768
+        }
+    }
+    request_769 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 769
+            add_state_core = 769
+        }
+    }
+}
+
+conquer_west_africa_decisions = {
+    request_776 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 776
+            add_state_core = 776
+        }
+    }
+    
+    request_777 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 777
+            add_state_core = 777
+        }
+    }
+    request_778 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 778
+            add_state_core = 778
+        }
+    }
+    request_781 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 781
+            add_state_core = 781
+        }
+    }
+    request_556 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 556
+            add_state_core = 556
+        }
+    }
+    request_779 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 779
+            add_state_core = 779
+        }
+    }
+    request_780 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 780
+            add_state_core = 780
+        }
+    }
+    request_296 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 296
+            add_state_core = 296
+        }
+    }
+    request_272 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 272
+            add_state_core = 272
+        }
+    }
+    request_557 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 557
+            add_state_core = 557
+        }
+    }
+    request_514 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 514
+            add_state_core = 514
+        }
+    }
+    request_515 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 515
+            add_state_core = 515
+        }
+    }
+    request_782 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 782
+            add_state_core = 782
+        }
+    }
+    request_786 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 786
+            add_state_core = 786
+        }
+    }
+    request_699 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 699
+            add_state_core = 699
+        }
+    }
+    request_783 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 783
+            add_state_core = 783
+        }
+    }
+    request_178 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 178
+            add_state_core = 178
+        }
+    }
+    
 }

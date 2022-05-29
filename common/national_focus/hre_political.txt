@@ -279,7 +279,25 @@ shared_focus = {
     }
     relative_position_id = HRE_neutrality_3
     available = {
-    
+        if = {
+            limit = {
+                tag = XXW
+            }
+            NOT = {
+                has_idea = civilian_economy
+            }
+        }
+        else_if = {
+            limit = {
+                OR = {
+                    tag = XXM
+                    tag = XXE
+                }
+            }
+            NOT = {
+                has_idea = undisturbed_isolation
+            }
+        }
     }
     completion_reward = {
         add_political_power = 100
@@ -305,7 +323,25 @@ shared_focus = {
     }
     relative_position_id = HRE_fascism
     available = {
-    
+        if = {
+            limit = {
+                tag = XXW
+            }
+            NOT = {
+                has_idea = civilian_economy
+            }
+        }
+        else_if = {
+            limit = {
+                OR = {
+                    tag = XXM
+                    tag = XXE
+                }
+            }
+            NOT = {
+                has_idea = undisturbed_isolation
+            }
+        }
     }
     completion_reward = {
         add_war_support = 0.1

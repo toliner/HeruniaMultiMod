@@ -1,0 +1,246 @@
+focus_tree = {
+    id = xxw_focus
+    
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 500
+            OR = {
+                tag = XXE
+                tag = XXM
+            }
+        }
+    }
+    
+    continuous_focus_position = { x = 50 y = 1200 }
+    
+    shared_focus = HRE_prepare_army
+    
+    shared_focus = HRE_plan_four_years
+    
+    shared_focus = HRE_consider_government
+    
+    shared_focus = HRE_focus_naval
+    
+    focus = {
+        id = US_rebuild_government
+        icon = GFX_focus_SOV_organize_wreckers
+        x = 28
+        y = 7
+        cost = 5
+        
+        available = {
+        
+        }
+        completion_reward = {
+            add_stability = 0.05
+            add_political_power = 50
+        }
+    }
+    
+    focus = {
+        id = US_great_depression_1
+        icon = GFX_focus_generic_industry_1
+        x = -1
+        y = 1
+        cost = 5
+        prerequisite = {
+            focus = US_rebuild_government
+        }
+        relative_position_id = US_rebuild_government
+        available = {
+            date > 1937.1.1
+        }
+        completion_reward = {
+            swap_ideas = {
+                add_idea = great_depression_x_1
+                remove_idea = great_depression
+            }
+        }
+    }
+    
+    focus = {
+        id = US_great_depression_2
+        icon = GFX_focus_generic_industry_1
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = {
+            focus = US_great_depression_1
+        }
+        relative_position_id = US_great_depression_1
+        available = {
+            date > 1937.7.1
+        }
+        completion_reward = {
+            swap_ideas = {
+                add_idea = great_depression_x_2
+                remove_idea = great_depression_x_1
+            }
+        }
+    }
+    
+    focus = {
+        id = US_great_depression_3
+        icon = GFX_focus_generic_industry_2
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = {
+            focus = US_great_depression_2
+        }
+        relative_position_id = US_great_depression_2
+        available = {
+            date > 1938.1.1
+        }
+        completion_reward = {
+            swap_ideas = {
+                add_idea = great_depression_x_3
+                remove_idea = great_depression_x_2
+            }
+        }
+    }
+    
+    focus = {
+        id = US_great_depression_4
+        icon = GFX_focus_generic_industry_2
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = {
+            focus = US_great_depression_3
+        }
+        relative_position_id = US_great_depression_3
+        available = {
+            date > 1939.1.1
+        }
+        completion_reward = {
+            swap_ideas = {
+                add_idea = great_depression_x_4
+                remove_idea = great_depression_x_3
+            }
+        }
+    }
+    
+    focus = {
+        id = US_great_depression_5
+        icon = GFX_focus_generic_industry_3
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = US_great_depression_4
+        }
+        relative_position_id = US_great_depression_4
+        available = {
+            date > 1940.1.1
+        }
+        completion_reward = {
+            swap_ideas = {
+                add_idea = great_depression_x_5
+                remove_idea = great_depression_x_4
+            }
+        }
+    }
+    
+    focus = {
+        id = US_economy_mobilization_1
+        icon = GFX_focus_usa_honor_the_confederacy
+        x = 1
+        y = 1
+        cost = 5
+        prerequisite = {
+            focus = US_rebuild_government
+        }
+        relative_position_id = US_rebuild_government
+        available = {
+            threat > 0.1
+        }
+        completion_reward = {
+            add_stability = 0.05
+            add_war_support = 0.1
+        }
+    }
+    focus = {
+        id = US_economy_mobilization_2
+        icon = GFX_focus_attack_germany
+        x = 0
+        y = 1
+        cost = 10
+        prerequisite = {
+            focus = US_economy_mobilization_1
+        }
+        relative_position_id = US_economy_mobilization_1
+        available = {
+            threat > 0.15
+        }
+        completion_reward = {
+            swap_ideas = {
+                add_idea = isolation
+                remove_idea = undisturbed_isolation
+            }
+        }
+    }
+    focus = {
+        id = US_economy_mobilization_3
+        icon = GFX_focus_generic_home_defense
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = {
+            focus = US_economy_mobilization_2
+        }
+        relative_position_id = US_economy_mobilization_2
+        available = {
+            threat > 0.15
+        }
+        completion_reward = {
+            add_stability = 0.10
+            add_war_support = 0.10
+            remove_ideas = SPR_military_disloyalty
+        }
+    }
+    focus = {
+        id = US_economy_mobilization_4
+        icon = GFX_goal_tfv_strengthen_commonwealth_ties
+        x = 0
+        y = 1
+        cost = 5
+        prerequisite = {
+            focus = US_economy_mobilization_3
+        }
+        relative_position_id = US_economy_mobilization_3
+        available = {
+            has_war = yes
+        }
+        completion_reward = {
+            remove_ideas = AME_force_export_resource
+            swap_ideas = {
+                remove_idea = AME_confused_government_1_1
+                add_idea = AME_confused_government_3_1
+            }
+            add_ideas = free_trade
+        }
+    }
+    focus = {
+        id = US_economy_mobilization_5
+        icon = GFX_focus_generic_the_giant_wakes
+        x = 0
+        y = 1
+        cost = 20
+        prerequisite = {
+            focus = US_economy_mobilization_4
+        }
+        relative_position_id = US_economy_mobilization_4
+        available = {
+            date > 1941.1.1
+        }
+        completion_reward = {
+            add_war_support = 0.1
+            add_stability = 0.1
+            remove_ideas = AME_confused_government_3_1
+            add_ideas = partial_economic_mobilisation
+        }
+    }
+}

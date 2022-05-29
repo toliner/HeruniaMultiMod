@@ -1,0 +1,255 @@
+ideas = {
+    country = {
+        AME_confused_government_1_1 = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            picture = great_depression
+            modifier = {
+                trade_laws_cost_factor = 100
+                economy_cost_factor = 100
+            }
+        }
+    
+        AME_confused_government_2_1 = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            picture = great_depression
+            modifier = {
+                trade_laws_cost_factor = 1
+                economy_cost_factor = 100
+            }
+        }
+    
+        AME_confused_government_2_2 = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            picture = great_depression
+            modifier = {
+                trade_laws_cost_factor = 1
+                economy_cost_factor = 1
+            }
+        }
+    
+        AME_confused_government_3_1 = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            picture = great_depression
+            modifier = {
+                economy_cost_factor = 100
+            }
+        }
+    
+        AME_confused_government_3_2 = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            picture = great_depression
+            modifier = {
+                economy_cost_factor = 1
+            }
+        }
+    
+        AME_confused_government_1_2 = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            picture = great_depression
+            modifier = {
+                trade_laws_cost_factor = 100
+                economy_cost_factor = 1
+            }
+        }
+    
+        AME_confused_government_1_3 = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            picture = great_depression
+            modifier = {
+                trade_laws_cost_factor = 100
+            }
+        }
+    
+        AME_confused_government_2_3 = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            picture = great_depression
+            modifier = {
+                trade_laws_cost_factor = 1
+            }
+        }
+        
+        AME_force_export_resource = {
+            allowed = {
+                always = no
+            }
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            picture = great_depression
+            modifier = {
+                min_export = 0.55
+            }
+        }
+    
+        great_depression_x_1 = {
+            picture = usa_great_depression_3
+        
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            modifier = {
+                political_power_cost = 0.6
+                consumer_goods_factor = 0.3
+                conscription_factor = -0.5
+                join_faction_tension = 0.20
+                local_resources_factor = -0.2
+            }
+        }
+    
+        great_depression_x_1 = {
+            picture = usa_great_depression_3
+        
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            modifier = {
+                political_power_cost = 0.5
+                consumer_goods_factor = 0.3
+                conscription_factor = -0.5
+                join_faction_tension = 0.20
+                local_resources_factor = -0.2
+            }
+        }
+    
+        great_depression_x_2 = {
+            picture = usa_great_depression_3
+        
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            modifier = {
+                political_power_cost = 0.2
+                consumer_goods_factor = 0.3
+                conscription_factor = -0.5
+                local_resources_factor = -0.1
+            }
+        }
+    
+        great_depression_x_3 = {
+            picture = usa_great_depression_3
+        
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            modifier = {
+                consumer_goods_factor = 0.3
+                conscription_factor = -0.5
+            }
+        }
+    
+        great_depression_x_4 = {
+            picture = usa_great_depression_3
+        
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            modifier = {
+                consumer_goods_factor = 0.20
+                conscription_factor = -0.30
+            }
+        }
+    
+        great_depression_x_5 = {
+            picture = usa_great_depression_3
+        
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            modifier = {
+                consumer_goods_factor = 0.10
+                conscription_factor = -0.15
+            }
+        }
+    }
+}

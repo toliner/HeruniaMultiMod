@@ -151,15 +151,14 @@ shared_focus = {
 shared_focus = {
     id = HRE_naval_small_ship_1
     icon = GFX_goal_generic_navy_cruiser
-    x = 0
+    x = 2
     y = 1
     cost = 10
     prerequisite = {
-        focus = HRE_naval_production
-        focus = HRE_naval_construction
-        focus = HRE_naval_research
+        focus = HRE_naval_focus_only_naval
+        focus = HRE_naval_coordination_with_land
     }
-    relative_position_id = HRE_naval_production
+    relative_position_id = HRE_naval_focus_only_naval
     available = {
     
     }
@@ -169,6 +168,20 @@ shared_focus = {
             uses = 2
             category = dd_tech
             category = cl_tech
+        }
+        if = {
+            limit = {
+                has_completed_focus = HRE_naval_focus_only_naval
+            }
+            add_tech_bonus = {
+                bonus = 1
+                uses = 1
+                category = dd_tech
+                category = cl_tech
+            }
+        }
+        else = {
+            custom_effect_tooltip = HRE_tooltip_more_bonus_when_only
         }
     }
 }
@@ -187,6 +200,7 @@ shared_focus = {
     
     }
     completion_reward = {
+        add_ideas = HRE_naval_small_ship_cost_reduction_1
         add_tech_bonus = {
             bonus = 1
             uses = 2
@@ -197,7 +211,24 @@ shared_focus = {
             technology = basic_light_shell
             technology = improved_light_shell
         }
-        add_ideas = HRE_naval_small_ship_cost_reduction_1
+        if = {
+            limit = {
+                has_completed_focus = HRE_naval_focus_only_naval
+            }
+            add_tech_bonus = {
+                bonus = 1
+                uses = 1
+                category = dd_tech
+                category = cl_tech
+                technology = improved_light_battery
+                technology = advanced_light_battery
+                technology = basic_light_shell
+                technology = improved_light_shell
+            }
+        }
+        else = {
+            custom_effect_tooltip = HRE_tooltip_more_bonus_when_only
+        }
     }
 }
 
@@ -215,6 +246,10 @@ shared_focus = {
     
     }
     completion_reward = {
+        swap_ideas = {
+            adD_idea = HRE_naval_small_ship_cost_reduction_2
+            remove_idea = HRE_naval_small_ship_cost_reduction_1
+        }
         add_tech_bonus = {
             bonus = 1
             uses = 2
@@ -229,9 +264,23 @@ shared_focus = {
             technology = basic_medium_shell
             technology = improved_medium_shell
         }
-        swap_ideas = {
-            adD_idea = HRE_naval_small_ship_cost_reduction_2
-            remove_idea = HRE_naval_small_ship_cost_reduction_1
+        if = {
+            limit = {
+                has_completed_focus = HRE_naval_focus_only_naval
+            }
+            add_tech_bonus = {
+                bonus = 1
+                uses = 2
+                category = dd_tech
+                category = cl_tech
+                technology = improved_light_battery
+                technology = advanced_light_battery
+                technology = basic_light_shell
+                technology = improved_light_shell
+            }
+        }
+        else = {
+            custom_effect_tooltip = HRE_tooltip_more_bonus_when_only
         }
     }
 }
@@ -239,15 +288,14 @@ shared_focus = {
 shared_focus = {
     id = HRE_naval_large_ship_1
     icon = GFX_focus_generic_navy_battleship2
-    x = 0
+    x = -2
     y = 1
     cost = 10
     prerequisite = {
-        focus = HRE_naval_production
-        focus = HRE_naval_construction
-        focus = HRE_naval_research
+        focus = HRE_naval_focus_only_naval
+        focus = HRE_naval_coordination_with_land
     }
-    relative_position_id = HRE_naval_research
+    relative_position_id = HRE_naval_coordination_with_land
     available = {
     
     }
@@ -259,6 +307,22 @@ shared_focus = {
             category = bc_tech
             category = bb_tech
             category = shbb_tech
+        }
+        if = {
+            limit = {
+                has_completed_focus = HRE_naval_focus_only_naval
+            }
+            add_tech_bonus = {
+                bonus = 1
+                uses = 1
+                category = cv_tech
+                category = bc_tech
+                category = bb_tech
+                category = shbb_tech
+            }
+        }
+        else = {
+            custom_effect_tooltip = HRE_tooltip_more_bonus_when_only
         }
     }
 }
@@ -277,6 +341,7 @@ shared_focus = {
     
     }
     completion_reward = {
+        add_ideas = HRE_naval_large_ship_cost_reduction_1
         add_tech_bonus = {
             bonus = 1
             uses = 2
@@ -289,7 +354,26 @@ shared_focus = {
             technology = basic_medium_shell
             technology = improved_medium_shell
         }
-        add_ideas = HRE_naval_large_ship_cost_reduction_1
+        if = {
+            limit = {
+                has_completed_focus = HRE_naval_focus_only_naval
+            }
+            add_tech_bonus = {
+                bonus = 1
+                uses = 1
+                category = cv_tech
+                category = bc_tech
+                category = bb_tech
+                category = shbb_tech
+                technology = improved_medium_battery
+                technology = advanced_medium_battery
+                technology = basic_medium_shell
+                technology = improved_medium_shell
+            }
+        }
+        else = {
+            custom_effect_tooltip = HRE_tooltip_more_bonus_when_only
+        }
     }
 }
 
@@ -307,6 +391,10 @@ shared_focus = {
     
     }
     completion_reward = {
+        swap_ideas = {
+            add_idea = HRE_naval_large_ship_cost_reduction_2
+            remove_idea = HRE_naval_large_ship_cost_reduction_1
+        }
         add_tech_bonus = {
             bonus = 1
             uses = 2
@@ -323,9 +411,203 @@ shared_focus = {
             technology = basic_heavy_shell
             technology = improved_heavy_shell
         }
+        if = {
+            limit = {
+                has_completed_focus = HRE_naval_focus_only_naval
+            }
+            add_tech_bonus = {
+                bonus = 1
+                uses = 2
+                category = cv_tech
+                category = bc_tech
+                category = bb_tech
+                category = shbb_tech
+                technology = improved_medium_battery
+                technology = advanced_medium_battery
+                technology = basic_medium_shell
+                technology = improved_medium_shell
+                technology = improved_heavy_battery
+                technology = advanced_heavy_battery
+                technology = basic_heavy_shell
+                technology = improved_heavy_shell
+            }
+        }
+        else = {
+            custom_effect_tooltip = HRE_tooltip_more_bonus_when_only
+        }
+    }
+}
+
+shared_focus = {
+    id = HRE_naval_focus_only_naval
+    icon = GFX_goal_generic_build_navy
+    x = -1
+    y = 1
+    cost = 10
+    prerequisite = {
+        focus = HRE_naval_research
+        focus = HRE_naval_construction
+        focus = HRE_naval_production
+    }
+    relative_position_id = HRE_naval_production
+    available = {
+        NOT = {
+            has_completed_focus = HRE_prepare_army
+        }
+        NOT = {
+            has_completed_focus = HRE_invest_to_gunju_1
+        }
+    }
+    mutually_exclusive = {
+        focus = HRE_naval_coordination_with_land
+    }
+    completion_reward = {
+        add_ideas = HRE_naval_focus_only_naval
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
+        }
+        random_owned_controlled_state = {
+            limit = {
+                free_building_slots = {
+                    building = dockyard
+                    size > 0
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes
+            }
+        }
+    }
+}
+
+shared_focus = {
+    id = HRE_commonwealth_naval_1
+    icon = GFX_goal_generic_navy_doctrines_tactics
+    x = 0
+    y = 1
+    cost = 10
+    prerequisite = {
+        focus = HRE_naval_focus_only_naval
+    }
+    relative_position_id = HRE_naval_focus_only_naval
+    available = {
+    
+    }
+    completion_reward = {
+        add_ideas = {
+            HRE_naval_construction_idea_2
+        }
+        navy_experience = 200
+        add_doctrine_cost_reduction = {
+            cost_reduction = 0.50
+            uses = 5
+            category = naval_doctrine
+        }
+    }
+}
+
+shared_focus = {
+    id = HRE_commonwealth_naval_2
+    icon = GFX_goal_generic_navy_doctrines_tactics
+    x = 0
+    y = 1
+    cost = 10
+    prerequisite = {
+        focus = HRE_commonwealth_naval_1
+    }
+    relative_position_id = HRE_commonwealth_naval_1
+    available = {
+    
+    }
+    completion_reward = {
+        add_ideas = HRE_naval_super_power
+    }
+}
+
+shared_focus = {
+    id = HRE_commonwealth_naval_3
+    icon = GFX_goal_generic_navy_doctrines_tactics
+    x = 0
+    y = 1
+    cost = 10
+    prerequisite = {
+        focus = HRE_commonwealth_naval_2
+    }
+    relative_position_id = HRE_commonwealth_naval_2
+    available = {
+    
+    }
+    completion_reward = {
         swap_ideas = {
-            add_idea = HRE_naval_large_ship_cost_reduction_2
-            remove_idea = HRE_naval_large_ship_cost_reduction_1
+            add_idea = HRE_naval_construction_idea_4
+            remove_idea = HRE_naval_construction_idea_2
+        }
+        add_offsite_building = {
+            type = dockyard
+            level = 15
+        }
+    }
+}
+
+shared_focus = {
+    id = HRE_naval_coordination_with_land
+    icon = GFX_goal_generic_navy_anti_submarine
+    x = 1
+    y = 1
+    cost = 10
+    prerequisite = {
+        focus = HRE_naval_research
+        focus = HRE_naval_construction
+        focus = HRE_naval_production
+    }
+    relative_position_id = HRE_naval_research
+    available = {
+    
+    }
+    mutually_exclusive = {
+        focus = HRE_naval_focus_only_naval
+    }
+    completion_reward = {
+        add_ideas = HRE_naval_coordination_with_land
+        set_technology = {
+            marines = 1
+        }
+        add_tech_bonus = {
+            bonus = 1
+            uses = 1
+            technology = landing_craft
+            technology = tank_landing_craft
         }
     }
 }
@@ -337,11 +619,9 @@ shared_focus = {
     y = 1
     cost = 10
     prerequisite = {
-        focus = HRE_naval_production
-        focus = HRE_naval_construction
-        focus = HRE_naval_research
+        focus = HRE_naval_coordination_with_land
     }
-    relative_position_id = HRE_naval_construction
+    relative_position_id = HRE_naval_coordination_with_land
     available = {
     
     }

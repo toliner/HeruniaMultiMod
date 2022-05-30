@@ -1745,6 +1745,79 @@ ideas = {
                 production_speed_dockyard_factor = 0.25
             }
         }
+        HRE_naval_construction_idea_4 = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = idea_generic_navy_carrier_bonus
+        
+            modifier = {
+                production_speed_dockyard_factor = 0.40
+            }
+        }
+        
+        HRE_naval_super_power = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = idea_generic_navy_carrier_bonus
+    
+            modifier = {
+                industrial_capacity_dockyard = 0.50
+                naval_doctrine_cost_factor = -0.1
+            }
+        }
+        
+        HRE_naval_focus_only_naval = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = generic_sea_focused_navy
+            modifier = {
+                production_speed_dockyard_factor = 0.10
+                production_speed_arms_factory_factor = -1
+            }
+        }
+    
+        HRE_naval_coordination_with_land = {
+            allowed = {
+                always = no
+            }
+        
+            allowed_civil_war = {
+                always = yes
+            }
+        
+            removal_cost = -1
+        
+            picture = generic_sea_focused_navy
+            modifier = {
+                naval_invasion_capacity = 10
+                naval_invasion_penalty = -0.1
+                invasion_preparation = -0.25
+            }
+        }
         
         HRE_idea_democratic = {
             allowed = {

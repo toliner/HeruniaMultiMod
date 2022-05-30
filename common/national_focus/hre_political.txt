@@ -137,7 +137,18 @@ shared_focus = {
     }
     relative_position_id = HRE_democratic
     available = {
-    
+        if = {
+            limit = {
+                OR = {
+                    tag = XXM
+                    tag = XXE
+                    tag = XXW
+                }
+            }
+            NOT = {
+                has_idea = AME_force_export_resource
+            }
+        }
     }
     completion_reward = {
         add_political_power = 150

@@ -48,3 +48,6 @@ NDefines.NBuildings.MAX_SHARED_SLOTS = 50
 NDefines.NSupply.SUPPLY_FLOW_DROP_REDUCTION_AT_MAX_INFRA = 0.50 -- 0.30
 -- 鉄道レベルによる補給値の上昇幅を強化する
 NDefines.NSupply.NODE_FLOW_BONUS_PER_RAIL_LEVEL = 0.8 -- 0.34
+
+-- 海軍造船所出力倍増
+NDefines.NProduction.BASE_FACTORY_SPEED_NAV = 5.0 -- 2.5

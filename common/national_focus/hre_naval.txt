@@ -163,6 +163,7 @@ shared_focus = {
     
     }
     completion_reward = {
+        set_technology = { torpedo_cruiser_mtg = 1 }
         add_tech_bonus = {
             bonus = 1
             uses = 2
@@ -455,7 +456,7 @@ shared_focus = {
             has_completed_focus = HRE_prepare_army
         }
         NOT = {
-            has_completed_focus = HRE_invest_to_gunju_1
+            has_completed_focus = HRE_invest_to_gunju_2
         }
     }
     mutually_exclusive = {
@@ -463,6 +464,22 @@ shared_focus = {
     }
     completion_reward = {
         add_ideas = HRE_naval_focus_only_naval
+        create_navy_leader = {
+            name = "魔理沙派提督"
+            skill = 4
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 4
+        }
+        create_navy_leader = {
+            name = "アリス派提督"
+            skill = 4
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 3
+        }
         random_owned_controlled_state = {
             limit = {
                 free_building_slots = {
@@ -534,6 +551,22 @@ shared_focus = {
             uses = 5
             category = naval_doctrine
         }
+        create_navy_leader = {
+            name = "ヘルニア派提督"
+            skill = 4
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 3
+            logistics_skill = 3
+        }
+        create_navy_leader = {
+            name = "マリアリ派提督"
+            skill = 4
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 3
+        }
     }
 }
 
@@ -552,6 +585,24 @@ shared_focus = {
     }
     completion_reward = {
         add_ideas = HRE_naval_super_power
+    
+        every_navy_leader = {
+            add_skill_level = 1
+            add_max_trait = 1
+            custom_effect_tooltip = HRE_tooltip_add_random_trait
+            hidden_effect = {
+                add_random_trait = {
+                    seawolf
+                    fleet_protector
+                    blockade_runner
+                    superior_tactician
+                    spotter
+                    fly_swatter
+                    ironside
+                    air_controller
+                }
+            }
+        }
     }
 }
 

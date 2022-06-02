@@ -1,3 +1,4 @@
 ﻿l_english:
  commonwealth:0 "英連邦構成国"
  HRE_tooltip_more_bonus_when_only:0 "§C$HRE_naval_focus_only_naval$§!を取得している場合、§G更なるボーナスを取得出来る§!"
+ HRE_tooltip_add_random_trait:0 "ランダムな獲得特性を1つ追加する。"

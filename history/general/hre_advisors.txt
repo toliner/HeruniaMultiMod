@@ -111,7 +111,7 @@ every_possible_country = {
                 navy_chief_decisive_battle_2
             }
             visible = {
-                has_completed_focus = HRE_prepare_army
+                has_completed_focus = HRE_focus_naval
             }
         }
         portraits = {
@@ -119,15 +119,15 @@ every_possible_country = {
         }
     }
     generate_character = {
-        token_base = hre_navy_chief_aviation
+        token_base = hre_navy_naval_air_defense_2
         advisor = {
             slot = navy_chief
             cost = 100
             traits = {
-                navy_chief_naval_aviation_2
+                navy_naval_air_defense_2
             }
             visible = {
-                has_completed_focus = HRE_prepare_army
+                has_completed_focus = HRE_focus_naval
             }
         }
         portraits = {
@@ -143,7 +143,7 @@ every_possible_country = {
                 navy_chief_commerce_raiding_2
             }
             visible = {
-                has_completed_focus = HRE_prepare_army
+                has_completed_focus = HRE_focus_naval
             }
         }
         portraits = {
@@ -159,7 +159,7 @@ every_possible_country = {
                 navy_chief_reform_2
             }
             visible = {
-                has_completed_focus = HRE_prepare_army
+                has_completed_focus = HRE_focus_naval
             }
         }
         portraits = {
@@ -439,7 +439,109 @@ every_possible_country = {
             army = { small = GFX_idea_generic_air_air_combat_trainer }
         }
     }
-    
+    # 海
+    generate_character = {
+        token_base = hre_navy_chief_naval_aviation_2
+        advisor = {
+            slot = high_command
+            ledger = navy
+            cost = 100
+            traits = {
+                navy_chief_naval_aviation_2
+            }
+            visible = {
+                has_completed_focus = HRE_focus_naval
+            }
+        }
+        portraits = {
+            army = { small = GFX_idea_generic_air_air_combat_trainer }
+        }
+    }
+    generate_character = {
+        token_base = hre_navy_amphibious_assault_2
+        advisor = {
+            slot = high_command
+            ledger = navy
+            cost = 100
+            traits = {
+                navy_amphibious_assault_2
+            }
+            visible = {
+                has_completed_focus = HRE_focus_naval
+            }
+        }
+        portraits = {
+            army = { small = GFX_idea_generic_air_air_combat_trainer }
+        }
+    }
+    generate_character = {
+        token_base = hre_navy_capital_ship_2
+        advisor = {
+            slot = high_command
+            ledger = navy
+            cost = 100
+            traits = {
+                navy_capital_ship_2
+            }
+            visible = {
+                has_completed_focus = HRE_focus_naval
+            }
+        }
+        portraits = {
+            army = { small = GFX_idea_generic_air_air_combat_trainer }
+        }
+    }
+    generate_character = {
+        token_base = hre_navy_carrier_2
+        advisor = {
+            slot = high_command
+            ledger = navy
+            cost = 100
+            traits = {
+                navy_carrier_2
+            }
+            visible = {
+                has_completed_focus = HRE_focus_naval
+            }
+        }
+        portraits = {
+            army = { small = GFX_idea_generic_air_air_combat_trainer }
+        }
+    }
+    generate_character = {
+        token_base = hre_navy_chief_maneuver_2
+        advisor = {
+            slot = high_command
+            ledger = navy
+            cost = 100
+            traits = {
+                navy_chief_maneuver_2
+            }
+            visible = {
+                has_completed_focus = HRE_focus_naval
+            }
+        }
+        portraits = {
+            army = { small = GFX_idea_generic_air_air_combat_trainer }
+        }
+    }
+    generate_character = {
+        token_base = hre_navy_anti_submarine_2
+        advisor = {
+            slot = high_command
+            ledger = navy
+            cost = 100
+            traits = {
+                navy_anti_submarine_2
+            }
+            visible = {
+                has_completed_focus = HRE_focus_naval
+            }
+        }
+        portraits = {
+            army = { small = GFX_idea_generic_air_air_combat_trainer }
+        }
+    }
     # 理論家
     # 機動戦
     generate_character = {

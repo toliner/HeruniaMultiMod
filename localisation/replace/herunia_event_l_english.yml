@@ -8,3 +8,8 @@
  story.4.t:0 "AI用: 中華統一"
  story.4.d:0 "中華民国による中国統一"
  story.100.t:0 "全州中核化"
+ herunia.32.t:0 "ドクトリンの選択 - 海"
+ herunia.32.d:0 "次は、海軍ドクトリンです。仕様は陸軍ドクトリンと同様です。好きなのを選んでね！"
+ herunia.32.a:0 "$fleet_in_being$"
+ herunia.32.b:0 "$trade_interdiction$"
+ herunia.32.c:0 "$base_strike$"

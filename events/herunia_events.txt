@@ -271,6 +271,7 @@ country_event = {
             formation_flying = 0
             popup = no
         }
+        country_event = herunia.32
     }
     option = {
         name = herunia.26.b
@@ -280,6 +281,7 @@ country_event = {
             formation_flying = 1
             popup = no
         }
+        country_event = herunia.32
     }
     option = {
         name = herunia.26.c
@@ -289,6 +291,7 @@ country_event = {
             formation_flying = 0
             popup = no
         }
+        country_event = herunia.32
     }
 }
 
@@ -403,6 +406,41 @@ country_event = {
     option = {
         name = herunia.31.a
         add_manpower = -1
+    }
+}
+
+country_event = {
+    id = herunia.32
+    title = herunia.32.t
+    desc = herunia.32.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.32.a
+        set_technology = {
+            fleet_in_being = 1
+            trade_interdiction = 0
+            base_strike = 0
+            popup = no
+        }
+    }
+    option = {
+        name = herunia.32.b
+        set_technology = {
+            fleet_in_being = 0
+            trade_interdiction = 1
+            base_strike = 0
+            popup = no
+        }
+    }
+    option = {
+        name = herunia.32.c
+        set_technology = {
+            fleet_in_being = 0
+            trade_interdiction = 0
+            base_strike = 1
+            popup = no
+        }
     }
 }
 

@@ -55,3 +55,9 @@ conquer_west_africa_decisions = {
         tag = BWF
     }
 }
+
+india_remove_debuff_1 = {
+    visible = {
+        tag = RAJ
+    }
+}

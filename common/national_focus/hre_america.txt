@@ -71,7 +71,7 @@ focus_tree = {
         }
         relative_position_id = US_great_depression_1
         available = {
-            date > 1937.7.1
+            date > 1938.1.1
         }
         completion_reward = {
             swap_ideas = {
@@ -92,7 +92,7 @@ focus_tree = {
         }
         relative_position_id = US_great_depression_2
         available = {
-            date > 1938.1.1
+            date > 1939.1.1
         }
         completion_reward = {
             swap_ideas = {
@@ -113,7 +113,7 @@ focus_tree = {
         }
         relative_position_id = US_great_depression_3
         available = {
-            date > 1939.1.1
+            date > 1939.7.1
         }
         completion_reward = {
             swap_ideas = {

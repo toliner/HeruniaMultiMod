@@ -207,6 +207,34 @@ country_event = {
             target = MON
             transfer_troops = yes
         }
+        add_timed_idea = {
+            idea = POL_four_year_plan_complete_4
+            days = 730
+        }
+    
+        country_event = {
+            id = story.100
+            days = 7
+        }
+    }
+}
+
+country_event = {
+    id = story.5
+    title = story.5.t
+    desc = story.5.d
+    is_triggered_only = yes
+    
+    option = {
+        name = story.6
+        
+        HOL = {
+            end_puppet = INS
+        }
+        annex_country = {
+            target = HOL
+            transfer_troops = yes
+        }
     
         country_event = {
             id = story.100

@@ -31,6 +31,12 @@ on_actions = {
                     days = 7
                 }
             }
+            BEL = {
+                country_event = {
+                    id = story.5
+                    days = 7
+                }
+            }
             JAP = {
                 add_ideas = HERUNIA_enemy_buff
             }

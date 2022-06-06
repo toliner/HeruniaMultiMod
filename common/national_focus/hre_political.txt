@@ -123,6 +123,7 @@ shared_focus = {
             idea = HRE_idea_fascism
             days = 730
         }
+        add_ideas = YOU_CAN_NOT_DECLARE_WAR_LOL
     }
 }
 

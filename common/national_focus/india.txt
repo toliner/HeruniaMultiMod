@@ -2831,7 +2831,7 @@ focus_tree = {
 	
 	focus = {
 		id = RAJ_remove_debuff_1
-		icon = ToDo
+		icon = GFX_focus_generic_industry_2
 		x = 0
 		y = 2
 		cost = 10

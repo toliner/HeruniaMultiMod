@@ -193,7 +193,7 @@ focus_tree = {
         }
         relative_position_id = US_economy_mobilization_2
         available = {
-            threat > 0.15
+            threat > 0.30
         }
         completion_reward = {
             add_stability = 0.10
@@ -213,6 +213,9 @@ focus_tree = {
         relative_position_id = US_economy_mobilization_3
         available = {
             has_war = yes
+            any_enemy_country = {
+                is_major = yes
+            }
         }
         completion_reward = {
             remove_ideas = AME_force_export_resource

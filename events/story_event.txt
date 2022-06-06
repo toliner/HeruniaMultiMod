@@ -235,6 +235,11 @@ country_event = {
             target = HOL
             transfer_troops = yes
         }
+        set_cosmetic_tag = UNL_UNIFIED
+        hidden_effect = {
+            news_event = { id = wtt_news.58 hours = 6 }
+            set_global_flag = form_united_netherlands_flag
+        }
     
         country_event = {
             id = story.100

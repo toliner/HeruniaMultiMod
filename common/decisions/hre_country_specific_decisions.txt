@@ -1,4 +1,4 @@
-india_remove_debuff = {
+india_remove_debuff_1 = {
     de_agrarian_society_1 = {
         fire_only_once = yes
         visible = {

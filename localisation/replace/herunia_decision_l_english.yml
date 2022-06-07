@@ -1,4 +1,7 @@
 ﻿l_english:
+ ##################################
+ ### 征服                       ####
+ ##################################
  conquer_mid_east_decisions:0 "中東の征服"
  conquer_sau:0 "[SAU.GetName]の征服"
  conquer_yem:0 "[YEM.GetName]の征服"
@@ -57,6 +60,9 @@
  request_412:0 "[412.owner.GetName]への$STATE_412$の要求"
  request_414:0 "[414.owner.GetName]への$STATE_414$の要求"
  request_724:0 "[724.owner.GetName]への$STATE_724$の要求"
+ ##################################
+ ### インド                     ####
+ ##################################
  india_remove_debuff_1:0 "脱農耕社会"
  de_agrarian_society_1:0 "工業化への取り組み"
  de_agrarian_society_2:0 "工業化への取り組み"
@@ -65,3 +71,28 @@
  de_agrarian_society_5:0 "工業化への取り組み"
  de_agrarian_society_6:0 "工業化への取り組み"
  de_agrarian_society_7:0 "工業化への取り組み"
+ ##################################
+ ### 投資                       ####
+ ##################################
+ invest_decisions:0 "海外企業への投資"
+ invest_decisions_desc:0 "海外企業に対する投資を行う事でその企業を国内に誘致し、我々の兵器技術を向上させる。"
+ invest_tank_company_a:0 "機動戦車の設計社への投資"
+ invest_tank_company_b:0 "歩兵戦車の設計社への投資"
+ invest_tank_company_c:0 "中戦車の設計社への投資"
+ invest_tank_company_d:0 "重戦車の設計社への投資"
+ invest_air_company_a:0 "機動性重視の航空機設計社への投資"
+ invest_air_company_b:0 "近接航空支援機の設計社への投資"
+ invest_air_company_c:0 "航続距離重視の航空機設計社への投資"
+ invest_industry_company_a:0 "建設会社への投資"
+ invest_industry_company_b:0 "イギリスへの投資"
+ invest_industry_company_c:0 "ドイツへの投資"
+ ##################################
+ ### 艦船の購入                  ####
+ ##################################
+ naval_decisions:0 "艦船の購入"
+ naval_decisions_desc:0 "我々の海軍は貧弱で、英仏に対抗できるだけの艦船を建設する力も時間も無い。ならば、海軍において強力であり、中立を保っている国から艦船を購入するのが最適だろう。"
+ buy_simple_escort_fleet_from_usa:0 "アメリカから対潜護衛艦隊を購入する"
+ buy_escort_fleet_from_usa:0 "アメリカから護衛艦隊を購入する"
+ buy_raid_fleet_from_usa:0 "アメリカから襲撃艦隊を購入する"
+ buy_strike_fleet_from_usa:0 "アメリカから打撃艦隊を購入する"
+ buy_mobile_fleet_from_usa:0 "アメリカから空母機動艦隊を購入する"

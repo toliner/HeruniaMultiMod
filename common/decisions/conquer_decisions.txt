@@ -528,3 +528,187 @@ conquer_by_india = {
         }
     }
 }
+
+conquer_south_america = {
+    request_309 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 309
+            add_state_core = 309
+        }
+    }
+    request_310 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 310
+            add_state_core = 310
+        }
+    }
+    request_488 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 488
+            add_state_core = 488
+        }
+    }
+    request_307 = {
+        fire_only_once = yes
+        cost = 150
+        days_remove = 120
+        modifier = {
+            civilian_factory_use = 5
+        }
+        remove_effect = {
+            transfer_state = 307
+            add_state_core = 307
+        }
+    }
+    request_489 = {
+        fire_only_once = yes
+        cost = 100
+        days_remove = 60
+        modifier = {
+            civilian_factory_use = 2
+        }
+        remove_effect = {
+            transfer_state = 489
+            add_state_core = 489
+        }
+    }
+    request_695 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 695
+            add_state_core = 695
+        }
+    }
+    request_493 = {
+        fire_only_once = yes
+        cost = 100
+        days_remove = 60
+        modifier = {
+            civilian_factory_use = 2
+        }
+        remove_effect = {
+            transfer_state = 493
+            add_state_core = 493
+        }
+    }
+    request_304 = {
+        fire_only_once = yes
+        cost = 50
+        days_remove = 60
+        modifier = {
+            civilian_factory_use = 2
+        }
+        remove_effect = {
+            transfer_state = 304
+            add_state_core = 304
+        }
+    }
+    request_685 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 685
+            add_state_core = 685
+        }
+    }
+    request_316 = {
+        fire_only_once = yes
+        cost = 50
+        days_remove = 60
+        modifier = {
+            civilian_factory_use = 2
+        }
+        remove_effect = {
+            transfer_state = 316
+            add_state_core = 316
+        }
+    }
+    request_317 = {
+        fire_only_once = yes
+        cost = 50
+        days_remove = 60
+        modifier = {
+            civilian_factory_use = 2
+        }
+        remove_effect = {
+            transfer_state = 317
+            add_state_core = 317
+        }
+    }
+    request_312 = {
+        fire_only_once = yes
+        cost = 100
+        days_remove = 60
+        modifier = {
+            civilian_factory_use = 2
+        }
+        remove_effect = {
+            transfer_state = 312
+            add_state_core = 312
+        }
+    }
+    request_313 = {
+        fire_only_once = yes
+        cost = 100
+        days_remove = 60
+        modifier = {
+            civilian_factory_use = 2
+        }
+        remove_effect = {
+            transfer_state = 313
+            add_state_core = 313
+        }
+    }
+    request_314 = {
+        fire_only_once = yes
+        cost = 100
+        complete_effect = {
+            transfer_state = 314
+            add_state_core = 314
+        }
+    }
+    request_315 = {
+        fire_only_once = yes
+        cost = 150
+        days_remove = 120
+        modifier = {
+            civilian_factory_use = 3
+        }
+        remove_effect = {
+            transfer_state = 315
+            add_state_core = 315
+        }
+    }
+    request_318 = {
+        fire_only_once = yes
+        cost = 100
+        days_remove = 60
+        modifier = {
+            civilian_factory_use = 2
+        }
+        remove_effect = {
+            transfer_state = 318
+            add_state_core = 318
+        }
+    }
+    request_319 = {
+        fire_only_once = yes
+        cost = 100
+        days_remove = 90
+        modifier = {
+            civilian_factory_use = 3
+        }
+        remove_effect = {
+            transfer_state = 319
+            add_state_core = 319
+        }
+    }
+    
+}

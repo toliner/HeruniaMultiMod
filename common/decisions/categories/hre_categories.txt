@@ -60,3 +60,9 @@ conquer_by_india = {
         tag = RAJ
     }
 }
+
+conquer_south_america = {
+    visible = {
+        tag = BMA
+    }
+}

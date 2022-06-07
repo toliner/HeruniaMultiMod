@@ -64,6 +64,8 @@
 	
 	shared_focus = HRE_focus_naval
 	
+	shared_focus = HRE_secret_focus_1
+	
 	############################
 	##### POLITICS SECTION #####
 	############################

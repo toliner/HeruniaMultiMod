@@ -439,34 +439,14 @@ developer_only_command = {
         fire_only_once = yes
         complete_effect = {
             set_global_flag = HERUNIA_FLAG_HONBAN
+            every_country = {
+                limit = {
+                    is_hre_country = yes
+                }
+                mark_focus_tree_layout_dirty = yes
+            }
+            # ToDo: 実装
             news_event = herunia.1000
-        }
-    }
-}
-
-vote_to_marisa_alice = {
-    vote_to_marisa = {
-        days_remove = 30
-        complete_effect = {
-            add_to_variable = {
-                global.marisa = 1
-            }
-        }
-    }
-    vote_to_alice = {
-        days_remove = 30
-        complete_effect = {
-            add_to_variable = {
-                global.alice = 1
-            }
-        }
-    }
-    vote_to_herunia = {
-        days_remove = 30
-        complete_effect = {
-            add_to_variable = {
-                global.herunia = 1
-            }
         }
     }
 }
@@ -477,12 +457,13 @@ player_decisions = {
         visible = {
             NOT = {
                 tag = AUS
-                has_global_flag = HERUNIA_FLAG_HONBAN
             }
+            is_honban = yes
         }
         complete_effect = {
-            AUS = {
+            MLT = {
                 country_event = {
+                    # ToDo: 爆破イベントもっと面白く
                     id = herunia.31
                 }
             }

@@ -29,3 +29,7 @@ is_usa_country = {
         tag = XXE
     }
 }
+
+is_honban = {
+    has_global_flag = HERUNIA_FLAG_HONBAN
+}

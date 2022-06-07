@@ -19,13 +19,6 @@ developer_only_command = {
     }
 }
 
-vote_to_marisa_alice = {
-    visible = {
-        is_hre_country = yes
-        has_global_flag = HERUNIA_FLAG_HONBAN
-    }
-}
-
 player_decisions = {
     visible = {
         is_ai = no

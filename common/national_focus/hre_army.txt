@@ -423,7 +423,7 @@ shared_focus = {
                 add_tech_bonus = {
                     bonus = 1
                     uses = 1
-                    ahead_reduction = 1
+                    ahead_reduction = 0.5
                     category = infantry_weapons
                 }
             }
@@ -460,9 +460,9 @@ shared_focus = {
                     has_completed_focus = HRE_superior_tech
                 }
                 add_tech_bonus = {
-                    bonus = 0.5
+                    bonus = 1
                     uses = 1
-                    ahead_reduction = 1
+                    ahead_reduction = 0.5
                     category = cat_heavy_fighter
                     category = light_fighter
                 }
@@ -525,9 +525,9 @@ shared_focus = {
                     has_completed_focus = HRE_superior_tech
                 }
                 add_tech_bonus = {
-                    bonus = 0.5
+                    bonus = 1
                     uses = 1
-                    ahead_reduction = 3
+                    ahead_reduction = 1
                     category = infantry_weapons
                 }
             }
@@ -571,7 +571,7 @@ shared_focus = {
                 }
                 add_tech_bonus = {
                     uses = 1
-                    ahead_reduction = 3
+                    ahead_reduction = 2
                     category = cat_heavy_fighter
                     category = light_fighter
                 }
@@ -629,7 +629,7 @@ shared_focus = {
                 }
                 add_tech_bonus = {
                     uses = 1
-                    ahead_reduction = 2
+                    ahead_reduction = 1
                     category = artillery
                 }
             }
@@ -732,7 +732,6 @@ shared_focus = {
                 }
                 add_tech_bonus = {
                     uses = 1
-                    bonus = 0.5
                     ahead_reduction = 2
                     category = artillery
                 }
@@ -777,7 +776,7 @@ shared_focus = {
                 }
                 add_tech_bonus = {
                     uses = 1
-                    ahead_reduction = 3
+                    ahead_reduction = 2
                     category = cas_bomber
                     category = naval_bomber
                 }
@@ -835,7 +834,6 @@ shared_focus = {
                 }
                 add_tech_bonus = {
                     uses = 2
-                    bonus = 0.5
                     ahead_reduction = 1
                     category = support_tech
                 }
@@ -873,7 +871,6 @@ shared_focus = {
                     has_completed_focus = HRE_superior_tech
                 }
                 add_tech_bonus = {
-                    bonus = 0.5
                     uses = 1
                     ahead_reduction = 1
                     category = tactical_bomber
@@ -983,7 +980,7 @@ shared_focus = {
                 }
                 add_tech_bonus = {
                     uses = 1
-                    ahead_reduction = 3
+                    ahead_reduction = 2
                     category = tactical_bomber
                     category = cat_strategic_bomber
                 }
@@ -1041,7 +1038,7 @@ shared_focus = {
                 }
                 add_tech_bonus = {
                     uses = 1
-                    ahead_reduction = 2
+                    ahead_reduction = 1
                     category = armor
                 }
             }
@@ -1143,7 +1140,6 @@ shared_focus = {
                 }
                 add_tech_bonus = {
                     uses = 1
-                    bonus = 0.5
                     ahead_reduction = 2
                     category = armor
                 }
@@ -1232,7 +1228,12 @@ shared_focus = {
     completion_reward = {
         add_tech_bonus = {
             ahead_reduction = 1
-            uses = 2
+            uses = 1
+            category = nuclear
+        }
+        add_tech_bonus = {
+            ahead_reduction = 2
+            uses = 1
             category = nuclear
         }
     }

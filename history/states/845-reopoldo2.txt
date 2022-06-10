@@ -1,0 +1,21 @@
+state = {
+    id = 845
+    name = "STATE_845"
+    provinces = {
+        191 1516 1817 1968 4515 12795
+    }
+    history = {
+        owner = BEL
+        buildings = {
+            infrastructure = 2
+        }
+        victory_points = {
+            191 1
+        }
+        add_core_of = COG
+    }
+    manpower = 1000000
+    buildings_max_level_factor = 1.000
+    local_supplies = 0.000
+    state_category = rural
+}

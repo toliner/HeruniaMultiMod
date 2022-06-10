@@ -1,0 +1,18 @@
+state = {
+    id = 840
+    name = "STATE_840"
+    provinces = {
+        2120 5155 12935
+    }
+    history = {
+        owner = POR
+        buildings = {
+            infrastructure = 2
+        }
+        add_core_of = MZB
+    }
+    manpower = 1000000
+    buildings_max_level_factor = 1.000
+    local_supplies = 0.000
+    state_category = rural
+}

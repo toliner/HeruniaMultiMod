@@ -1,0 +1,22 @@
+state = {
+    id = 837
+    name = "STATE_837"
+    provinces = {
+        2207 2229 4879 7605 7770 10963
+    }
+    history = {
+        owner = SAF
+        buildings = {
+            infrastructure = 2
+            
+        }
+        victory_points = {
+            4879 1
+        }
+        add_core_of = SAF
+    }
+    manpower = 200000
+    buildings_max_level_factor = 1.000
+    local_supplies = 0.000
+    state_category = rural
+}

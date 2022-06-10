@@ -704,15 +704,15 @@ conquer_south_america = {
 buy_ins = {
     buy_ins = {
         fire_only_once = yes
-        cost = 500
+        cost = 400
         days_remove = 365
         available = {
-            num_of_civilian_factories_available_for_projects  > 9
+            num_of_civilian_factories_available_for_projects  > 7
         }
         modifier = {
             stability_factor = -0.2
             political_power_cost = 0.3
-            civilian_factory_use = 7
+            civilian_factory_use = 8
         }
         complete_effect = {
             add_timed_idea = {

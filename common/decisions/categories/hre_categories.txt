@@ -87,3 +87,9 @@ integrate_north_africa = {
         tag = EGY
     }
 }
+
+conquer_south_africa_2 = {
+    visible = {
+        tag = SAF
+    }
+}

@@ -13,3 +13,11 @@
  herunia.32.a:0 "$fleet_in_being$"
  herunia.32.b:0 "$trade_interdiction$"
  herunia.32.c:0 "$base_strike$"
+ ##################################
+ ### 隠し                       ####
+ ##################################
+ hre_secret.1:0 "第2回 マリアリ人気投票"
+ hre_secret.1.d:0 "前回はディシジョンで無限投票制度でしたが、今回はNF取得による1回の投票だけです！よーーく考えて選んでくださいね。"
+ hre_secret.1.a:0 "三角形隊長"
+ hre_secret.1.b:0 "魔理沙さん"
+ hre_secret.1.c:0 "アリスちゃん"

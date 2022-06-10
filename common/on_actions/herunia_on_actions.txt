@@ -58,6 +58,9 @@ on_actions = {
             set_variable = {
                 global.herunia = 0
             }
+            set_variable = {
+                global.secret_effect_trigger = 0
+            }
         }
     }
 }

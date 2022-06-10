@@ -476,4 +476,20 @@ player_decisions = {
             add_manpower = 1
         }
     }
+    
+    debug = {
+        visible = {
+            is_debug = yes
+        }
+        complete_effect = {
+            every_controlled_state = {
+                set_variable = { FROM.remove_core_target_state = THIS }
+                for_each_scope_loop = {
+                    array = FROM.remove_core_target_state:core_countries
+                    remove_state_core = FROM.remove_core_target_state
+                }
+            }
+            clear_variable = FROM.remove_core_target_state
+        }
+    }
 }

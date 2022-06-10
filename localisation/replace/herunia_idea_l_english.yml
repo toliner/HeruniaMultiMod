@@ -105,3 +105,7 @@
   RAJ_agrarian_society_5:0 "$RAJ_agrarian_society$"
   RAJ_agrarian_society_6:0 "$RAJ_agrarian_society$"
   RAJ_agrarian_society_7:0 "$RAJ_agrarian_society$"
+  ##################################
+  ### マラヤ                     ####
+  ##################################
+  HRE_buy_ins_cost:0 "インドネシアの統合費用"

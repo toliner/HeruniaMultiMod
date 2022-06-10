@@ -66,3 +66,9 @@ conquer_south_america = {
         tag = BMA
     }
 }
+
+buy_ins = {
+    visible = {
+        tag = MAL
+    }
+}

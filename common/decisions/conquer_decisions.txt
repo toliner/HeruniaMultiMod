@@ -598,18 +598,6 @@ conquer_south_america = {
             add_state_core = 493
         }
     }
-    request_304 = {
-        fire_only_once = yes
-        cost = 50
-        days_remove = 60
-        modifier = {
-            civilian_factory_use = 2
-        }
-        remove_effect = {
-            transfer_state = 304
-            add_state_core = 304
-        }
-    }
     request_685 = {
         fire_only_once = yes
         cost = 50

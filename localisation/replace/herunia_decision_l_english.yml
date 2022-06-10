@@ -125,3 +125,12 @@
  buy_raid_fleet_from_usa:0 "アメリカから襲撃艦隊を購入する"
  buy_strike_fleet_from_usa:0 "アメリカから打撃艦隊を購入する"
  buy_mobile_fleet_from_usa:0 "アメリカから空母機動艦隊を購入する"
+ ##################################
+ ### 開発者用コマンド             ####
+ ##################################
+ integrate_xxw_with_xxm:0 "§R【欠員併合用】§! [XXW.GetName]を[XXM.GetName]が併合"
+ integrate_srl_with_mal:0 "§R【欠員併合用】§! [SRL.GetName]を[MAL.GetName]が併合"
+ integrate_cyp_with_egy:0 "§R【欠員併合用】§! [CYP.GetName]を[EGY.GetName]が併合"
+ integrate_mlt_with_egy:0 "§R【欠員併合用】§! [MLT.GetName]を[EGY.GetName]が併合"
+ integrate_ast_with_nzl:0 "§R【欠員併合用】§! [AST.GetName]を[NZL.GetName]が併合"
+ integrate_saf_with_bsf:0 "§R【欠員併合用】§! [SAF.GetName]を[BSF.GetName]が併合"

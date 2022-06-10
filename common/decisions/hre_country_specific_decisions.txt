@@ -50,3 +50,123 @@ india_remove_debuff_1 = {
         }
     }
 }
+
+integrate_mid_africa = {
+    integrate_etiopia = {
+        visible = {
+            tag = BMF
+        }
+        available = {
+            owns_state = 271
+        }
+        cost = 50
+        complete_effect = {
+            add_state_core = 271
+        }
+    }
+    
+    integrate_559 = {
+        visible = {
+            tag = BMF
+        }
+        available = {
+            owns_state = 559
+        }
+        cost = 50
+        complete_effect = {
+            add_state_core = 559
+        }
+    }
+    
+    integrate_550 = {
+        visible = {
+            tag = EGY
+        }
+        available = {
+            owns_state = 550
+        }
+        cost = 50
+        complete_effect = {
+            add_state_core = 550
+        }
+    }
+}
+
+integrate_north_africa = {
+    integrate_ribia = {
+        available = {
+            LBA = {
+                all_core_state = {
+                    is_owned_by = ROOT
+                }
+            }
+        }
+        cost = 100
+        fire_only_once = yes
+        complete_effect = {
+            LBA = {
+                every_core_state = {
+                    add_core_of = ROOT
+                    remove_core_of = LBA
+                }
+            }
+        }
+    }
+    integrate_tun = {
+        available = {
+            TUN = {
+                all_core_state = {
+                    is_owned_by = ROOT
+                }
+            }
+        }
+        cost = 100
+        fire_only_once = yes
+        complete_effect = {
+            TUN = {
+                every_core_state = {
+                    add_core_of = ROOT
+                    remove_core_of = TUN
+                }
+            }
+        }
+    }
+    integrate_alg = {
+        available = {
+            ALG = {
+                all_core_state = {
+                    is_owned_by = ROOT
+                }
+            }
+        }
+        cost = 100
+        fire_only_once = yes
+        complete_effect = {
+            ALG = {
+                every_core_state = {
+                    add_core_of = ROOT
+                    remove_core_of = ALG
+                }
+            }
+        }
+    }
+    integrate_mor = {
+        available = {
+            MOR = {
+                all_core_state = {
+                    is_owned_by = ROOT
+                }
+            }
+        }
+        cost = 100
+        fire_only_once = yes
+        complete_effect = {
+            MOR = {
+                every_core_state = {
+                    add_core_of = ROOT
+                    remove_core_of = MOR
+                }
+            }
+        }
+    }
+}

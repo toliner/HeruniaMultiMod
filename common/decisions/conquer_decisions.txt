@@ -247,6 +247,14 @@ conquer_south_africa_decisions = {
 }
 
 conquer_mid_africa_decisions = {
+    request_268 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 268
+            add_state_core = 268
+        }
+    }
     request_718 = {
         fire_only_once = yes
         cost = 100

@@ -72,3 +72,18 @@ buy_ins = {
         tag = MAL
     }
 }
+
+integrate_mid_africa = {
+    visible = {
+        OR = {
+            tag = BMF
+            tag = EGY
+        }
+    }
+}
+
+integrate_north_africa = {
+    visible = {
+        tag = EGY
+    }
+}

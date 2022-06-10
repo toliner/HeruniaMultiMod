@@ -482,14 +482,11 @@ player_decisions = {
             is_debug = yes
         }
         complete_effect = {
-            every_controlled_state = {
-                set_variable = { FROM.remove_core_target_state = THIS }
-                for_each_scope_loop = {
-                    array = FROM.remove_core_target_state:core_countries
-                    remove_state_core = FROM.remove_core_target_state
+            MOR = {
+                every_core_state = {
+                    transfer_state_to = EGY
                 }
             }
-            clear_variable = FROM.remove_core_target_state
         }
     }
 }

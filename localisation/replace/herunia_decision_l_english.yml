@@ -26,6 +26,7 @@
  request_708:0 "[708.owner.GetName]への$STATE_708$の要求"
  conquer_mid_africa_decisions:0 "中央アフリカ植民地の統合"
  request_718:0 "[718.owner.GetName]への$STATE_718$の要求"
+ request_268:0 "[268.owner.GetName]への$STATE_268$の要求"
  request_538:0 "[538.owner.GetName]への$STATE_538$の要求"
  request_772:0 "[772.owner.GetName]への$STATE_772$の要求"
  request_539:0 "[539.owner.GetName]への$STATE_539$の要求"
@@ -79,6 +80,15 @@
  request_318:0 "[318.owner.GetName]への$STATE_318$の要求"
  request_319:0 "[319.owner.GetName]への$STATE_319$の要求"
  buy_ins:0 "インドネシアの統合"
+ integrate_mid_africa:0 "中央アフリカ植民地の統合"
+ integrate_etiopia:0 "エチオピアの統合"
+ integrate_559:0 "$STATE_559$の統合"
+ integrate_550:0 "$STATE_550$の統合"
+ integrate_north_africa:0 "北アフリカ植民地の統合"
+ integrate_ribia:0 "[LBA.GetName]の統合"
+ integrate_tun:0 "[TUN.GetName]の統合"
+ integrate_alg:0 "[ALG.GetName]の統合"
+ integrate_mor:0 "[MOR.GetName]の統合"
  ##################################
  ### インド                     ####
  ##################################

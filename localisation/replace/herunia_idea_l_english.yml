@@ -78,6 +78,7 @@
   HRE_resource_cost_b_1:0 "輸入資源の備蓄 I"
   HRE_resource_cost_b_2:0 "輸入資源の備蓄 II"
   HRE_resource_cost_b_3:0 "輸入資源の備蓄 III"
+  HRE_war_college_idea:0 "$CZE_war_college_idea$"
   ##################################
   ### USA                       ####
   ##################################

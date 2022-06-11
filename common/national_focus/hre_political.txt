@@ -275,8 +275,7 @@ shared_focus = {
     }
     completion_reward = {
         add_war_support = 0.1
-        add_ideas = POL_edward_rydz_smigly_chairman
-        add_ideas = CZE_war_college_idea
+        add_ideas = HRE_war_college_idea
     }
 }
 

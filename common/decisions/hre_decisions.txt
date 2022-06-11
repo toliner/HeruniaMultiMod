@@ -218,16 +218,25 @@ naval_decisions = {
             USA = {
                 create_destroyer_equipment_variant = yes
             }
+            # 駆逐*15
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 5
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 10
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            # 15
         }
     }
     
@@ -246,13 +255,27 @@ naval_decisions = {
                 create_destroyer_equipment_variant = yes
                 create_cruiser_equipment_variant = yes
             }
+            # 駆逐10 軽巡洋艦8
+            ## 駆逐艦
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 5
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            # 10
+            ## 軽巡洋艦
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            # 5
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
@@ -275,20 +298,39 @@ naval_decisions = {
                 create_cruiser_equipment_variant = yes
                 create_heavy_cruiser_equipment_variant = yes
             }
+            # 軽巡洋艦20, 重巡洋艦5
+            ## 軽巡洋艦
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 5
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 10
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            # 15
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            # 20
+            # 重巡洋艦
             create_heavy_cruiser_by_usa = yes
             create_heavy_cruiser_by_usa = yes
+            create_heavy_cruiser_by_usa = yes
+            create_heavy_cruiser_by_usa = yes
+            create_heavy_cruiser_by_usa = yes
+            # 5
         }
     }
     
@@ -309,56 +351,79 @@ naval_decisions = {
                 create_heavy_cruiser_equipment_variant = yes
                 create_battleship_equipment_variant = yes
             }
+            # 戦艦8, 軽巡洋艦16, 駆逐艦32
+            # 駆逐艦
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 5
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 10
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 15
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 20
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 25
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 30
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 32
+            ## 軽巡洋艦
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 5
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
-            create_heavy_cruiser_by_usa = yes
-            create_heavy_cruiser_by_usa = yes
-            create_heavy_cruiser_by_usa = yes
-            create_heavy_cruiser_by_usa = yes
-            create_heavy_cruiser_by_usa = yes
-            create_heavy_cruiser_by_usa = yes
-            create_heavy_cruiser_by_usa = yes
-            create_heavy_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            # 10
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            # 15
+            create_cruiser_by_usa = yes
+            # 16
+            ## 戦艦
             create_bb_by_usa = yes
             create_bb_by_usa = yes
+            create_bb_by_usa = yes
+            create_bb_by_usa = yes
+            create_bb_by_usa = yes
+            # 5
+            create_bb_by_usa = yes
+            create_bb_by_usa = yes
+            create_bb_by_usa = yes
+            # 8
         }
     }
     
@@ -380,56 +445,78 @@ naval_decisions = {
                 create_career_equipment_variant = yes
             }
             
+            # 空母4, 巡洋戦艦12, 軽巡洋艦40
+            ## 空母
             create_carrier_by_usa = yes
             create_carrier_by_usa = yes
+            create_carrier_by_usa = yes
+            create_carrier_by_usa = yes
+            # 4
+            ## 巡洋戦艦
             create_bc_by_usa = yes
             create_bc_by_usa = yes
             create_bc_by_usa = yes
             create_bc_by_usa = yes
             create_bc_by_usa = yes
+            # 5
             create_bc_by_usa = yes
             create_bc_by_usa = yes
             create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            # 10
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            # 12
+            ## 軽巡洋艦
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 5
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 10
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 15
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 20
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 25
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 30
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 35
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 40
         }
     }
 }

@@ -641,12 +641,12 @@ conquer_south_america = {
             add_state_core = 493
         }
     }
-    request_685 = {
+    request_304 = {
         fire_only_once = yes
-        cost = 50
+        cost = 100
         complete_effect = {
-            transfer_state = 685
-            add_state_core = 685
+            transfer_state = 304
+            add_state_core = 304
         }
     }
     request_316 = {

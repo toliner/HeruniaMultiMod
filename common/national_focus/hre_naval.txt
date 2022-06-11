@@ -626,7 +626,7 @@ shared_focus = {
         }
         add_offsite_building = {
             type = dockyard
-            level = 15
+            level = 20
         }
     }
 }

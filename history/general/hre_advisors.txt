@@ -791,6 +791,23 @@ every_possible_country = {
             army = { small = "GFX_idea_generic_political_advisor_europe_1" }
         }
     }
+    # 主計将校
+    generate_character = {
+        token_base = hre_quartermaster_general
+        advisor = {
+            slot = political_advisor
+            cost = 150
+            traits = {
+                quartermaster_general
+            }
+            available = {
+                has_completed_focus = HRE_focus_to_electronics_1
+            }
+        }
+        portraits = {
+            army = { small = "GFX_idea_generic_political_advisor_europe_1" }
+        }
+    }
 }
 
 # 秘密

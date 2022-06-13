@@ -3668,6 +3668,7 @@ form_majapahit_empire_category = {
                 controls_state = 667
                 controls_state = 738
                 controls_state = 669
+                controls_state = 847
             }
             # British Malaya
             custom_trigger_tooltip = {
@@ -3699,6 +3700,7 @@ form_majapahit_empire_category = {
                 667 = { add_core_of = ROOT }
                 738 = { add_core_of = ROOT }
                 669 = { add_core_of = ROOT }
+                847 = { add_core_of = ROOT }
             }
             # British Malaya
             custom_effect_tooltip = form_country_malaya_coring_states_tt

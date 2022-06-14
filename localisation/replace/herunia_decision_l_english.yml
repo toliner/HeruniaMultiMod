@@ -114,3 +114,9 @@
  buy_raid_fleet_from_usa:0 "アメリカから襲撃艦隊を購入する"
  buy_strike_fleet_from_usa:0 "アメリカから打撃艦隊を購入する"
  buy_mobile_fleet_from_usa:0 "アメリカから空母機動艦隊を購入する"
+ ##################################
+ ### 開発者用                   ####
+ ##################################
+ developer_only_command:0 "開発者専用コマンド"
+ developer_only_command_desc:0 "マリアリ人気投票の進捗\nヘルニア: [?global.herunia]\n魔理沙: [?global.marisa]\nアリス: [?global.alice]"
+ honban:0 "本番"

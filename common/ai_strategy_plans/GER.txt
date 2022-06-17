@@ -6,60 +6,10 @@ German_historical = {
 		original_tag = GER
 	}
 	enable = {
-		or = {
-			AND = {
-				is_historical_focus_on = yes
-				OR = {
-					not = { has_dlc = "Waking the Tiger" }
-					has_game_rule = {
-						rule = GER_ai_behavior
-						option = DEFAULT
-					}
-				}	
-			}
-			has_country_flag = GER_AI_RANDOM_FASCIST
-			has_game_rule = {
-				rule = GER_ai_behavior
-				option = FASCIST
-			}
-		}
+		always = yes
 	}
 	abort = {
-		OR = {
-			SWE = {
-				has_government = communism #prio 1, crush Sweden
-			}
-			SOV = {
-				NOT = {
-					has_government = communism
-				}
-			}
-			ENG = {
-				NOT = {
-					has_government = democratic
-				}
-			}
-			any_country_with_original_tag = {
-				original_tag_to_check = HUN
-				has_completed_focus = HUN_invite_the_habsburg_prince
-			}
-			any_country_with_original_tag = {
-				original_tag_to_check = FRA
-				OR = {
-					has_completed_focus = FRA_utilize_the_leagues
-					has_completed_focus = FRA_invite_communist_ministers
-					has_completed_focus = FRA_leftist_rhetoric
-					has_completed_focus = FRA_right_wing_rhetoric
-				}
-			}
-			any_country_with_original_tag = {
-				original_tag_to_check = USA
-				OR = {
-					has_completed_focus = USA_war_plan_red
-					has_completed_focus = USA_war_plan_white
-				}
-			}
-		}
+		always = no
 	}
 
 	ai_national_focuses = {
@@ -68,14 +18,17 @@ German_historical = {
 
 		GER_rhineland
 		GER_four_year_plan
-		GER_west_wall
+		# GER_west_wall
 		GER_autarky
+		GER_hermann_goring_werke
 		GER_anti_comitern_pact
 		#1937
-		GER_hermann_goring_werke
+		# GER_hermann_goring_werke
+		GER_kdf_wagen
+		GER_extra_tech_slot
 		GER_army_innovation
 		GER_soviet_treaty
-		GER_kdf_wagen
+		# GER_kdf_wagen
 		GER_coal_liquidization
 		#1938
 		GER_anschluss

@@ -226,7 +226,7 @@ country_event = {
     is_triggered_only = yes
     
     option = {
-        name = story.6
+        name = story.5.a
         
         HOL = {
             end_puppet = INS
@@ -245,6 +245,32 @@ country_event = {
             id = story.100
             days = 7
         }
+    }
+}
+
+# ソ連による併合
+country_event = {
+    id = story.6
+    title = story.6.t
+    desc = story.6.d
+    is_triggered_only = yes
+    
+    option = {
+        name = story.6.a
+        # ToDo
+    }
+}
+
+# ドイツによるハンガリーとルーマニア併合, NFにより呼ばれる
+country_event = {
+    id = story.7
+    title = story.7.t
+    desc = story.7.d
+    is_triggered_only = yes
+    
+    option = {
+        name = story.7.a
+        
     }
 }
 

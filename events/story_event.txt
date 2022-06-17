@@ -262,10 +262,6 @@ country_event = {
             transfer_troops = yes
         }
         annex_country = {
-            target = NOR
-            transfer_troops = yes
-        }
-        annex_country = {
             target = TAN
             transfer_troops = yes
         }
@@ -299,6 +295,10 @@ country_event = {
         }
         annex_country = {
             target = ROM
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = NOR
             transfer_troops = yes
         }
         SOV = {

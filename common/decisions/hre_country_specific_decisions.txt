@@ -170,3 +170,22 @@ integrate_north_africa = {
         }
     }
 }
+
+bhk_be_a_china = {
+    china_state_targeted_decision = {
+        state_target = yes
+        target_trigger = {
+            FROM = {
+                is_core_of = CHI
+            }
+        }
+        on_map_mode = map_and_decisions_view
+        cost = 20
+        available = {
+            controls_state = FROM
+        }
+        complete_effect = {
+            add_state_core = FROM
+        }
+    }
+}

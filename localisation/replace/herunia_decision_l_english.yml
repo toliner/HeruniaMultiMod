@@ -95,6 +95,8 @@
  integrate_tun:0 "[TUN.GetName]の統合"
  integrate_alg:0 "[ALG.GetName]の統合"
  integrate_mor:0 "[MOR.GetName]の統合"
+ bhk_be_a_china:0 "香港による中国の継承"
+ china_state_targeted_decision:0 "[From.GetName]州の取り込み"
  ##################################
  ### インド                     ####
  ##################################

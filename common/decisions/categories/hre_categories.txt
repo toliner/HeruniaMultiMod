@@ -93,3 +93,9 @@ conquer_south_africa_2 = {
         tag = SAF
     }
 }
+
+bhk_be_a_china = {
+    visible = {
+        tag = BHK
+    }
+}

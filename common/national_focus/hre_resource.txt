@@ -26,6 +26,12 @@ shared_focus = {
                 modifier = resource_import_modifier
             }
         }
+        POR = {
+            add_relation_modifier = {
+                target = ROOT
+                modifier = resource_import_modifier
+            }
+        }
         USA = {
             add_relation_modifier = {
                 target = ROOT

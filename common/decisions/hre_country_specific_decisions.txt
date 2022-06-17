@@ -57,7 +57,7 @@ integrate_mid_africa = {
             tag = BMF
         }
         available = {
-            owns_state = 271
+            controls_state = 271
         }
         cost = 50
         complete_effect = {
@@ -70,7 +70,7 @@ integrate_mid_africa = {
             tag = BMF
         }
         available = {
-            owns_state = 559
+            controls_state = 559
         }
         cost = 50
         complete_effect = {
@@ -83,7 +83,7 @@ integrate_mid_africa = {
             tag = EGY
         }
         available = {
-            owns_state = 550
+            controls_state = 550
         }
         cost = 50
         complete_effect = {
@@ -97,7 +97,7 @@ integrate_north_africa = {
         available = {
             LBA = {
                 all_core_state = {
-                    is_owned_by = ROOT
+                    is_controlled_by = ROOT
                 }
             }
         }
@@ -116,7 +116,7 @@ integrate_north_africa = {
         available = {
             TUN = {
                 all_core_state = {
-                    is_owned_by = ROOT
+                    is_controlled_by = ROOT
                 }
             }
         }
@@ -135,7 +135,7 @@ integrate_north_africa = {
         available = {
             ALG = {
                 all_core_state = {
-                    is_owned_by = ROOT
+                    is_controlled_by = ROOT
                 }
             }
         }
@@ -154,7 +154,7 @@ integrate_north_africa = {
         available = {
             MOR = {
                 all_core_state = {
-                    is_owned_by = ROOT
+                    is_controlled_by = ROOT
                 }
             }
         }

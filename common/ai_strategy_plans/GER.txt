@@ -18,50 +18,45 @@ German_historical = {
 
 		GER_rhineland
 		GER_four_year_plan
-		# GER_west_wall
+		GER_west_wall
 		GER_autarky
 		GER_hermann_goring_werke
-		GER_anti_comitern_pact
 		#1937
-		# GER_hermann_goring_werke
 		GER_kdf_wagen
 		GER_extra_tech_slot
 		GER_army_innovation
 		GER_soviet_treaty
-		# GER_kdf_wagen
-		GER_coal_liquidization
-		#1938
 		GER_anschluss
-		GER_synthetic_rubber
+		#1938
+		GER_fate_of_yugoslavia
+		GER_fate_of_greece
 		GER_army_innovation_2
 		GER_demand_sudetenland
-		GER_first_vienna_award
+		GER_end_of_czechoslovakia
 		#1939
 		GER_demand_memel
-		GER_end_of_czechoslovakia
+		GER_grosraumwirtschaft
 		GER_mol_rib_pact
-		GER_weserubung
 		GER_danzig_or_war
-		#1940
-		GER_war_with_france
 		GER_autobahn
+		#1940
 		GER_german_war_economy
-		GER_second_vienna_award
-		GER_extra_tech_slot		
+		GER_atlantikwall
+		GER_air_innovation
+		GER_tactical_air_effort
+		GER_air_innovation_2
 		#1941
 		GER_rocketry_focus
-		GER_italy_ally
-		GER_japan_friend
 		GER_naval_air_effort
-		GER_air_innovation
-		#1942
-		GER_tactical_air_effort
-		GER_ussr_war_goal
-		GER_air_innovation_2
+		GER_long_range_escorts
 		GER_naval_rearmament
 		GER_naval_effort
-		GER_atlantikwall
+		#1942
 		GER_wunderwaffe
+		GER_naval_effort2
+		GER_u_boat_effort
+		GER_trade_interdiction
+		GER_modular_construction
 	}
 
 	research = {
@@ -96,81 +91,5 @@ German_historical = {
 
 	focus_factors = {
 		GER_rhineland = 1.0
-	}
-
-}
-GER_minor_allies = { #used to make minor European nations like Axis more
-	name = "Minor German Allies"
-
-	allowed = {
-		OR = {
-			original_tag = ROM
-			original_tag = HUN
-			original_tag = BUL
-			original_tag = YUG
-			original_tag = ITA
-			original_tag = CZE
-			original_tag = DEN
-			original_tag = NOR
-			original_tag = SWE
-			original_tag = FIN
-			original_tag = SPR
-			original_tag = POR
-			original_tag = HOL
-			original_tag = BEL
-			original_tag = LUX
-			original_tag = POL
-			original_tag = LAT
-			original_tag = LIT
-			original_tag = EST
-			original_tag = CRO
-			original_tag = SLO
-		}
-	}
-	enable = {
-		OR = {
-			has_government = fascism
-			fascism > 0.5
-		}
-		is_in_faction = no
-		GER = {
-			has_government = fascism
-		}
-		OR = {
-			original_tag = ROM
-			original_tag = HUN
-			original_tag = BUL
-			original_tag = YUG
-			original_tag = ITA
-			original_tag = CZE
-			original_tag = DEN
-			original_tag = NOR
-			original_tag = SWE
-			original_tag = FIN
-			original_tag = SPR
-			original_tag = POR
-			original_tag = HOL
-			original_tag = BEL
-			original_tag = LUX
-			original_tag = POL
-			original_tag = LAT
-			original_tag = LIT
-			original_tag = EST
-			original_tag = CRO
-			original_tag = SLO
-		}
-	}
-	abort = {
-		GER = {
-			NOT = {
-				has_government = fascism
-			}
-		}
-	}
-
-	ai_strategy = {
-		type = alliance
-		id = "JAP"
-		value = -500
 	}
 }

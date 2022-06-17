@@ -66,4 +66,55 @@ on_actions = {
             }
         }
     }
+    
+    # スペイン内戦終了時
+    on_civil_war_end = {
+        effect = {
+            if = {
+                limit = {
+                    original_tag = SPR
+                }
+                SOV = {
+                    country_event = {
+                        id = story.6
+                        days = 1
+                    }
+                }
+                GER = {
+                    country_event = {
+                        id = story.7
+                        days = 1
+                    }
+                }
+                ITA = {
+                    country_event = {
+                        id = story.8
+                        days = 1
+                    }
+                }
+                FRA = {
+                    country_event = {
+                        id = story.9
+                        days = 1
+                    }
+                }
+                JAP = {
+                    country_event = {
+                        id = story.10
+                        days = 1
+                    }
+                }
+                USA = {
+                    country_event = {
+                        id = story.11
+                        days = 1
+                    }
+                }
+                news_event = {
+                    id = story.12
+                    days = 2
+                }
+            }
+        }
+    }
 }

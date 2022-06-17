@@ -248,7 +248,7 @@ country_event = {
     }
 }
 
-# ソ連による併合
+# ソ連による併合, スペイン内戦終了時に呼ばれる
 country_event = {
     id = story.6
     title = story.6.t
@@ -257,11 +257,34 @@ country_event = {
     
     option = {
         name = story.6.a
-        # ToDo
+        annex_country = {
+            target = EST
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = NOR
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = TAN
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = PER
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = TUR
+            transfer_troops = yes
+        }
+        country_event = {
+            id = story.101
+            days = 7
+        }
     }
 }
 
-# ドイツによるハンガリーとルーマニア併合, NFにより呼ばれる
+# ドイツによるハンガリーとルーマニア併合, スペイン内戦終了時に呼ばれる
 country_event = {
     id = story.7
     title = story.7.t
@@ -270,7 +293,154 @@ country_event = {
     
     option = {
         name = story.7.a
+        annex_country = {
+            target = HUN
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = ROM
+            transfer_troops = yes
+        }
+        SOV = {
+            transfer_state = 80
+            transfer_state = 78
+            transfer_state = 766
+        }
+        add_to_faction = ITA
+        add_to_faction = SOV
+        JAP = {
+            dismantle_faction = yes
+        }
+        add_to_faction = JAP
+        country_event = {
+            id = story.101
+            days = 7
+        }
+    }
+}
+
+# イタリアによるブルガリア併合
+country_event = {
+    id = story.8
+    title = story.8.t
+    desc = story.8.d
+    is_triggered_only = yes
+    
+    option = {
+        name = story.8.a
+        annex_country = {
+            target = BUL
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = ALB
+            transfer_troops = yes
+        }
+        country_event = {
+            id = story.101
+            days = 7
+        }
+    }
+}
+
+# フランスが独自陣営設立
+country_event = {
+    id = story.9
+    title = story.9.t
+    desc = story.9.d
+    is_triggered_only = yes
+    
+    option = {
+        name = story.9
+        annex_country = {
+            target = SPA
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = SPB
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = SPC
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = SPD
+            transfer_troops = yes
+        }
+        leave_faction = yes
+        create_faction = "#宥和政策を許さない"
+        add_to_faction = POL
+        add_to_faction = BEL
+    }
+}
+
+# 日本
+country_event = {
+    id = story.10
+    title = story.10.t
+    desc = story.10.d
+    is_triggered_only = yes
+    
+    option = {
+        name = story.10.a
         
+        end_puppet = MAN
+        end_puppet = MEN
+        annex_country = {
+            target = MAN
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = MEN
+            transfer_troops = yes
+        }
+        annex_country = {
+            target = CHI
+            transfer_troops = yes
+        }
+        USA = {
+            end_puppet = PHI
+        }
+        annex_country = {
+            target = PHI
+            transfer_troops = yes
+        }
+        transfer_state = 670
+        transfer_state = 671
+        transfer_state = 286
+        transfer_state = 741
+        transfer_state = 289
+        country_event = {
+            id = story.101
+            days = 7
+        }
+    }
+}
+
+country_event = {
+    id = story.11
+    title = story.11.t
+    desc = story.11.d
+    is_triggered_only = yes
+    
+    option = {
+        name = story.11.a
+        create_faction = "憲法9条を守る会"
+        add_to_faction = ARG
+        add_to_faction = POR
+    }
+}
+
+news_event = {
+    id = story.12
+    title = story.12.t
+    desc = story.12.d
+    is_triggered_only = yes
+    major = yes
+    picture = GFX_news_event_nuke
+    option = {
+        name = story.12.a
     }
 }
 
@@ -298,5 +468,24 @@ country_event = {
             }
         }
         clear_variable = ROOT.remove_core_target_state
+    }
+}
+
+country_event = {
+    id = story.101
+    title = story.101.t
+    desc = story.101.d
+    is_triggered_only = yes
+    hidden = yes
+    
+    immediate = {
+        every_controlled_state = {
+            limit = {
+                NOT = {
+                    is_core_of = ROOT
+                }
+            }
+            add_core_of = ROOT
+        }
     }
 }

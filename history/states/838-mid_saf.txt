@@ -1,20 +1,19 @@
 state = {
-    id = 541
-    name = "STATE_541"
-    
+    id = 838
+    name = "STATE_838"
     history = {
         owner = SAF
         buildings = {
             infrastructure = 2
+            
         }
         add_core_of = SAF
     }
-    
     provinces = {
-        8136 10957 10978 12519 12921 13217
+        1509 5203 8214 10668 12940
     }
-    manpower = 262000
+    manpower = 100000
     buildings_max_level_factor = 1.000
-    state_category = wasteland
     local_supplies = 0.000
+    state_category = rural
 }

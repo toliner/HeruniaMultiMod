@@ -24,8 +24,15 @@
  request_796:0 "[796.owner.GetName]への$STATE_796$の要求"
  request_543:0 "[543.owner.GetName]への$STATE_543$の要求"
  request_708:0 "[708.owner.GetName]への$STATE_708$の要求"
+ request_841:0 "[841.owner.GetName]への$STATE_841$の要求"
+ request_842:0 "[842.owner.GetName]への$STATE_842$の要求"
+ request_845:0 "[845.owner.GetName]への$STATE_845$の要求"
+ conquer_south_africa_2:0 "モザンビークの装備"
+ request_839:0 "[839.owner.GetName]への$STATE_839$の要求"
+ request_840:0 "[840.owner.GetName]への$STATE_840$の要求"
  conquer_mid_africa_decisions:0 "中央アフリカ植民地の統合"
  request_718:0 "[718.owner.GetName]への$STATE_718$の要求"
+ request_268:0 "[268.owner.GetName]への$STATE_268$の要求"
  request_538:0 "[538.owner.GetName]への$STATE_538$の要求"
  request_772:0 "[772.owner.GetName]への$STATE_772$の要求"
  request_539:0 "[539.owner.GetName]への$STATE_539$の要求"
@@ -78,6 +85,16 @@
  request_315:0 "[315.owner.GetName]への$STATE_315$の要求"
  request_318:0 "[318.owner.GetName]への$STATE_318$の要求"
  request_319:0 "[319.owner.GetName]への$STATE_319$の要求"
+ buy_ins:0 "インドネシアの統合"
+ integrate_mid_africa:0 "中央アフリカ植民地の統合"
+ integrate_etiopia:0 "エチオピアの統合"
+ integrate_559:0 "$STATE_559$の統合"
+ integrate_550:0 "$STATE_550$の統合"
+ integrate_north_africa:0 "北アフリカ植民地の統合"
+ integrate_ribia:0 "[LBA.GetName]の統合"
+ integrate_tun:0 "[TUN.GetName]の統合"
+ integrate_alg:0 "[ALG.GetName]の統合"
+ integrate_mor:0 "[MOR.GetName]の統合"
  ##################################
  ### インド                     ####
  ##################################
@@ -115,8 +132,14 @@
  buy_strike_fleet_from_usa:0 "アメリカから打撃艦隊を購入する"
  buy_mobile_fleet_from_usa:0 "アメリカから空母機動艦隊を購入する"
  ##################################
- ### 開発者用                   ####
+ ### 開発者用コマンド             ####
  ##################################
  developer_only_command:0 "開発者専用コマンド"
  developer_only_command_desc:0 "マリアリ人気投票の進捗\nヘルニア: [?global.herunia]\n魔理沙: [?global.marisa]\nアリス: [?global.alice]"
  honban:0 "本番"
+ integrate_xxw_with_xxm:0 "§R【欠員併合用】§! [XXW.GetName]を[XXM.GetName]が併合"
+ integrate_srl_with_mal:0 "§R【欠員併合用】§! [SRL.GetName]を[MAL.GetName]が併合"
+ integrate_cyp_with_egy:0 "§R【欠員併合用】§! [CYP.GetName]を[EGY.GetName]が併合"
+ integrate_mlt_with_egy:0 "§R【欠員併合用】§! [MLT.GetName]を[EGY.GetName]が併合"
+ integrate_ast_with_nzl:0 "§R【欠員併合用】§! [AST.GetName]を[NZL.GetName]が併合"
+ integrate_saf_with_bsf:0 "§R【欠員併合用】§! [SAF.GetName]を[BSF.GetName]が併合"

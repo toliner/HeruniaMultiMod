@@ -20,25 +20,13 @@ shared_focus = {
         has_completed_focus = HRE_invest_foreign_country
     }
     completion_reward = {
-        PAR = {
+        ARG = {
             add_relation_modifier = {
                 target = ROOT
                 modifier = resource_import_modifier
             }
         }
         USA = {
-            add_relation_modifier = {
-                target = ROOT
-                modifier = resource_import_modifier
-            }
-        }
-        JAP = {
-            add_relation_modifier = {
-                target = ROOT
-                modifier = resource_import_modifier
-            }
-        }
-        HOL = {
             add_relation_modifier = {
                 target = ROOT
                 modifier = resource_import_modifier

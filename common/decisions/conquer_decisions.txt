@@ -244,9 +244,60 @@ conquer_south_africa_decisions = {
             add_state_core = 708
         }
     }
+    request_841 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 841
+            add_state_core = 841
+        }
+    }
+    request_842 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 842
+            add_state_core = 842
+        }
+    }
+    request_845 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 845
+            add_state_core = 845
+        }
+    }
+}
+
+conquer_south_africa_2 = {
+    request_839 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 839
+            add_state_core = 839
+        }
+    }
+    request_840 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 840
+            add_state_core = 840
+        }
+    }
 }
 
 conquer_mid_africa_decisions = {
+    request_268 = {
+        fire_only_once = yes
+        cost = 50
+        complete_effect = {
+            transfer_state = 268
+            add_state_core = 268
+        }
+    }
     request_718 = {
         fire_only_once = yes
         cost = 100
@@ -417,14 +468,6 @@ conquer_west_africa_decisions = {
         complete_effect = {
             transfer_state = 557
             add_state_core = 557
-        }
-    }
-    request_514 = {
-        fire_only_once = yes
-        cost = 50
-        complete_effect = {
-            transfer_state = 514
-            add_state_core = 514
         }
     }
     request_515 = {
@@ -600,22 +643,10 @@ conquer_south_america = {
     }
     request_304 = {
         fire_only_once = yes
-        cost = 50
-        days_remove = 60
-        modifier = {
-            civilian_factory_use = 2
-        }
-        remove_effect = {
+        cost = 100
+        complete_effect = {
             transfer_state = 304
             add_state_core = 304
-        }
-    }
-    request_685 = {
-        fire_only_once = yes
-        cost = 50
-        complete_effect = {
-            transfer_state = 685
-            add_state_core = 685
         }
     }
     request_316 = {
@@ -711,4 +742,30 @@ conquer_south_america = {
         }
     }
     
+}
+
+buy_ins = {
+    buy_ins = {
+        fire_only_once = yes
+        cost = 400
+        days_remove = 365
+        available = {
+            num_of_civilian_factories_available_for_projects  > 7
+        }
+        modifier = {
+            stability_factor = -0.2
+            political_power_cost = 0.3
+            civilian_factory_use = 8
+        }
+        complete_effect = {
+            add_timed_idea = {
+                idea = HRE_buy_ins_cost
+                days = 730
+            }
+            annex_country = {
+                target = INS
+                transfer_troops = yes
+            }
+        }
+    }
 }

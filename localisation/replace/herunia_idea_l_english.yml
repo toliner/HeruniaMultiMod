@@ -78,6 +78,7 @@
   HRE_resource_cost_b_1:0 "輸入資源の備蓄 I"
   HRE_resource_cost_b_2:0 "輸入資源の備蓄 II"
   HRE_resource_cost_b_3:0 "輸入資源の備蓄 III"
+  HRE_war_college_idea:0 "$CZE_war_college_idea$"
   ##################################
   ### USA                       ####
   ##################################
@@ -105,3 +106,7 @@
   RAJ_agrarian_society_5:0 "$RAJ_agrarian_society$"
   RAJ_agrarian_society_6:0 "$RAJ_agrarian_society$"
   RAJ_agrarian_society_7:0 "$RAJ_agrarian_society$"
+  ##################################
+  ### マラヤ                     ####
+  ##################################
+  HRE_buy_ins_cost:0 "インドネシアの統合費用"

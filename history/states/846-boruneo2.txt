@@ -1,0 +1,24 @@
+state={
+	id=846
+	name="STATE_846"
+	provinces={
+		1306 1335 4282 4338 7358 7371 7387 10143 10199 10212 10240 10269 12171 12186 12228 
+	}
+	history = {
+		owner = MAL
+		victory_points = {
+			7371 1
+		}
+		buildings = {
+			infrastructure = 2
+			7371 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = MAL
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+	state_category = rural
+}

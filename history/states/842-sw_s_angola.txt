@@ -1,10 +1,9 @@
 state = {
-    id = 540
-    name = "STATE_540"
-    resources = {
-        rubber = 1.000
+    id = 842
+    name = "STATE_842"
+    provinces = {
+        8138 8202 12391 12985
     }
-    
     history = {
         owner = POR
         buildings = {
@@ -12,12 +11,8 @@ state = {
         }
         add_core_of = ANG
     }
-    
-    provinces = {
-        1552 2126 4735 7548 8054
-    }
-    manpower = 2000000
+    manpower = 200000
     buildings_max_level_factor = 1.000
-    state_category = rural
     local_supplies = 0.000
+    state_category = rural
 }

@@ -57,6 +57,8 @@
 #		}
 #	}
 	
+	continuous_focus_position = { x = 50 y = 1200 }
+	
 	shared_focus = HRE_prepare_army
 	
 	shared_focus = HRE_plan_four_years

@@ -1813,6 +1813,38 @@ ideas = {
                     instant = yes
                     build_cost_ic = -0.50
                 }
+                train_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.50
+                }
+            }
+        }
+        
+        HRE_war_college_idea = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = generic_infantry_bonus
+    
+            modifier = {
+                experience_gain_army = 0.05
+                experience_gain_navy = 0.05
+                military_leader_cost_factor = -0.3
+                command_power_gain_mult = 0.1
+                neutrality_drift = 0.1
+                planning_speed = 0.1
+                army_leader_start_attack_level = 1
+                navy_leader_start_attack_level = 1
+                army_leader_start_planning_level = 1
+                army_leader_start_defense_level = 1
+                navy_leader_start_defense_level = 1
             }
         }
     
@@ -2026,6 +2058,25 @@ ideas = {
             modifier = {
                 stability_factor = 0.1
                 max_planning_factor = 0.1
+            }
+        }
+        
+        HRE_buy_ins_cost = {
+            allowed = {
+                always = no
+            }
+    
+            allowed_civil_war = {
+                always = yes
+            }
+    
+            removal_cost = -1
+    
+            picture = idea_herunia_icon
+            
+            modifier = {
+                war_support_factor = -0.1
+                political_power_cost = 0.2
             }
         }
     }

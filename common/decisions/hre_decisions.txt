@@ -218,16 +218,25 @@ naval_decisions = {
             USA = {
                 create_destroyer_equipment_variant = yes
             }
+            # 駆逐*15
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 5
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 10
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            # 15
         }
     }
     
@@ -246,13 +255,27 @@ naval_decisions = {
                 create_destroyer_equipment_variant = yes
                 create_cruiser_equipment_variant = yes
             }
+            # 駆逐10 軽巡洋艦8
+            ## 駆逐艦
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 5
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            create_destroyer_by_usa = yes
+            # 10
+            ## 軽巡洋艦
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            # 5
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
@@ -275,20 +298,39 @@ naval_decisions = {
                 create_cruiser_equipment_variant = yes
                 create_heavy_cruiser_equipment_variant = yes
             }
+            # 軽巡洋艦20, 重巡洋艦5
+            ## 軽巡洋艦
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 5
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 10
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            # 15
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            # 20
+            # 重巡洋艦
             create_heavy_cruiser_by_usa = yes
             create_heavy_cruiser_by_usa = yes
+            create_heavy_cruiser_by_usa = yes
+            create_heavy_cruiser_by_usa = yes
+            create_heavy_cruiser_by_usa = yes
+            # 5
         }
     }
     
@@ -309,56 +351,79 @@ naval_decisions = {
                 create_heavy_cruiser_equipment_variant = yes
                 create_battleship_equipment_variant = yes
             }
+            # 戦艦8, 軽巡洋艦16, 駆逐艦32
+            # 駆逐艦
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 5
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 10
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 15
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 20
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 25
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 30
             create_destroyer_by_usa = yes
             create_destroyer_by_usa = yes
+            # 32
+            ## 軽巡洋艦
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 5
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
-            create_heavy_cruiser_by_usa = yes
-            create_heavy_cruiser_by_usa = yes
-            create_heavy_cruiser_by_usa = yes
-            create_heavy_cruiser_by_usa = yes
-            create_heavy_cruiser_by_usa = yes
-            create_heavy_cruiser_by_usa = yes
-            create_heavy_cruiser_by_usa = yes
-            create_heavy_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            # 10
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            create_cruiser_by_usa = yes
+            # 15
+            create_cruiser_by_usa = yes
+            # 16
+            ## 戦艦
             create_bb_by_usa = yes
             create_bb_by_usa = yes
+            create_bb_by_usa = yes
+            create_bb_by_usa = yes
+            create_bb_by_usa = yes
+            # 5
+            create_bb_by_usa = yes
+            create_bb_by_usa = yes
+            create_bb_by_usa = yes
+            # 8
         }
     }
     
@@ -380,56 +445,78 @@ naval_decisions = {
                 create_career_equipment_variant = yes
             }
             
+            # 空母4, 巡洋戦艦12, 軽巡洋艦40
+            ## 空母
             create_carrier_by_usa = yes
             create_carrier_by_usa = yes
+            create_carrier_by_usa = yes
+            create_carrier_by_usa = yes
+            # 4
+            ## 巡洋戦艦
             create_bc_by_usa = yes
             create_bc_by_usa = yes
             create_bc_by_usa = yes
             create_bc_by_usa = yes
             create_bc_by_usa = yes
+            # 5
             create_bc_by_usa = yes
             create_bc_by_usa = yes
             create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            # 10
+            create_bc_by_usa = yes
+            create_bc_by_usa = yes
+            # 12
+            ## 軽巡洋艦
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 5
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 10
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 15
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 20
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 25
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 30
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 35
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
             create_cruiser_by_usa = yes
+            # 40
         }
     }
 }
@@ -447,6 +534,132 @@ developer_only_command = {
             }
             # ToDo: 実装
             news_event = herunia.1000
+        }
+    }
+    
+    integrate_xxw_with_xxm = {
+        fire_only_once = yes
+        available = {
+            XXW = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            XXM = {
+                annex_country = {
+                    target = XXW
+                    transfer_troops = yes
+                }
+                country_event = {
+                    id = story.100
+                    days = 7
+                }
+            }
+        }
+    }
+    
+    integrate_srl_with_mal = {
+        fire_only_once = yes
+        available = {
+            SRL = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            MAL = {
+                annex_country = {
+                    target = SRL
+                    transfer_troops = yes
+                }
+                country_event = {
+                    id = story.100
+                    days = 7
+                }
+            }
+        }
+    }
+    
+    integrate_cyp_with_egy = {
+        fire_only_once = yes
+        available = {
+            CYP = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            EGY = {
+                annex_country = {
+                    target = CYP
+                    transfer_troops = yes
+                }
+                country_event = {
+                    id = story.100
+                    days = 7
+                }
+            }
+        }
+    }
+    
+    integrate_mlt_with_egy = {
+        fire_only_once = yes
+        available = {
+            MLT = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            EGY = {
+                annex_country = {
+                    target = MLT
+                    transfer_troops = yes
+                }
+                country_event = {
+                    id = story.100
+                    days = 7
+                }
+            }
+        }
+    }
+    
+    integrate_ast_with_nzl = {
+        fire_only_once = yes
+        available = {
+            AST = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            NZL = {
+                annex_country = {
+                    target = AST
+                    transfer_troops = yes
+                }
+                country_event = {
+                    id = story.100
+                    days = 7
+                }
+            }
+        }
+    }
+    
+    integrate_saf_with_bsf = {
+        fire_only_once = yes
+        available = {
+            SAF = {
+                is_ai = yes
+            }
+        }
+        complete_effect = {
+            BSF = {
+                annex_country = {
+                    target = SAF
+                    transfer_troops = yes
+                }
+                country_event = {
+                    id = story.100
+                    days = 7
+                }
+            }
         }
     }
 }
@@ -474,6 +687,19 @@ player_decisions = {
         days_remove = 365
         remove_effect = {
             add_manpower = 1
+        }
+    }
+    
+    debug = {
+        visible = {
+            is_debug = yes
+        }
+        complete_effect = {
+            MOR = {
+                every_core_state = {
+                    transfer_state_to = EGY
+                }
+            }
         }
     }
 }

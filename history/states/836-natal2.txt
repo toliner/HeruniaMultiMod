@@ -1,0 +1,18 @@
+state = {
+    id = 836
+    name = "STATE_836"
+    provinces = {
+        1833 4584 7576
+    }
+    history = {
+        owner = SAF
+        add_core_of = SAF
+        buildings = {
+            infrastructure = 2
+        }
+    }
+    manpower = 500000
+    buildings_max_level_factor = 1.000
+    local_supplies = 0.000
+    state_category = rural
+}

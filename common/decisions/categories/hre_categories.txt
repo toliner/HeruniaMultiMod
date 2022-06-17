@@ -66,3 +66,30 @@ conquer_south_america = {
         tag = BMA
     }
 }
+
+buy_ins = {
+    visible = {
+        tag = MAL
+    }
+}
+
+integrate_mid_africa = {
+    visible = {
+        OR = {
+            tag = BMF
+            tag = EGY
+        }
+    }
+}
+
+integrate_north_africa = {
+    visible = {
+        tag = EGY
+    }
+}
+
+conquer_south_africa_2 = {
+    visible = {
+        tag = SAF
+    }
+}

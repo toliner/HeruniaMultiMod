@@ -65,7 +65,9 @@ JAP_historical_plan = {
 	}
 
 	research = {
-
+		naval_equipment = 50
+		naval_air = 30
+		air = 30
 	}
 
 	ideas = {

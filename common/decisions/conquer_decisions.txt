@@ -753,8 +753,7 @@ buy_ins = {
             num_of_civilian_factories_available_for_projects  > 7
         }
         modifier = {
-            stability_factor = -0.2
-            political_power_cost = 0.3
+            political_power_cost = 0.2
             civilian_factory_use = 8
         }
         complete_effect = {

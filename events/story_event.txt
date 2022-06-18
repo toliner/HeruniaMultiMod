@@ -490,6 +490,7 @@ country_event = {
     is_triggered_only = yes
     
     immediate = {
+        set_global_flag = HRE_great_war_happened
         GER = {
             add_idas = HERUNIA_GER_surrender_limit
             declare_war_on = {
@@ -523,10 +524,10 @@ country_event = {
             # マリアリ
             limit = {
                 check_variable = {
-                    global.alice > 8
+                    global.alice > 7
                 }
                 check_variable = {
-                    global.marisa > 8
+                    global.marisa > 7
                 }
             }
             set_global_flag = HERUNIA_VOTE_MARIALI

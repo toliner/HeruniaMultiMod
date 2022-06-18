@@ -161,35 +161,15 @@ country_event = {
     
     option = {
         name = herunia.24.a
-        add_timed_idea = {
-            idea = HRE_desperate_defence
-            days = 180
-        }
-        hidden_effect = {
-            if = {
-                limit = {
-                    has_global_flag = HERUNIA_VOTE_MARIALI
-                }
-                country_event = {
-                    id = herunia.27
-                }
+        if = {
+            limit = {
+                is_honban = yes
             }
-            else_if = {
-                limit = {
-                    has_global_flag = HERUNIA_VOTE_ALICE
-                }
-                country_event = {
-                    id = herunia.28
-                }
+            hidden_effect = {
+                mark_focus_tree_layout_dirty = yes
+                complete_national_focus = HRE_secret_focus_on_war
             }
-            else_if = {
-                limit = {
-                    has_global_flag = HERUNIA_VOTE_MARISA
-                }
-                country_event = {
-                    id = herunia.29
-                }
-            }
+            
         }
     }
 }

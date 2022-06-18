@@ -66,6 +66,8 @@
 	
 	shared_focus = HRE_secret_focus_1
 	
+	shared_focus = HRE_secret_focus_on_war
+	
 	############################
 	##### POLITICS SECTION #####
 	############################

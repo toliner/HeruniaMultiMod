@@ -20,8 +20,10 @@
 	continuous_focus_position = { x = 50 y = 1200 }
 	
 	default = no
-
-
+	
+	shared_focus = HRE_secret_focus_1
+	
+	shared_focus = HRE_secret_focus_on_war
 
 #	focus = {
 #		id = SAF_

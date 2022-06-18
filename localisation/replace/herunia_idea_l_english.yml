@@ -120,3 +120,9 @@
   HERUNIA_FRA_surrender_limit:0 "降伏限界調整: フランス"
   HERUNIA_JAP_surrender_limit:0 "降伏限界調整: 日本"
   HERUNIA_GER_surrender_limit:0 "降伏限界調整: ドイツ"
+  ##################################
+  ### 隠し                       ####
+  ##################################
+  love_marisa:0 "魔理沙が好き"
+  love_alice:0 "アリスが好き"
+  love_herunia:0 "ヘルニアが好き"

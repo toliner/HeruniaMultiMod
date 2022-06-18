@@ -55,4 +55,25 @@ leader_traits = {
         war_support_weekly = 0.05
         production_speed_buildings_factor = 0.2
     }
+    
+    love_marisa = {
+        random = no
+        
+        political_power_factor = 0.10
+        consumer_goods_factor = -0.05
+    }
+    
+    love_alice = {
+        random = no
+        
+        political_power_factor = 0.10
+        production_speed_buildings_factor = 0.10
+    }
+    
+    love_herunia = {
+        random = no
+        
+        political_power_factor = 0.10
+        weekly_manpower = 1000
+    }
 }

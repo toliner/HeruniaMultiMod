@@ -66,7 +66,10 @@
 	shared_focus = HRE_consider_government
 	
 	shared_focus = HRE_focus_naval
-
+	
+	shared_focus = HRE_secret_focus_1
+	
+	shared_focus = HRE_secret_focus_on_war
 	############################
 	##### INDUSTRY SECTION #####
 	############################

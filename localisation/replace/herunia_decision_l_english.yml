@@ -137,7 +137,7 @@
  ### 開発者用コマンド             ####
  ##################################
  developer_only_command:0 "開発者専用コマンド"
- developer_only_command_desc:0 "マリアリ人気投票の進捗\nヘルニア: [?global.herunia]\n魔理沙: [?global.marisa]\nアリス: [?global.alice]"
+ developer_only_command_desc:0 "マリアリ人気投票の進捗\n§Gヘルニア§!: [?global.herunia]\n§R魔理沙§!: [?global.marisa]\n§Bアリス§!: [?global.alice]\n\n§Y払い戻しカウント§!: [?global.secret_effect_trigger]"
  honban:0 "本番"
  integrate_xxw_with_xxm:0 "§R【欠員併合用】§! [XXW.GetName]を[XXM.GetName]が併合"
  integrate_srl_with_mal:0 "§R【欠員併合用】§! [SRL.GetName]を[MAL.GetName]が併合"

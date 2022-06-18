@@ -23,6 +23,10 @@ focus_tree = {
     
     shared_focus = HRE_focus_naval
     
+    shared_focus = HRE_secret_focus_1
+    
+    shared_focus = HRE_secret_focus_on_war
+    
     focus = {
         id = US_rebuild_government
         icon = GFX_focus_SOV_organize_wreckers

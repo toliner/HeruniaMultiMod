@@ -29,6 +29,10 @@ focus_tree = {
 	
 	shared_focus = HRE_focus_naval
 	
+	shared_focus = HRE_secret_focus_1
+	
+	shared_focus = HRE_secret_focus_on_war
+	
 	focus = {
 		id = limited_rearmament_focus
 		icon = GFX_goal_generic_build_tank

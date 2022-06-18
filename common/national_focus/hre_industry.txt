@@ -1114,7 +1114,7 @@ shared_focus = {
         add_tech_bonus = {
             bonus = 0.5
             uses = 1
-            category = concentrated_industry_category
+            category = dispersed_industry_category
             category = cat_production
         }
         swap_ideas = {

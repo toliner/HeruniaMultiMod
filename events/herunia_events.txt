@@ -423,6 +423,41 @@ country_event = {
     }
 }
 
+country_event = {
+    id = herunia.33
+    title = herunia.33.t
+    desc = herunia.33.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.33.a
+        add_monpower = -1
+    }
+}
+
+country_event = {
+    id = herunia.34
+    title = herunia.34.t
+    desc = herunia.34.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.34.a
+        add_monpower = -1
+    }
+}
+
+country_event = {
+    id = herunia.35
+    title = herunia.35.t
+    desc = herunia.35.d
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.35.a
+    }
+}
+
 news_event = {
     id = herunia.107
     title = herunia.107.t

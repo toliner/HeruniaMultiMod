@@ -1,0 +1,11 @@
+music = {
+    name = "小さな魔女"
+    file = "小さな魔女.ogg"
+    volume = 0.50
+}
+
+music = {
+    name = "プラネタリウムガーデン"
+    file = "プラネタリウムガーデン.ogg"
+    volume = 0.50
+}

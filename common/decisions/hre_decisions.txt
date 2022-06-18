@@ -532,8 +532,7 @@ developer_only_command = {
                 }
                 mark_focus_tree_layout_dirty = yes
             }
-            # ToDo: 実装
-            news_event = herunia.1000
+            news_event = story.15
         }
     }
     
@@ -669,15 +668,32 @@ player_decisions = {
         fire_only_once = yes
         visible = {
             NOT = {
-                tag = AUS
+                tag = MLT
             }
             is_honban = yes
         }
         complete_effect = {
-            MLT = {
-                country_event = {
-                    # ToDo: 爆破イベントもっと面白く
-                    id = herunia.31
+            random_list = {
+                1 = {
+                    MLT = {
+                        country_event = {
+                            id = herunia.31
+                        }
+                    }
+                }
+                1 = {
+                    MLT = {
+                        country_event = {
+                            id = herunia.33
+                        }
+                    }
+                }
+                1 = {
+                    MLT = {
+                        country_event = {
+                            id = herunia.34
+                        }
+                    }
                 }
             }
         }
@@ -686,7 +702,22 @@ player_decisions = {
     do_sex = {
         days_remove = 365
         remove_effect = {
-            add_manpower = 1
+            effect_tooltip = {
+                add_manpower = 1
+            }
+            hidden_effect = {
+                if = {
+                    limit = {
+                        is_honban = yes
+                    }
+                    country_event = {
+                        id = herunia.35
+                    }
+                }
+                else = {
+                    add_manpower = 1
+                }
+            }
         }
     }
     

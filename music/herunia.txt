@@ -1,0 +1,15 @@
+music_station = "base_music"
+
+music = {
+    song = "小さな魔女"
+    chance = {
+        factor = 1
+    }
+}
+
+music = {
+    song = "プラネタリウムガーデン"
+    chance = {
+        factor = 1
+    }
+}

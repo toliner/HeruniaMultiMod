@@ -3053,17 +3053,6 @@ focus_tree = {
 				custom_effect_tooltip = GER_danzig_or_war_POL_civil_war
 			}
 			add_named_threat = { threat = 5 name = GER_war_with_france_threat }
-			create_wargoal = {
-				type = take_state_focus
-				target = FRA
-				expire = 0
-				generator = { 28 }
-			}
-			create_wargoal = {
-				type = annex_everything
-				target = SWI
-				expire = 0
-			}
 		}
 	}
 	

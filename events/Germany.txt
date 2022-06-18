@@ -4337,10 +4337,67 @@ country_event = {
 
 	option = {
 		name = germany.82.a
-		create_wargoal = {
-			type = take_state_focus
+		declare_war_on = {
 			target = POL
+			type = take_state_focus
 			generator = { 85 }
+		}
+		declare_war_on = {
+			type = take_state_focus
+			target = FRA
+			generator = { 28 }
+		}
+		declare_war_on = {
+			type = annex_everything
+			target = SWI
+		}
+		SOV = {
+			declare_war_on = {
+				target = POL
+				type = take_state_focus
+				generator = { 85 }
+			}
+			declare_war_on = {
+				type = take_state_focus
+				target = FRA
+				generator = { 28 }
+			}
+			declare_war_on = {
+				type = annex_everything
+				target = SWI
+			}
+		}
+		ITA = {
+			declare_war_on = {
+				target = POL
+				type = take_state_focus
+				generator = { 85 }
+			}
+			declare_war_on = {
+				type = take_state_focus
+				target = FRA
+				generator = { 28 }
+			}
+			declare_war_on = {
+				type = annex_everything
+				target = SWI
+			}
+		}
+		JAP = {
+			declare_war_on = {
+				target = POL
+				type = take_state_focus
+				generator = { 85 }
+			}
+			declare_war_on = {
+				type = take_state_focus
+				target = FRA
+				generator = { 28 }
+			}
+			declare_war_on = {
+				type = annex_everything
+				target = SWI
+			}
 		}
 	}
 }

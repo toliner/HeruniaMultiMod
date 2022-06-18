@@ -129,6 +129,19 @@ on_actions = {
                 MLT = {
                     country_event = {
                         id = story.13
+                        days = 7
+                    }
+                }
+                GER = {
+                    country_event = {
+                        id = story.101
+                        days = 3
+                    }
+                }
+                ITA = {
+                    country_event = {
+                        id = story.101
+                        days = 3
                     }
                 }
             }

@@ -117,4 +117,21 @@ on_actions = {
             }
         }
     }
+    
+    on_capitulation = {
+        effect = {
+            if = {
+                limit = {
+                    ROOT = {
+                        tag = FRA
+                    }
+                }
+                MLT = {
+                    country_event = {
+                        id = story.13
+                    }
+                }
+            }
+        }
+    }
 }

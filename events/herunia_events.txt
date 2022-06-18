@@ -161,38 +161,33 @@ country_event = {
     
     option = {
         name = herunia.24.a
-        every_country = {
-            limit = {
-                is_hre_country = yes
-            }
-            add_timed_idea = {
-                idea = HRE_desperate_defence
-                days = 180
-            }
-            hidden_effect = {
-                if = {
-                    limit = {
-                        has_global_flag = HERUNIA_VOTE_MARIALI
-                    }
-                    country_event = {
-                        id = herunia.27
-                    }
+        add_timed_idea = {
+            idea = HRE_desperate_defence
+            days = 180
+        }
+        hidden_effect = {
+            if = {
+                limit = {
+                    has_global_flag = HERUNIA_VOTE_MARIALI
                 }
-                else_if = {
-                    limit = {
-                        has_global_flag = HERUNIA_VOTE_ALICE
-                    }
-                    country_event = {
-                        id = herunia.28
-                    }
+                country_event = {
+                    id = herunia.27
                 }
-                else_if = {
-                    limit = {
-                        has_global_flag = HERUNIA_VOTE_MARISA
-                    }
-                    country_event = {
-                        id = herunia.29
-                    }
+            }
+            else_if = {
+                limit = {
+                    has_global_flag = HERUNIA_VOTE_ALICE
+                }
+                country_event = {
+                    id = herunia.28
+                }
+            }
+            else_if = {
+                limit = {
+                    has_global_flag = HERUNIA_VOTE_MARISA
+                }
+                country_event = {
+                    id = herunia.29
                 }
             }
         }
@@ -335,16 +330,7 @@ country_event = {
         name = herunia.28
         if = {
             limit = {
-                tag = AUS
-            }
-            promote_character = {
-                character = AUS_secret_alice
-                Ideology = neutrality
-            }
-        }
-        if = {
-            limit = {
-                tag = GER
+                tag = ENG
             }
             set_faction_name = "神聖アリス帝国"
         }
@@ -362,16 +348,7 @@ country_event = {
         name = herunia.29
         if = {
             limit = {
-                tag = AUS
-            }
-            promote_character = {
-                character = AUS_secret_marisa
-                Ideology = neutrality
-            }
-        }
-        if = {
-            limit = {
-                tag = GER
+                tag = ENG
             }
             set_faction_name = "魔理沙騎士団"
         }
@@ -389,7 +366,7 @@ country_event = {
         name = herunia.30.a
         if = {
             limit = {
-                tag = GER
+                tag = ENG
             }
             set_faction_name = "地獄の淵 ~ Hell Near ~"
         }
@@ -443,6 +420,19 @@ country_event = {
             base_strike = 1
             popup = no
         }
+    }
+}
+
+news_event = {
+    id = herunia.107
+    title = herunia.107.t
+    desc = herunia.107.d
+    picture = GFX_news_event_nuke
+    major = yes
+    is_triggered_only = yes
+    
+    option = {
+        name = herunia.107.a
     }
 }
 

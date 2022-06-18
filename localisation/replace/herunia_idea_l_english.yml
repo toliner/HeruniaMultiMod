@@ -110,3 +110,13 @@
   ### マラヤ                     ####
   ##################################
   HRE_buy_ins_cost:0 "インドネシアの統合費用"
+  ##################################
+  ### AI用                      ####
+  ##################################
+  HERUNIA_enemy_buff:0 "敵へのバフ(最大強化相当)"
+  HERUNIA_SOV_surrender_limit:0 "降伏限界調整: ソ連"
+  HERUNIA_ENG_surrender_limit:0 "降伏限界調整: イギリス"
+  HERUNIA_ITA_surrender_limit:0 "降伏限界調整: イタリア"
+  HERUNIA_FRA_surrender_limit:0 "降伏限界調整: フランス"
+  HERUNIA_JAP_surrender_limit:0 "降伏限界調整: 日本"
+  HERUNIA_GER_surrender_limit:0 "降伏限界調整: ドイツ"

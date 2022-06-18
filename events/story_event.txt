@@ -8,7 +8,7 @@ country_event = {
     
     option = {
         name = story.1.a
-    
+        
         annex_country = {
             target = GUA
         }
@@ -66,7 +66,7 @@ country_event = {
         annex_country = {
             target = MEX
         }
-    
+        
         set_political_party = {
             ideology = democratic
             popularity = 100
@@ -110,7 +110,7 @@ country_event = {
         delete_unit_template_and_units = {
             division_template = "División de Caballería"
         }
-    
+        
         country_event = {
             id = story.100
             days = 7
@@ -126,7 +126,7 @@ country_event = {
     
     option = {
         name = story.2.a
-    
+        
         annex_country = {
             target = FIN
             transfer_troops = yes
@@ -211,7 +211,7 @@ country_event = {
             idea = POL_four_year_plan_complete_4
             days = 730
         }
-    
+        
         country_event = {
             id = story.100
             days = 7
@@ -240,7 +240,7 @@ country_event = {
             news_event = { id = wtt_news.58 hours = 6 }
             set_global_flag = form_united_netherlands_flag
         }
-    
+        
         country_event = {
             id = story.100
             days = 7
@@ -372,6 +372,7 @@ country_event = {
         create_faction = "#宥和政策を許さない"
         add_to_faction = POL
         add_to_faction = BEL
+        add_to_faction = SWI
     }
 }
 
@@ -441,6 +442,133 @@ news_event = {
     picture = GFX_news_event_nuke
     option = {
         name = story.12.a
+    }
+}
+
+country_event = {
+    id = story.13
+    title = story.13.t
+    desc = story.13.d
+    is_triggered_only = yes
+    
+    option = {
+        name = story.13.a
+        
+        add_to_variable = {
+            global.herunia = 2
+        }
+        country_event = {
+            id = story.14
+        }
+    }
+    option = {
+        name = story.13.b
+        
+        add_to_variable = {
+            global.marisa = 2
+        }
+        country_event = {
+            id = story.14
+        }
+    }
+    option = {
+        name = story.13.c
+        
+        add_to_variable = {
+            global.alice = 2
+        }
+        country_event = {
+            id = story.14
+        }
+    }
+}
+
+country_event = {
+    id = story.14
+    title = story.14.t
+    desc = story.14.d
+    is_triggered_only = yes
+    
+    immediate = {
+        GER = {
+            add_idas = HERUNIA_GER_surrender_limit
+            declare_war_on = {
+                target = ENG
+                type = annex_everything
+            }
+        }
+        JAP = {
+            add_ideas = HERUNIA_JAP_surrender_limit
+            declare_war_on = {
+                target = ENG
+                type = annex_everything
+            }
+        }
+        ITA = {
+            add_ideas = HERUNIA_ITA_surrender_limit
+            declare_war_on = {
+                target = ENG
+                type = annex_everything
+            }
+        }
+        SOV = {
+            add_ideas = HERUNIA_SOV_surrender_limit
+            declare_war_on = {
+                target = ENG
+                type = annex_everything
+            }
+        }
+        # マリアリ投票結果確定
+        if = {
+            # マリアリ
+            limit = {
+                check_variable = {
+                    global.alice > 8
+                }
+                check_variable = {
+                    global.marisa > 8
+                }
+            }
+            set_global_flag = HERUNIA_VOTE_MARIALI
+        }
+        else_if = {
+            # アリス
+            limit = {
+                check_variable = {
+                    global.alice > global.marisa
+                }
+                check_variable = {
+                    global.alice > global.herunia
+                }
+            }
+            set_global_flag = HERUNIA_VOTE_ALICE
+        }
+        else_if = {
+            # 魔理沙
+            limit = {
+                check_variable = {
+                    global.marisa > global.herunia
+                }
+            }
+            set_global_flag = HERUNIA_VOTE_MARISA
+        }
+        else = {
+            set_global_flag = HERUNIA_VOTE_HERUNIA
+        }
+        if = {
+            limit = {
+                has_global_flag = HERUNIA_FLAG_HONBAN
+            }
+            news_event = herunia.107
+            every_country = {
+                limit = {
+                    is_hre_country = yes
+                }
+                country_event = {
+                    id = herunia.24
+                }
+            }
+        }
     }
 }
 

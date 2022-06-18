@@ -62,8 +62,12 @@ country_event = {
             inherit_technology = USA
         }
         add_to_tech_sharing_group = commonwealth_research
-        country_event = herunia.100
-        country_event = herunia.2
+        country_event = {
+            id = story.100
+        }
+        country_event = {
+            id = herunia.2
+        }
     }
 }
 

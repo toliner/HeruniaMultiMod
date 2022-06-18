@@ -23,36 +23,6 @@ ideas = {
             }
         }
         
-        HERUNIA_enemy_buff = {
-            allowed = {
-                always = no
-            }
-            allowed_civil_war = {
-                always = yes
-            }
-            removal_cost = -1
-    
-            picture = warrior_traditions_idea
-            
-            modifier = {
-                # バニラ最大強化相当(性能は除く)
-                production_factory_max_efficiency_factor = 0.30
-                production_factory_efficiency_gain_factor = 0.50
-                industrial_capacity_dockyard = 0.4
-                political_power_factor = 0.50
-                # research_speed_factor = 0.1 # 研究速度上げるとしんどすぎるので消す
-                production_lack_of_resource_penalty_factor = -0.6
-    
-                army_fuel_consumption_factor = -0.60
-                air_fuel_consumption_factor = -0.60
-                navy_fuel_consumption_factor = -0.60
-                
-                # AIのガバを減らすためのバフ
-                conscription = 0.1
-                production_factory_start_efficiency_factor = 0.5
-            }
-        }
-        
         YOU_CAN_NOT_DECLARE_WAR_LOL = {
             allowed = {
                 always = no
@@ -1937,74 +1907,6 @@ ideas = {
                 war_support_weekly = 0.01
             }
         }
-        HERUNIA_SOV_surrender_limit = {
-            allowed = {
-                always = no
-            }
-    
-            allowed_civil_war = {
-                always = yes
-            }
-    
-            removal_cost = -1
-    
-            picture = idea_POL_the_peasants_strike
-    
-            modifier = {
-                surrender_limit = -0.25
-            }
-        }
-        HERUNIA_ENG_surrender_limit = {
-            allowed = {
-                always = no
-            }
-    
-            allowed_civil_war = {
-                always = yes
-            }
-    
-            removal_cost = -1
-    
-            picture = idea_POL_the_peasants_strike
-    
-            modifier = {
-                surrender_limit = -0.60
-            }
-        }
-        HERUNIA_FRA_surrender_limit = {
-            allowed = {
-                always = no
-            }
-        
-            allowed_civil_war = {
-                always = yes
-            }
-        
-            removal_cost = -1
-        
-            picture = idea_POL_the_peasants_strike
-        
-            modifier = {
-                surrender_limit = -0.25
-            }
-        }
-        HERUNIA_ITA_surrender_limit = {
-            allowed = {
-                always = no
-            }
-        
-            allowed_civil_war = {
-                always = yes
-            }
-        
-            removal_cost = -1
-        
-            picture = idea_POL_the_peasants_strike
-        
-            modifier = {
-                surrender_limit = -0.50
-            }
-        }
         
         HERUNIA_buff_marisa = {
             allowed = {
@@ -2076,7 +1978,7 @@ ideas = {
             
             modifier = {
                 war_support_factor = -0.1
-                political_power_cost = 0.2
+                political_power_cost = 0.3
             }
         }
     }

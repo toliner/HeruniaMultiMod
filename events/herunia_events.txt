@@ -464,6 +464,7 @@ country_event = {
             transfer_troops = yes
         }
         add_research_slot = 1
-        news_event = herunia.104
+        add_ideas = tot_economic_mobilisation
+        add_war_support = 0.5
     }
 }

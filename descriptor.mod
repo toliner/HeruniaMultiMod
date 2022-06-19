@@ -7,5 +7,5 @@ dependencies={
 	"Japanese Language mod"
 }
 replace_path="common/ai_strategy_plans"
-supported_version="1.11.7"
+supported_version="1.11.12"
 remote_file_id="2739049198"

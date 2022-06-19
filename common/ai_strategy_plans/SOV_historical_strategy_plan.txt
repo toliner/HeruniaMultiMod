@@ -30,13 +30,15 @@ SOV_historical_plan = {
 		#1937
 		SOV_infrastructure_effort_nsb #35
 		SOV_heavy_industry #35
+		SOV_transpolar_flights #35
+		SOV_expand_the_aircraft_industry
 		SOV_finish_the_five_year_plan
 		SOV_improve_railway_network
 		SOV_foreign_experts #35
 		SOV_eastern_development #35
+		# 1938
 		SOV_develop_the_urals #35
 		SOV_the_ussr_academy_of_sciences
-		# 1938
 		SOV_third_five_year_plan
 		SOV_reorganize_the_pc_of_heavy_industry
 		SOV_steel_casting_industry

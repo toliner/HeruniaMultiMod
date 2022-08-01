@@ -99,3 +99,12 @@ bhk_be_a_china = {
         tag = BHK
     }
 }
+
+usa_recover = {
+    visible = {
+        OR = {
+            tag = XXE
+            tag = XXM
+        }
+    }
+}

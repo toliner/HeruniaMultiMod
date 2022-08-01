@@ -1,5 +1,5 @@
 focus_tree = {
-    id = xxw_focus
+    id = hre_usa_focus
     
     country = {
         factor = 0

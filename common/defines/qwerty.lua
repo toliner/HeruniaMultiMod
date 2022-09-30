@@ -28,3 +28,13 @@ NDefines.NProduction.EQUIPMENT_MODULE_ADD_XP_COST = 1.0;           --5.0
 NDefines.NProduction.EQUIPMENT_MODULE_REPLACE_XP_COST = 1.0;       --6.0
 NDefines.NProduction.EQUIPMENT_MODULE_CONVERT_XP_COST = 1.0;       --3.0
 NDefines.NProduction.EQUIPMENT_MODULE_REMOVE_XP_COST = 1.0;        --1.0
+
+-- 講和会議で配られる戦勝点の総量の倍率
+NDiplomacy.PEACE_SCORE_SCALE_FACTOR = 1.5 -- 1.25
+-- 毎ターンどれだけの戦勝点が配られるか
+NDiplomacy.PEACE_SCORE_DISTRIBUTION = { 0.35, 0.30, 0.25, 0.20, 0.15 } -- { 0.2, 0.2, 0.2, 0.2, 0.2 }
+-- レンドリースでの戦勝点を減量
+NDiplomacy.WAR_SCORE_LEND_LEASE_GIVEN_IC_FACTOR = 0.05  		-- 0.1
+NDiplomacy.WAR_SCORE_LEND_LEASE_GIVEN_FUEL_FACTOR = 0.001  	-- 0.01
+NDiplomacy.WAR_SCORE_LEND_LEASE_RECEIVED_IC_FACTOR = 0.05  	-- 0.1
+NDiplomacy.WAR_SCORE_LEND_LEASE_RECEIVED_FUEL_FACTOR = 0.001 	-- 0.01
